@@ -1030,17 +1030,13 @@ object {
 	display: block;
 }
 
-/*--------------------------------------------------------------
-# Icons
---------------------------------------------------------------*/
-
 @font-face {
 	font-family: 'reformicon';
-	src:url('fonts/reformicon.eot?hrv2yt');
-	src:url('fonts/reformicon.eot?#iefixhrv2yt') format('embedded-opentype'),
-		url('fonts/reformicon.ttf?hrv2yt') format('truetype'),
-		url('fonts/reformicon.woff?hrv2yt') format('woff'),
-		url('fonts/reformicon.svg?hrv2yt#reformicon') format('svg');
+	src:url('fonts/reformicon.eot?od5uqg');
+	src:url('fonts/reformicon.eot?#iefixod5uqg') format('embedded-opentype'),
+		url('fonts/reformicon.ttf?od5uqg') format('truetype'),
+		url('fonts/reformicon.woff?od5uqg') format('woff'),
+		url('fonts/reformicon.svg?od5uqg#reformicon') format('svg');
 	font-weight: normal;
 	font-style: normal;
 }
@@ -1059,117 +1055,120 @@ object {
 	-moz-osx-font-smoothing: grayscale;
 }
 
-.icon-icon-music:before {
+.icon-heart:before {
+	content: "\e626";
+}
+.icon-music:before {
 	content: "\e625";
 }
-.icon-icon-audio:before {
+.icon-audio:before {
 	content: "\e600";
 }
-.icon-icon-baptism:before {
+.icon-baptism:before {
 	content: "\e601";
 }
-.icon-icon-calendar:before {
+.icon-calendar:before {
 	content: "\e602";
 }
-.icon-icon-cart-fill:before {
+.icon-cart-fill:before {
 	content: "\e603";
 }
-.icon-icon-cart:before {
+.icon-cart:before {
 	content: "\e604";
 }
-.icon-icon-chevron-left-sm:before {
+.icon-chevron-left-sm:before {
 	content: "\e605";
 }
-.icon-icon-chevron-left:before {
+.icon-chevron-left:before {
 	content: "\e606";
 }
-.icon-icon-chevron-right-sm:before {
+.icon-chevron-right-sm:before {
 	content: "\e607";
 }
-.icon-icon-chevron-right:before {
+.icon-chevron-right:before {
 	content: "\e608";
 }
-.icon-icon-close:before {
+.icon-close:before {
 	content: "\e609";
 }
-.icon-icon-communion:before {
+.icon-communion:before {
 	content: "\e60a";
 }
-.icon-icon-confession:before {
+.icon-confession:before {
 	content: "\e60b";
 }
-.icon-icon-creed:before {
+.icon-creed:before {
 	content: "\e60c";
 }
-.icon-icon-facebook:before {
+.icon-facebook:before {
 	content: "\e60d";
 }
-.icon-icon-gplus:before {
+.icon-gplus:before {
 	content: "\e60e";
 }
-.icon-icon-instagram:before {
+.icon-instagram:before {
 	content: "\e60f";
 }
-.icon-icon-lamb:before {
+.icon-lamb:before {
 	content: "\e610";
 }
-.icon-icon-lordsprayer:before {
+.icon-lordsprayer:before {
 	content: "\e611";
 }
-.icon-icon-lutherhead:before {
+.icon-lutherhead:before {
 	content: "\e612";
 }
-.icon-icon-lutherrose:before {
+.icon-lutherrose:before {
 	content: "\e613";
 }
-.icon-icon-mail-fill:before {
+.icon-mail-fill:before {
 	content: "\e614";
 }
-.icon-icon-mail:before {
+.icon-mail:before {
 	content: "\e615";
 }
-.icon-icon-map:before {
+.icon-map:before {
 	content: "\e616";
 }
-.icon-icon-menubar:before {
+.icon-menubar:before {
 	content: "\e617";
 }
-.icon-icon-photo:before {
+.icon-photo:before {
 	content: "\e618";
 }
-.icon-icon-pinterest:before {
+.icon-pinterest:before {
 	content: "\e619";
 }
-.icon-icon-plus:before {
+.icon-plus:before {
 	content: "\e61a";
 }
-.icon-icon-post:before {
+.icon-post:before {
 	content: "\e61b";
 }
-.icon-icon-prayer:before {
+.icon-prayer:before {
 	content: "\e61c";
 }
-.icon-icon-sacramentaltar:before {
+.icon-sacramentaltar:before {
 	content: "\e61d";
 }
-.icon-icon-share:before {
+.icon-share:before {
 	content: "\e61e";
 }
-.icon-icon-tableduties:before {
+.icon-tableduties:before {
 	content: "\e61f";
 }
-.icon-icon-twitter:before {
+.icon-twitter:before {
 	content: "\e620";
 }
-.icon-icon-video:before {
+.icon-video:before {
 	content: "\e621";
 }
-.icon-icon-vimeo:before {
+.icon-vimeo:before {
 	content: "\e622";
 }
-.icon-icon-youtube:before {
+.icon-youtube:before {
 	content: "\e623";
 }
-.icon-icon-10commandments:before {
+.icon-10commandments:before {
 	content: "\e624";
 }

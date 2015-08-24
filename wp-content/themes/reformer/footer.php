@@ -21,8 +21,8 @@
 				</div>
 				<div class="one-half column footer-navigation">
 					<div class="footer-buttons">
-						<a href="#" class="button">Get Involved</a>
-						<a href="#" class="button">Shop</a>
+						<a href="#" class="button"><i class="icon-heart"></i> Get Involved</a>
+						<a href="#" class="button"><i class="icon-cart"></i>Shop</a>
 					</div>
 					<div class="footer-email-signup">
 						<label for="text" class="required">Text Input</label>
