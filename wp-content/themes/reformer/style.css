@@ -847,6 +847,33 @@ a:active {
 /*--------------------------------------------------------------
 # Content
 --------------------------------------------------------------*/
+
+.site-footer {
+	background: #354b59;
+	padding:60px 0;
+	color: #848e95;
+}
+
+.footer-navigation ul {
+	margin:0;
+	padding:0;
+}
+
+.footer-navigation li {
+	list-style-type: none;
+	margin-bottom: 20px; 
+}
+
+.footer-navigation li a {
+	font-family: 'Montserrat';
+	text-transform: uppercase;
+	color:#1b898f;
+	text-decoration: none;
+}
+
+.site-footer .footer-copyright {
+	font-style: italic;
+}
 /*--------------------------------------------------------------
 ## Posts and pages
 --------------------------------------------------------------*/
