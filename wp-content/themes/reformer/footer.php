@@ -25,9 +25,11 @@
 						<a href="#" class="button"><i class="icon-cart"></i>Shop</a>
 					</div>
 					<div class="footer-email-signup">
+						<form class="btn-inset">
 						<label for="text" class="required">Text Input</label>
 						<input id="text" type="email" placeholder="Enter Email">
-	          <button type="submit" class="btn btn-primary">Sign Up</button>
+            <button type="submit" class="btn btn-primary">Sign Up</button>
+          </form>
 	        </div>
 	        <div class="footer-social-buttons">
 	        	Get Connected <a href=""><i class="icon-twitter"></i></a><a href=""><i class="icon-facebook"></i></a><a href=""><i class="icon-gplus"></i></a><a href=""><i class="icon-pinterest"></i></a><a href=""><i class="icon-instagram"></i></a><a href=""><i class="icon-vimeo"></i></a>
