@@ -874,7 +874,24 @@ a:active {
 
 .site-footer .footer-copyright {
 	font-style: italic;
+	text-align: center;
 }
+
+.footer-logos div {
+	width: 335px;
+	float: left;
+}
+
+.footer-logos .lcms-logo-white {
+	background: url(images/lcms-logo-white.png);
+  background-image: url(images/lcms-logo-white.svg), none;
+}
+
+.footer-logos .cph-logo-white {
+	background: url(images/lcms-logo-white.png);
+  background-image: url(images/lcms-logo-white.svg), none;
+}
+
 /*--------------------------------------------------------------
 ## Posts and pages
 --------------------------------------------------------------*/
