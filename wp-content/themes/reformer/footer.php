@@ -33,8 +33,8 @@
 	        	Get Connected <a href=""><i class="icon-twitter"></i></a><a href=""><i class="icon-facebook"></i></a><a href=""><i class="icon-gplus"></i></a><a href=""><i class="icon-pinterest"></i></a><a href=""><i class="icon-instagram"></i></a><a href=""><i class="icon-vimeo"></i></a>
 	        </div>
 	        <div class="footer-logos">
-	        	<div class="lcms-logo-white"><a href="http://lcms.org" title="The Lutheran Church—Missouri Synod" target="_blank"></a></div>
-	        	<div class="cph-logo-white"><a href="http://cph.org" title="Concordia Publishing House" target="_blank"></a></div>
+	        	<div class="one-half column lcms-logo-white"><a href="http://lcms.org" title="The Lutheran Church—Missouri Synod" target="_blank"></a></div>
+	        	<div class="one-half column cph-logo-white"><a href="http://cph.org" title="Concordia Publishing House" target="_blank"></a></div>
         	</div>
         </div>
 			</div><!-- .row -->

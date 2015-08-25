@@ -1,0 +1,43 @@
+@import url(http://fonts.googleapis.com/css?family=Montserrat:400,700|Merriweather+Sans:400,300,300italic,400italic,700,700italic,800,800italic);
+
+/* Typography */
+body {
+  font-family: $primary-font;
+  line-height: 1.4;
+}
+h1 {
+  font-size: 3.157em;
+  font-family: $secondary-font;
+  text-transform: uppercase;
+  margin:.35em 0;
+}
+
+h2 {
+  font-size: 2.369em;
+  font-family: $secondary-font;
+  text-transform: uppercase;
+  margin:.35em 0;
+}
+h3 {
+  font-size: 2.1em;
+  font-family: $primary-font;
+  margin:.25em 0;
+}
+h4, h5, h6 {
+  font-size: 1.777em;
+  margin:0.35em 0;
+}
+h1 + h2 {
+  margin-top:0
+}
+
+/* Blockquote */
+blockquote {
+  font-size: 1.4em;
+  line-height: 1.6;
+  font-weight: 100;
+  padding: 30px;
+  border-right: 1px solid #e7e7e7;
+  border-bottom: 1px solid #e7e7e7;
+  border-radius: 3px;
+}

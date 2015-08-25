@@ -1,0 +1,28 @@
+/* Global */
+html {
+  box-sizing: border-box; }
+
+*, *:before, *:after {
+  box-sizing: inherit; }
+
+body {
+  font-family: $primary-font;
+  font-size: 16px;
+  line-height: 1.4;
+  margin: 0; }
+
+a {
+  color: #20DAA5;
+  transition: all 800ms ease; }
+
+a:hover {
+  color: #2BC297;
+  text-decoration: none; }
+
+a:visited {
+  color: #46B495; }
+
+hr {
+  border: 0;
+  margin: 20px 0;
+  border-bottom: 1px solid #e7e7e7; }

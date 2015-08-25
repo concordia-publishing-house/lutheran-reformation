@@ -1,0 +1,83 @@
+/*
+Error: Undefined variable: "$orange".
+        on line 18 of /Users/paulna/sites/lutheran-reformation/wp-content/themes/reformer/sass/base/buttons.scss
+
+13: 
+14: .btn, .btn:visited {
+15:   display: inline-block;
+16:   padding:8px 14px;
+17:   border-radius: 5px;
+18:   border: 1px solid rgba( $orange, 0.2 );
+19:   text-decoration: none;
+20:   font-family: 'Montserrat';
+21:   text-transform: uppercase;
+22:   font-weight: 400;
+23:   color: #364b59;
+
+Backtrace:
+/Users/paulna/sites/lutheran-reformation/wp-content/themes/reformer/sass/base/buttons.scss:18
+/opt/boxen/rbenv/versions/2.0.0-p451/lib/ruby/gems/2.0.0/gems/sass-3.4.17/lib/sass/script/tree/variable.rb:49:in `_perform'
+/opt/boxen/rbenv/versions/2.0.0-p451/lib/ruby/gems/2.0.0/gems/sass-3.4.17/lib/sass/script/tree/node.rb:50:in `perform'
+/opt/boxen/rbenv/versions/2.0.0-p451/lib/ruby/gems/2.0.0/gems/sass-3.4.17/lib/sass/script/tree/funcall.rb:170:in `perform_arg'
+/opt/boxen/rbenv/versions/2.0.0-p451/lib/ruby/gems/2.0.0/gems/sass-3.4.17/lib/sass/script/tree/funcall.rb:124:in `block in _perform'
+/opt/boxen/rbenv/versions/2.0.0-p451/lib/ruby/gems/2.0.0/gems/sass-3.4.17/lib/sass/script/tree/funcall.rb:124:in `each'
+/opt/boxen/rbenv/versions/2.0.0-p451/lib/ruby/gems/2.0.0/gems/sass-3.4.17/lib/sass/script/tree/funcall.rb:124:in `each_with_index'
+/opt/boxen/rbenv/versions/2.0.0-p451/lib/ruby/gems/2.0.0/gems/sass-3.4.17/lib/sass/script/tree/funcall.rb:124:in `each'
+/opt/boxen/rbenv/versions/2.0.0-p451/lib/ruby/gems/2.0.0/gems/sass-3.4.17/lib/sass/script/tree/funcall.rb:124:in `map'
+/opt/boxen/rbenv/versions/2.0.0-p451/lib/ruby/gems/2.0.0/gems/sass-3.4.17/lib/sass/script/tree/funcall.rb:124:in `_perform'
+/opt/boxen/rbenv/versions/2.0.0-p451/lib/ruby/gems/2.0.0/gems/sass-3.4.17/lib/sass/script/tree/node.rb:50:in `perform'
+/opt/boxen/rbenv/versions/2.0.0-p451/lib/ruby/gems/2.0.0/gems/sass-3.4.17/lib/sass/script/tree/list_literal.rb:63:in `block in _perform'
+/opt/boxen/rbenv/versions/2.0.0-p451/lib/ruby/gems/2.0.0/gems/sass-3.4.17/lib/sass/script/tree/list_literal.rb:63:in `map'
+/opt/boxen/rbenv/versions/2.0.0-p451/lib/ruby/gems/2.0.0/gems/sass-3.4.17/lib/sass/script/tree/list_literal.rb:63:in `_perform'
+/opt/boxen/rbenv/versions/2.0.0-p451/lib/ruby/gems/2.0.0/gems/sass-3.4.17/lib/sass/script/tree/node.rb:50:in `perform'
+/opt/boxen/rbenv/versions/2.0.0-p451/lib/ruby/gems/2.0.0/gems/sass-3.4.17/lib/sass/tree/visitors/perform.rb:395:in `visit_prop'
+/opt/boxen/rbenv/versions/2.0.0-p451/lib/ruby/gems/2.0.0/gems/sass-3.4.17/lib/sass/tree/visitors/base.rb:36:in `visit'
+/opt/boxen/rbenv/versions/2.0.0-p451/lib/ruby/gems/2.0.0/gems/sass-3.4.17/lib/sass/tree/visitors/perform.rb:158:in `block in visit'
+/opt/boxen/rbenv/versions/2.0.0-p451/lib/ruby/gems/2.0.0/gems/sass-3.4.17/lib/sass/stack.rb:79:in `block in with_base'
+/opt/boxen/rbenv/versions/2.0.0-p451/lib/ruby/gems/2.0.0/gems/sass-3.4.17/lib/sass/stack.rb:115:in `with_frame'
+/opt/boxen/rbenv/versions/2.0.0-p451/lib/ruby/gems/2.0.0/gems/sass-3.4.17/lib/sass/stack.rb:79:in `with_base'
+/opt/boxen/rbenv/versions/2.0.0-p451/lib/ruby/gems/2.0.0/gems/sass-3.4.17/lib/sass/tree/visitors/perform.rb:158:in `visit'
+/opt/boxen/rbenv/versions/2.0.0-p451/lib/ruby/gems/2.0.0/gems/sass-3.4.17/lib/sass/tree/visitors/perform.rb:431:in `block (2 levels) in visit_rule'
+/opt/boxen/rbenv/versions/2.0.0-p451/lib/ruby/gems/2.0.0/gems/sass-3.4.17/lib/sass/tree/visitors/perform.rb:431:in `map'
+/opt/boxen/rbenv/versions/2.0.0-p451/lib/ruby/gems/2.0.0/gems/sass-3.4.17/lib/sass/tree/visitors/perform.rb:431:in `block in visit_rule'
+/opt/boxen/rbenv/versions/2.0.0-p451/lib/ruby/gems/2.0.0/gems/sass-3.4.17/lib/sass/tree/visitors/perform.rb:179:in `with_environment'
+/opt/boxen/rbenv/versions/2.0.0-p451/lib/ruby/gems/2.0.0/gems/sass-3.4.17/lib/sass/tree/visitors/perform.rb:429:in `visit_rule'
+/opt/boxen/rbenv/versions/2.0.0-p451/lib/ruby/gems/2.0.0/gems/sass-3.4.17/lib/sass/tree/visitors/base.rb:36:in `visit'
+/opt/boxen/rbenv/versions/2.0.0-p451/lib/ruby/gems/2.0.0/gems/sass-3.4.17/lib/sass/tree/visitors/perform.rb:158:in `block in visit'
+/opt/boxen/rbenv/versions/2.0.0-p451/lib/ruby/gems/2.0.0/gems/sass-3.4.17/lib/sass/stack.rb:79:in `block in with_base'
+/opt/boxen/rbenv/versions/2.0.0-p451/lib/ruby/gems/2.0.0/gems/sass-3.4.17/lib/sass/stack.rb:115:in `with_frame'
+/opt/boxen/rbenv/versions/2.0.0-p451/lib/ruby/gems/2.0.0/gems/sass-3.4.17/lib/sass/stack.rb:79:in `with_base'
+/opt/boxen/rbenv/versions/2.0.0-p451/lib/ruby/gems/2.0.0/gems/sass-3.4.17/lib/sass/tree/visitors/perform.rb:158:in `visit'
+/opt/boxen/rbenv/versions/2.0.0-p451/lib/ruby/gems/2.0.0/gems/sass-3.4.17/lib/sass/tree/visitors/base.rb:52:in `block in visit_children'
+/opt/boxen/rbenv/versions/2.0.0-p451/lib/ruby/gems/2.0.0/gems/sass-3.4.17/lib/sass/tree/visitors/base.rb:52:in `map'
+/opt/boxen/rbenv/versions/2.0.0-p451/lib/ruby/gems/2.0.0/gems/sass-3.4.17/lib/sass/tree/visitors/base.rb:52:in `visit_children'
+/opt/boxen/rbenv/versions/2.0.0-p451/lib/ruby/gems/2.0.0/gems/sass-3.4.17/lib/sass/tree/visitors/perform.rb:167:in `block in visit_children'
+/opt/boxen/rbenv/versions/2.0.0-p451/lib/ruby/gems/2.0.0/gems/sass-3.4.17/lib/sass/tree/visitors/perform.rb:179:in `with_environment'
+/opt/boxen/rbenv/versions/2.0.0-p451/lib/ruby/gems/2.0.0/gems/sass-3.4.17/lib/sass/tree/visitors/perform.rb:166:in `visit_children'
+/opt/boxen/rbenv/versions/2.0.0-p451/lib/ruby/gems/2.0.0/gems/sass-3.4.17/lib/sass/tree/visitors/base.rb:36:in `block in visit'
+/opt/boxen/rbenv/versions/2.0.0-p451/lib/ruby/gems/2.0.0/gems/sass-3.4.17/lib/sass/tree/visitors/perform.rb:186:in `visit_root'
+/opt/boxen/rbenv/versions/2.0.0-p451/lib/ruby/gems/2.0.0/gems/sass-3.4.17/lib/sass/tree/visitors/base.rb:36:in `visit'
+/opt/boxen/rbenv/versions/2.0.0-p451/lib/ruby/gems/2.0.0/gems/sass-3.4.17/lib/sass/tree/visitors/perform.rb:157:in `visit'
+/opt/boxen/rbenv/versions/2.0.0-p451/lib/ruby/gems/2.0.0/gems/sass-3.4.17/lib/sass/tree/visitors/perform.rb:8:in `visit'
+/opt/boxen/rbenv/versions/2.0.0-p451/lib/ruby/gems/2.0.0/gems/sass-3.4.17/lib/sass/tree/root_node.rb:36:in `css_tree'
+/opt/boxen/rbenv/versions/2.0.0-p451/lib/ruby/gems/2.0.0/gems/sass-3.4.17/lib/sass/tree/root_node.rb:29:in `render_with_sourcemap'
+/opt/boxen/rbenv/versions/2.0.0-p451/lib/ruby/gems/2.0.0/gems/sass-3.4.17/lib/sass/engine.rb:378:in `_render_with_sourcemap'
+/opt/boxen/rbenv/versions/2.0.0-p451/lib/ruby/gems/2.0.0/gems/sass-3.4.17/lib/sass/engine.rb:295:in `render_with_sourcemap'
+/opt/boxen/rbenv/versions/2.0.0-p451/lib/ruby/gems/2.0.0/gems/sass-3.4.17/lib/sass/plugin/compiler.rb:490:in `update_stylesheet'
+/opt/boxen/rbenv/versions/2.0.0-p451/lib/ruby/gems/2.0.0/gems/sass-3.4.17/lib/sass/plugin/compiler.rb:215:in `block in update_stylesheets'
+/opt/boxen/rbenv/versions/2.0.0-p451/lib/ruby/gems/2.0.0/gems/sass-3.4.17/lib/sass/plugin/compiler.rb:209:in `each'
+/opt/boxen/rbenv/versions/2.0.0-p451/lib/ruby/gems/2.0.0/gems/sass-3.4.17/lib/sass/plugin/compiler.rb:209:in `update_stylesheets'
+/opt/boxen/rbenv/versions/2.0.0-p451/lib/ruby/gems/2.0.0/gems/sass-3.4.17/lib/sass/plugin/compiler.rb:293:in `watch'
+/opt/boxen/rbenv/versions/2.0.0-p451/lib/ruby/gems/2.0.0/gems/sass-3.4.17/lib/sass/plugin.rb:108:in `method_missing'
+/opt/boxen/rbenv/versions/2.0.0-p451/lib/ruby/gems/2.0.0/gems/sass-3.4.17/lib/sass/exec/sass_scss.rb:384:in `watch_or_update'
+/opt/boxen/rbenv/versions/2.0.0-p451/lib/ruby/gems/2.0.0/gems/sass-3.4.17/lib/sass/exec/sass_scss.rb:51:in `process_result'
+/opt/boxen/rbenv/versions/2.0.0-p451/lib/ruby/gems/2.0.0/gems/sass-3.4.17/lib/sass/exec/base.rb:52:in `parse'
+/opt/boxen/rbenv/versions/2.0.0-p451/lib/ruby/gems/2.0.0/gems/sass-3.4.17/lib/sass/exec/base.rb:19:in `parse!'
+/opt/boxen/rbenv/versions/2.0.0-p451/lib/ruby/gems/2.0.0/gems/sass-3.4.17/bin/sass:13:in `<top (required)>'
+/opt/boxen/rbenv/versions/2.0.0-p451/bin/sass:23:in `load'
+/opt/boxen/rbenv/versions/2.0.0-p451/bin/sass:23:in `<main>'
+*/
+body:before {
+  white-space: pre;
+  font-family: monospace;
+  content: "Error: Undefined variable: \"$orange\".\A         on line 18 of /Users/paulna/sites/lutheran-reformation/wp-content/themes/reformer/sass/base/buttons.scss\A \A 13: \A 14: .btn, .btn:visited {\A 15:   display: inline-block;\A 16:   padding:8px 14px;\A 17:   border-radius: 5px;\A 18:   border: 1px solid rgba( $orange, 0.2 );\A 19:   text-decoration: none;\A 20:   font-family: 'Montserrat';\A 21:   text-transform: uppercase;\A 22:   font-weight: 400;\A 23:   color: #364b59;"; }

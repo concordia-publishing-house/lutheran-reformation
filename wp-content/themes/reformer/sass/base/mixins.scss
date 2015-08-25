@@ -1,0 +1,17 @@
+// Type
+$font-base: 14px;
+$primary-font: 'minion-pro', Georgia, serif;
+$secondary-font: 'Montserrat', Helvetica, sans-serif;
+
+// Colors
+$orange: #ee6042;
+
+// Structural
+
+
+// Forms
+@mixin placeholder {
+  &:-moz-placeholder { @content; }
+  &::-moz-placeholder { @content; }
+  &::-webkit-input-placeholder { @content; }
+}

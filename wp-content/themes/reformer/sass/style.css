@@ -1,35 +1,8 @@
-/*
-Theme Name: Reformer
-Theme URI: http://lutheranreformation.org/
-Author: Concordia Publishing House
-Author URI: http://cph.org
-Description: This theme has been developed in anticipation of the 500th anniversary of the Lutheran Reformation.
-Version: 0.1.1
-License: GNU General Public License v2 or later
-License URI: http://www.gnu.org/licenses/gpl-2.0.html
-Text Domain: reformer
-Tags:
-
-This theme, like WordPress, is licensed under the GPL.
-Use it to make something cool, have fun, and share what you've learned with others.
-
-Reformer is based on Underscores http://underscores.me/, (C) 2012-2015 Automattic, Inc.
-Underscores is distributed under the terms of the GNU GPL v2 or later.
-
-Normalizing styles have been helped along thanks to the fine work of
-Nicolas Gallagher and Jonathan Neal http://necolas.github.com/normalize.css/
-*/
-@import url(http://fonts.googleapis.com/css?family=Montserrat:400,700|Merriweather+Sans:400,300,300italic,400italic,700,700italic,800,800italic);
-html {
-  box-sizing: border-box; }
-
-*, *::after, *::before {
-  box-sizing: inherit; }
-
 /* http://meyerweb.com/eric/tools/css/reset/
    v2.0 | 20110126
    License: none (public domain)
 */
+@import url(http://fonts.googleapis.com/css?family=Montserrat:400,700|Merriweather+Sans:400,300,300italic,400italic,700,700italic,800,800italic);
 html, body, div, span, applet, object, iframe,
 h1, h2, h3, h4, h5, h6, p, blockquote, pre,
 a, abbr, acronym, address, big, cite, code,
@@ -554,56 +527,6 @@ header {
   .primary-nav li {
     display: inline-block; }
 
-.site-footer {
-  background: #354b59;
-  padding: 60px 0;
-  color: #848e95; }
-
-.site-footer a {
-  color: #248389;
-  text-decoration: none; }
-
-.footer-navigation ul {
-  margin: 0;
-  padding: 0; }
-
-.footer-navigation li {
-  list-style-type: none;
-  margin-bottom: 20px; }
-
-.footer-navigation li a {
-  font-family: 'Montserrat';
-  text-transform: uppercase;
-  color: #1b898f;
-  text-decoration: none; }
-
-.site-footer .footer-copyright {
-  font-style: italic;
-  text-align: center; }
-
-.footer-social-buttons a {
-  padding: 10px; }
-
-.footer-logos div {
-  width: 335px;
-  float: left;
-  height: 80px; }
-
-.footer-logos div a {
-  width: 100%;
-  display: block;
-  height: 100%; }
-
-.footer-logos .lcms-logo-white {
-  background: url(images/lcms-logo-white.png);
-  background-image: url(images/lcms-logo-white.svg), none;
-  background-repeat: no-repeat; }
-
-.footer-logos .cph-logo-white {
-  background: url(images/cph-logo-white.png);
-  background-image: url(images/cph-logo-white.svg), none;
-  background-repeat: no-repeat; }
-
 .email-signup {
   background: #76899d;
   text-align: center; }
@@ -709,3 +632,5 @@ header {
     transform: rotate(0); }
   to {
     transform: rotate(359deg); } }
+
+/*# sourceMappingURL=style.css.map */

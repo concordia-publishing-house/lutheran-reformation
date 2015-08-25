@@ -1,0 +1,27 @@
+.email-signup {
+  background:#76899d;
+  text-align: center;
+
+  .row {
+    max-width: 1180px;
+    margin:auto;
+  }
+
+  h2 {
+  font-family: 'Merriweather', serif;
+  text-transform: none;
+  font-weight: bold;
+  color:white;
+  }
+
+  p {
+    color:white;
+    font-weight: 100;
+  }
+
+  form {
+    margin: 25px auto 0;
+    max-width: 660px;
+  }
+
+}

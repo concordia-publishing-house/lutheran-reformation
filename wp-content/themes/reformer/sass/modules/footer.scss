@@ -1,0 +1,59 @@
+.site-footer {
+	background: #354b59;
+	padding:60px 0;
+	color: #848e95;
+}
+
+.site-footer a {
+	color: #248389;
+	text-decoration: none;
+}
+
+.footer-navigation ul {
+	margin:0;
+	padding:0;
+}
+
+.footer-navigation li {
+	list-style-type: none;
+	margin-bottom: 20px; 
+}
+
+.footer-navigation li a {
+	font-family: 'Montserrat';
+	text-transform: uppercase;
+	color:#1b898f;
+	text-decoration: none;
+}
+
+.site-footer .footer-copyright {
+	font-style: italic;
+	text-align: center;
+}
+
+.footer-social-buttons a {
+	padding: 10px;
+}
+
+.footer-logos div {
+	width: 335px;
+	float: left;
+	height:80px;
+}
+
+.footer-logos div a {
+	width: 100%;
+  display: block;
+  height: 100%;
+}
+.footer-logos .lcms-logo-white {
+	background: url(images/lcms-logo-white.png);
+  background-image: url(images/lcms-logo-white.svg), none;
+  background-repeat: no-repeat;
+}
+
+.footer-logos .cph-logo-white {
+	background: url(images/cph-logo-white.png);
+  background-image: url(images/cph-logo-white.svg), none;
+  background-repeat: no-repeat;
+}
