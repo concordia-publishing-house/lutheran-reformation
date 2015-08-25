@@ -27,7 +27,7 @@
 					<div class="footer-email-signup">
 						<h5>Get the latest on Reformation 2017</h5>
 						<form class="btn-inset email-signup">
-							<input id="text" type="email" placeholder="Enter Email">
+							<span class="icon-mail-fill"></span><input id="text" type="email" placeholder="Enter Email">
 	            <button type="submit" class="btn btn-primary">Sign Up</button>
           	</form>
 	        </div>
