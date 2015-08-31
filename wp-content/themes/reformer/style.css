@@ -531,13 +531,6 @@ hr {
   padding: 0 20px;
   box-sizing: border-box; }
 
-header {
-  position: absolute;
-  top: 0;
-  left: 0;
-  width: 100%;
-  background: grey; }
-
 .logo {
   float: left; }
 
