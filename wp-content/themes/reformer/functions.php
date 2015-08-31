@@ -46,6 +46,9 @@ function the_reformer_setup() {
 	register_nav_menus( array(
 		'primary' => esc_html__( 'Primary Menu', 'the-reformer' ),
 	) );
+	register_nav_menus( array(
+		'secondary' => esc_html__( 'Secondary Menu', 'the-reformer' ),
+	) );
 
 	/*
 	 * Switch default core markup for search form, comment form, and comments
