@@ -2,7 +2,7 @@
 
 /* Typography */
 body {
-  @include font-size(14);
+  @include font-size(18);
   font-family: $primary-font;
   @include line-height (16);
 }

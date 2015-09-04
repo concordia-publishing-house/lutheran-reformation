@@ -219,7 +219,7 @@ $grey: #323232;
 
 @mixin font-size($sizeValue: 12 ){
   font-size: $sizeValue + px; //fallback for old browsers
-  font-size: ($sizeValue) + rem;
+  font-size: (0.125 * $sizeValue) + rem;
 }
 
 /* Usage */
