@@ -267,7 +267,8 @@ body {
   font-size: 16px;
   font-size: 2rem;
   font-family: "minion-pro", Georgia, serif;
-  line-height: 1.4; }
+  line-height: 16px;
+  line-height: 2rem; }
 
 h1 {
   font-size: 3.157em;
