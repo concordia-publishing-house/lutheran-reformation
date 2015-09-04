@@ -264,8 +264,8 @@ table {
 
 /* Typography */
 body {
-  font-size: 18px;
-  font-size: 2.25rem;
+  font-size: 12px;
+  font-size: 1.5rem;
   font-family: "minion-pro", Georgia, serif;
   line-height: 16px;
   line-height: 2rem; }
