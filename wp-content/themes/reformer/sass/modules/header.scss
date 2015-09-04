@@ -1,13 +1,11 @@
 header {
-  // position: absolute;
-  // top: 0;
-  // left: 0;
-  // width: 100%;
-  // background: grey;
+  background: $grey;
+  padding:30px 0;
 }
 
-.logo {
+.site-branding {
   float: left;
+  width: 17.5%;
 }
 
 .secondary-nav {

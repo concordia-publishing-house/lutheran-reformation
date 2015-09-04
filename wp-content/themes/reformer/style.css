@@ -26,6 +26,60 @@ html {
 *, *::after, *::before {
   box-sizing: inherit; }
 
+/* Responsive Breakpoints
+   ========================================================================== */
+/* Usage */
+/* Sub-section comment block
+   ========================================================================== */
+/* Usage */
+/* Clearfix
+  ========================================================================== */
+/* Usage */
+/* Box Model
+  ========================================================================== */
+/* Usage */
+/* Border Radius
+  ========================================================================== */
+/* Usage */
+/* Opacity
+  ========================================================================== */
+/* Usage */
+/* Center-align a block level element
+  ========================================================================== */
+/* Usage */
+/* Text overflow
+  ========================================================================== */
+/* Usage */
+/* Absolute positioned
+  ========================================================================== */
+/* Usage */
+/* Font Size
+  ========================================================================== */
+/* Usage */
+/* Cross browser inline block
+  ========================================================================== */
+/* Usage */
+/* Text replacement (instead of text-indent)
+  ========================================================================== */
+/* Usage */
+/* Line Height
+  ========================================================================== */
+/* Usage */
+/* Placeholder
+  ========================================================================== */
+/* Usage */
+/* Visibily Hide
+  ========================================================================== */
+a.skip-link.screen-reader-text {
+  margin: -1px;
+  padding: 0;
+  width: 1px;
+  height: 1px;
+  overflow: hidden;
+  clip: rect(0 0 0 0);
+  clip: rect(0, 0, 0, 0);
+  position: absolute; }
+
 /* http://meyerweb.com/eric/tools/css/reset/
    v2.0 | 20110126
    License: none (public domain)
@@ -210,6 +264,8 @@ table {
 
 /* Typography */
 body {
+  font-size: 16px;
+  font-size: 2rem;
   font-family: "minion-pro", Georgia, serif;
   line-height: 1.4; }
 
@@ -279,11 +335,13 @@ input[type=text]:focus, input[type=password]:focus, input[type=url]:focus, input
   border-color: #F7F8F9;
   outline: none; }
 
-input:-moz-placeholder {
+input::-webkit-input-placeholder {
   font-style: italic; }
 input::-moz-placeholder {
   font-style: italic; }
-input::-webkit-input-placeholder {
+input:-moz-placeholder {
+  font-style: italic; }
+input:-ms-input-placeholder {
   font-style: italic; }
 
 label {
@@ -313,7 +371,7 @@ form.btn-inset {
   display: inline-block;
   padding: 8px 14px;
   border-radius: 5px;
-  border: 1px solid rgba(238, 96, 66, 0.2);
+  border: 1px solid rgba(236, 96, 65, 0.2);
   text-decoration: none;
   font-family: 'Montserrat';
   text-transform: uppercase;
@@ -322,9 +380,9 @@ form.btn-inset {
   font-size: .8em; }
 
 .btn-primary, .btn-primary:visited {
-  background: #ee6042;
+  background: #ec6041;
   color: white;
-  border-color: #ee6042; }
+  border-color: #ec6041; }
 
 .btn-secondary, .btn-secondary:visited {
   background: #D0FCEF;
@@ -531,8 +589,13 @@ hr {
   padding: 0 20px;
   box-sizing: border-box; }
 
-.logo {
-  float: left; }
+header {
+  background: #323232;
+  padding: 30px 0; }
+
+.site-branding {
+  float: left;
+  width: 17.5%; }
 
 .secondary-nav {
   float: left; }
