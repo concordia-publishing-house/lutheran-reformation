@@ -582,13 +582,16 @@ hr {
 # Scaffoling
 --------------------------------------------------------------*/
 .container {
-  max-width: 1200px;
-  position: relative;
-  width: 100%;
-  max-width: 960px;
-  margin: 0 auto;
-  padding: 0 20px;
-  box-sizing: border-box; }
+  max-width: 100%;
+  margin-left: auto;
+  margin-right: auto; }
+  .container {
+    *zoom: 1; }
+  .container:before, .container:after {
+    content: "";
+    display: table; }
+  .container:after {
+    clear: both; }
 
 header {
   background: #323232;
