@@ -70,7 +70,7 @@ html {
 /* Usage */
 /* Visibily Hide
   ========================================================================== */
-a.skip-link.screen-reader-text {
+a.skip-link.screen-reader-text, .menu-toggle {
   margin: -1px;
   padding: 0;
   width: 1px;
@@ -455,7 +455,7 @@ hr {
   .container:after {
     clear: both; }
 
-header {
+header.site-header {
   background: #323232;
   padding: 30px 0; }
 
@@ -475,8 +475,10 @@ header {
   width: 82.94039%; }
   .secondary-navigation:last-child {
     margin-right: 0; }
-  .secondary-navigation li {
-    display: inline-block; }
+  .secondary-navigation ul {
+    text-align: right; }
+    .secondary-navigation ul li {
+      display: inline-block; }
 
 .main-navigation {
   float: left;
@@ -485,8 +487,10 @@ header {
   width: 82.94039%; }
   .main-navigation:last-child {
     margin-right: 0; }
-  .main-navigation li {
-    display: inline-block; }
+  .main-navigation ul {
+    text-align: right; }
+    .main-navigation ul li {
+      display: inline-block; }
 
 .site-footer {
   background: #354b59;
