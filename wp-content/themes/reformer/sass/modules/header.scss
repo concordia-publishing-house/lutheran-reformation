@@ -11,6 +11,7 @@ header.site-header {
 
 .secondary-navigation {
   @include span-columns(10);
+  font-size: modular-scale(0);
 
   ul {
     text-align: right;
@@ -22,7 +23,7 @@ header.site-header {
           color:white;
           text-decoration: none;
           padding:8px;
-         
+
         }
     }
   }
@@ -44,6 +45,10 @@ header.site-header {
           text-decoration: none;
           padding:10px;
           border-bottom: 2px solid white;
+
+           &:hover {
+            border-bottom: 2px solid $gold;
+          }
         }
     }
   }

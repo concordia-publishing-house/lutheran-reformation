@@ -470,7 +470,8 @@ header.site-header {
   float: left;
   display: block;
   margin-right: 2.35765%;
-  width: 82.94039%; }
+  width: 82.94039%;
+  font-size: 0.875em; }
   .secondary-navigation:last-child {
     margin-right: 0; }
   .secondary-navigation ul {
@@ -502,6 +503,8 @@ header.site-header {
         text-decoration: none;
         padding: 10px;
         border-bottom: 2px solid white; }
+        .main-navigation ul li a:hover {
+          border-bottom: 2px solid #efb333; }
 
 .site-footer {
   background: #354b59;
