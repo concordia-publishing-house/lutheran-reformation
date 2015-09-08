@@ -464,7 +464,9 @@ header.site-header {
   display: block;
   margin-right: 2.35765%;
   width: 14.70196%;
-  margin-right: 0; }
+  margin-right: 0;
+  height: 2em;
+  width: auto; }
   .site-branding:last-child {
     margin-right: 0; }
 
