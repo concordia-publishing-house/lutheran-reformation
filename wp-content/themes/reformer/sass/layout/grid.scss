@@ -2,95 +2,54 @@
 # Grid
 --------------------------------------------------------------*/
 
-.row {
-  display:inline-block;
-  width:100%;
-}
-.column,
-.columns {
-  width: 100%;
-  float: left;
-  box-sizing: border-box;
-}
+@charset "UTF-8";
 
-/* Self Clearing Goodness */
-.container:after,
-.row:after {
-  content: "";
-  display: table;
-  clear: both;
-}
+/// Sets the relative width of a single grid column. The unit used should be the same one used to define `$gutter`. To learn more about `modular-scale()` see [Bourbon docs](http://bourbon.io/docs/#modular-scale). Set with a `!global` flag.
+///
+/// @type Number (Unit)
 
-/* For devices larger than 400px */
-@media (min-width: 400px) {
-  .container {
-    width: 85%;
-    padding: 0; }
-}
+$column: modular-scale(3, 1em, $golden) !default;
 
-/* For devices larger than 550px */
-@media (min-width: 550px) {
-  .container {
-    width: 80%;
-  }
-  .column,
-  .columns {
-    margin-left: 1.5%;
-  }
-  .column:first-child,
-  .columns:first-child {
-    margin-left: 0;
-  }
+/// Sets the relative width of a single grid gutter. The unit used should be the same one used to define `$column`. To learn more about `modular-scale()` see [Bourbon docs](http://bourbon.io/docs/#modular-scale). Set with the `!global` flag.
+///
+/// @type Number (Unit)
 
-  .one.column,
-  .one.columns                    { width: 6.95833333%;    }
-  .two.columns                    { width: 15.4166667%;    }
-  .three.columns                  { width: 23.875%;        }
-  .four.columns                   { width: 32.3333333%; }
-  .five.columns                   { width: 40.7916667%; }
-  .six.columns                    { width: 49.25%;         }
-  .seven.columns                  { width: 57.7083333%; }
-  .eight.columns                  { width: 66.1666667%; }
-  .nine.columns                   { width: 74.625%;        }
-  .ten.columns                    { width: 83.0833333%;    }
-  .eleven.columns                 { width: 91.54166667%;   }
-  .twelve.columns                 { width: 100%; margin-left: 0; }
+$gutter: modular-scale(1, 1em, $golden) !default;
 
-  .one-third.column               { width: 32.3333333%; }
-  .two-thirds.column              { width: 66.1666667%; }
+/// Sets the total number of columns in the grid. Its value can be overridden inside a media query using the `media()` mixin. Set with the `!global` flag.
+///
+/// @type Number (Unitless)
 
-  .one-half.column                { width: 49.25%; }
+$grid-columns: 12 !default;
 
-  /* Offsets */
-  .offset-by-one.column,
-  .offset-by-one.columns          { margin-left: 6.95833333%; }
-  .offset-by-two.column,
-  .offset-by-two.columns          { margin-left: 17.3333333333%; }
-  .offset-by-three.column,
-  .offset-by-three.columns        { margin-left: 26%;            }
-  .offset-by-four.column,
-  .offset-by-four.columns         { margin-left: 34.6666666667%; }
-  .offset-by-five.column,
-  .offset-by-five.columns         { margin-left: 43.3333333333%; }
-  .offset-by-six.column,
-  .offset-by-six.columns          { margin-left: 52%;            }
-  .offset-by-seven.column,
-  .offset-by-seven.columns        { margin-left: 60.6666666667%; }
-  .offset-by-eight.column,
-  .offset-by-eight.columns        { margin-left: 69.3333333333%; }
-  .offset-by-nine.column,
-  .offset-by-nine.columns         { margin-left: 78.0%;          }
-  .offset-by-ten.column,
-  .offset-by-ten.columns          { margin-left: 86.6666666667%; }
-  .offset-by-eleven.column,
-  .offset-by-eleven.columns       { margin-left: 95.3333333333%; }
+/// Sets the max-width property of the element that includes `outer-container()`. Set with the `!global` flag.
+///
+/// @type Number (Unit)
+///
+$max-width: 1200px !default;
 
-  .offset-by-one-third.column,
-  .offset-by-one-third.columns    { margin-left: 34.6666666667%; }
-  .offset-by-two-thirds.column,
-  .offset-by-two-thirds.columns   { margin-left: 69.3333333333%; }
+/// When set to true, it sets the box-sizing property of all elements to `border-box`. Set with a `!global` flag.
+///
+/// @type Bool
+///
+/// @example css - CSS Output
+///   html {
+///     box-sizing: border-box; }
+///
+///   *, *::after, *::before {
+///     box-sizing: inherit;
+///   }
 
-  .offset-by-one-half.column,
-  .offset-by-one-half.columns     { margin-left: 52%; }
+$border-box-sizing: true !default;
 
-} 
+/// Sets the default [media feature](http://www.w3.org/TR/css3-mediaqueries/#media) that `media()` and `new-breakpoint()` revert to when only a breakpoint value is passed. Set with a `!global` flag.
+///
+/// @type String
+
+$default-feature: min-width; // Default @media feature for the breakpoint() mixin
+
+///Sets the default layout direction of the grid. Can be `LTR` or `RTL`. Set with a `!global` flag.
+///
+///@type String
+
+$default-layout-direction: LTR !default;
