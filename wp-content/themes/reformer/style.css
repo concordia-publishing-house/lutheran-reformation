@@ -461,19 +461,30 @@ header {
 
 .site-branding {
   float: left;
-  width: 17.5%; }
+  display: block;
+  margin-right: 2.35765%;
+  width: 14.70196%; }
+  .site-branding:last-child {
+    margin-right: 0; }
 
-.secondary-nav {
-  float: left; }
-  .secondary-nav li {
+.secondary-navigation {
+  float: left;
+  display: block;
+  margin-right: 2.35765%;
+  width: 82.94039%; }
+  .secondary-navigation:last-child {
+    margin-right: 0; }
+  .secondary-navigation li {
     display: inline-block; }
 
-.search {
-  float: right; }
-
-.primary-nav {
-  float: right; }
-  .primary-nav li {
+.main-navigation {
+  float: left;
+  display: block;
+  margin-right: 2.35765%;
+  width: 82.94039%; }
+  .main-navigation:last-child {
+    margin-right: 0; }
+  .main-navigation li {
     display: inline-block; }
 
 .site-footer {
