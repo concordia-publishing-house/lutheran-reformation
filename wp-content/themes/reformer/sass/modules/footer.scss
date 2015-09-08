@@ -9,17 +9,17 @@
 	text-decoration: none;
 }
 
-.footer-navigation ul {
+.site-footer ul {
 	margin:0;
 	padding:0;
 }
 
-.footer-navigation li {
+.site-footer li {
 	list-style-type: none;
 	margin-bottom: 20px; 
 }
 
-.footer-navigation li a {
+.site-footer li a {
 	font-family: 'Montserrat';
 	text-transform: uppercase;
 	color:#1b898f;
@@ -29,6 +29,13 @@
 .site-footer .footer-copyright {
 	font-style: italic;
 	text-align: center;
+}
+
+.footer-primary {
+	@include span-columns(6);
+}
+.footer-secondary {
+	@include span-columns(6);
 }
 
 .footer-social-buttons a {
