@@ -497,14 +497,15 @@ header.site-header {
   .main-navigation ul {
     float: right; }
     .main-navigation ul li {
-      float: left; }
+      float: left;
+      padding-bottom: 10px;
+      border-bottom: 2px solid white; }
+      .main-navigation ul li:hover {
+        border-bottom: 2px solid #efb333; }
       .main-navigation ul li a {
         color: white;
         text-decoration: none;
-        padding: 10px;
-        border-bottom: 2px solid white; }
-        .main-navigation ul li a:hover {
-          border-bottom: 2px solid #efb333; }
+        padding: 10px; }
 
 .site-footer {
   background: #354b59;
