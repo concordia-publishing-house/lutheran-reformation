@@ -5,6 +5,7 @@ header {
 
 .site-branding {
   @include span-columns(2);
+  @include omega();
 }
 
 .secondary-navigation {

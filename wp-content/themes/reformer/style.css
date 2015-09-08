@@ -463,7 +463,8 @@ header {
   float: left;
   display: block;
   margin-right: 2.35765%;
-  width: 14.70196%; }
+  width: 14.70196%;
+  margin-right: 0; }
   .site-branding:last-child {
     margin-right: 0; }
 
