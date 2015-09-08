@@ -41,6 +41,7 @@ header.site-header {
       float: left;
       padding-bottom:10px;
       border-bottom: 2px solid white;
+      @include transition(all 800ms ease-in-out); 
 
       &:hover {
         border-bottom: 2px solid $gold;

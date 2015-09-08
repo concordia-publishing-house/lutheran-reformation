@@ -420,7 +420,9 @@ body {
 
 a {
   color: #20DAA5;
-  transition: all 800ms ease; }
+  -webkit-transition: all 800ms ease-in-out;
+  -moz-transition: all 800ms ease-in-out;
+  transition: all 800ms ease-in-out; }
 
 a:hover {
   color: #2BC297;
@@ -499,7 +501,10 @@ header.site-header {
     .main-navigation ul li {
       float: left;
       padding-bottom: 10px;
-      border-bottom: 2px solid white; }
+      border-bottom: 2px solid white;
+      -webkit-transition: all 800ms ease-in-out;
+      -moz-transition: all 800ms ease-in-out;
+      transition: all 800ms ease-in-out; }
       .main-navigation ul li:hover {
         border-bottom: 2px solid #efb333; }
       .main-navigation ul li a {
