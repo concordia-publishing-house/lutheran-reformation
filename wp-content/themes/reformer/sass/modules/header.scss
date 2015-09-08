@@ -1,6 +1,6 @@
 header.site-header {
   background: $grey;
-  padding:30px 0;
+  padding:10px 0 30px;
   font-family: $secondary-font;
 }
 
@@ -62,6 +62,7 @@ header.site-header {
 
 .menu-secondary-navigation-container {
   @include span-columns(10);
+  padding-top:12px;
 }
 .search-container {
   @include span-columns(2);
@@ -69,7 +70,7 @@ header.site-header {
 
 .search-container input.search-submit {
     position: absolute;
-    top: 30px;
+    top: 10px;
     right: 10px;
     height: 20px;
     width: 20px;

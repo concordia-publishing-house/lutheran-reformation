@@ -472,7 +472,7 @@ hr {
 
 header.site-header {
   background: #323232;
-  padding: 30px 0;
+  padding: 10px 0 30px;
   font-family: "Montserrat", Helvetica, sans-serif; }
 
 .site-branding {
@@ -532,7 +532,8 @@ header.site-header {
   float: left;
   display: block;
   margin-right: 2.35765%;
-  width: 82.94039%; }
+  width: 82.94039%;
+  padding-top: 12px; }
   .menu-secondary-navigation-container:last-child {
     margin-right: 0; }
 
@@ -546,7 +547,7 @@ header.site-header {
 
 .search-container input.search-submit {
   position: absolute;
-  top: 30px;
+  top: 10px;
   right: 10px;
   height: 20px;
   width: 20px;
