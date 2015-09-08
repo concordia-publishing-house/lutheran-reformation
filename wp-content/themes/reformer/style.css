@@ -457,7 +457,8 @@ hr {
 
 header.site-header {
   background: #323232;
-  padding: 30px 0; }
+  padding: 30px 0;
+  font-family: "Montserrat", Helvetica, sans-serif; }
 
 .site-branding {
   float: left;
@@ -481,18 +482,31 @@ header.site-header {
     text-align: right; }
     .secondary-navigation ul li {
       display: inline-block; }
+      .secondary-navigation ul li a {
+        color: white;
+        text-decoration: none;
+        padding: 8px; }
 
 .main-navigation {
   float: left;
   display: block;
   margin-right: 2.35765%;
-  width: 82.94039%; }
+  width: 82.94039%;
+  margin-top: 4em;
+  margin-bottom: 4em;
+  text-transform: uppercase;
+  font-weight: 900; }
   .main-navigation:last-child {
     margin-right: 0; }
   .main-navigation ul {
     text-align: right; }
     .main-navigation ul li {
       display: inline-block; }
+      .main-navigation ul li a {
+        color: white;
+        text-align: none;
+        padding: 10px;
+        border-bottom: 2px solid white; }
 
 .site-footer {
   background: #354b59;

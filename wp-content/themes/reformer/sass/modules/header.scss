@@ -1,6 +1,7 @@
 header.site-header {
   background: $grey;
   padding:30px 0;
+  font-family: $secondary-font;
 }
 
 .site-branding {
@@ -17,17 +18,33 @@ header.site-header {
 
     li {
       display: inline-block;
+
+        a {
+          color:white;
+          text-decoration: none;
+          padding:8px;
+        }
     }
   }
 }
 .main-navigation {
   @include span-columns(10);
+  @include margin(4em null);
+  text-transform: uppercase;
+  font-weight: 900;
 
   ul {
     text-align: right;
     
     li {
       display: inline-block;
+
+        a {
+          color:white;
+          text-align: none;
+          padding:10px;
+          border-bottom: 2px solid white;
+        }
     }
   }
 }
