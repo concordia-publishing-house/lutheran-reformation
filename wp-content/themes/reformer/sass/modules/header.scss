@@ -40,7 +40,7 @@ header.site-header {
     li {
       float: left;
       padding-bottom:10px;
-      border-bottom: 2px solid white;
+      border-bottom: 2px solid rgba(255, 255, 255, .5);
       @include transition(all 800ms ease-in-out); 
 
       &:hover {
@@ -50,7 +50,7 @@ header.site-header {
       a {
         color:white;
         text-decoration: none;
-        padding:10px;
+        padding:10px 15px;;
       }
     }
   }
@@ -61,10 +61,10 @@ header.site-header {
 }
 
 .menu-secondary-navigation-container {
-  @include span-columns(8);
+  @include span-columns(10);
 }
 .search-container {
-  @include span-columns(4);
+  @include span-columns(2);
 }
 
 .search-container input.search-submit {
@@ -83,4 +83,5 @@ header.site-header {
 
 .search-container input.search-field {
     position: absolute;
+    padding:0.5em;
 }

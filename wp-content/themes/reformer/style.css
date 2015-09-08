@@ -517,7 +517,7 @@ header.site-header {
     .main-navigation ul li {
       float: left;
       padding-bottom: 10px;
-      border-bottom: 2px solid white;
+      border-bottom: 2px solid rgba(255, 255, 255, 0.5);
       -webkit-transition: all 800ms ease-in-out;
       -moz-transition: all 800ms ease-in-out;
       transition: all 800ms ease-in-out; }
@@ -526,13 +526,13 @@ header.site-header {
       .main-navigation ul li a {
         color: white;
         text-decoration: none;
-        padding: 10px; }
+        padding: 10px 15px; }
 
 .menu-secondary-navigation-container {
   float: left;
   display: block;
   margin-right: 2.35765%;
-  width: 65.88078%; }
+  width: 82.94039%; }
   .menu-secondary-navigation-container:last-child {
     margin-right: 0; }
 
@@ -540,7 +540,7 @@ header.site-header {
   float: left;
   display: block;
   margin-right: 2.35765%;
-  width: 31.76157%; }
+  width: 14.70196%; }
   .search-container:last-child {
     margin-right: 0; }
 
@@ -557,7 +557,8 @@ header.site-header {
   position: relative; }
 
 .search-container input.search-field {
-  position: absolute; }
+  position: absolute;
+  padding: 0.5em; }
 
 .site-footer {
   background: #354b59;
