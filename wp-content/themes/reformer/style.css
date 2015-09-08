@@ -544,6 +544,21 @@ header.site-header {
   .search-container:last-child {
     margin-right: 0; }
 
+.search-container input.search-submit {
+  position: absolute;
+  top: 30px;
+  right: 10px;
+  height: 20px;
+  width: 20px;
+  border: none;
+  background: transparent; }
+
+.search-container form.search-form {
+  position: relative; }
+
+.search-container input.search-field {
+  position: absolute; }
+
 .site-footer {
   background: #354b59;
   padding: 60px 0;
