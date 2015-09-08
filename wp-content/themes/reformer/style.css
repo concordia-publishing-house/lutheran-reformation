@@ -264,31 +264,28 @@ table {
 
 /* Typography */
 body {
-  font-size: 12px;
-  font-size: 1.5rem;
-  font-family: "minion-pro", Georgia, serif;
-  line-height: 16px;
-  line-height: 2rem; }
+  font-size: 1.333em;
+  font-family: "minion-pro", Georgia, serif; }
 
 h1 {
-  font-size: 3.157em;
+  font-size: 3.15733em;
   font-family: "Montserrat", Helvetica, sans-serif;
   text-transform: uppercase;
   margin: .35em 0; }
 
 h2 {
-  font-size: 2.369em;
+  font-size: 2.36859em;
   font-family: "Montserrat", Helvetica, sans-serif;
   text-transform: uppercase;
   margin: .35em 0; }
 
 h3 {
-  font-size: 2.1em;
+  font-size: 1.77689em;
   font-family: "minion-pro", Georgia, serif;
   margin: .25em 0; }
 
 h4, h5, h6 {
-  font-size: 1.777em;
+  font-size: 1.333em;
   margin: 0.35em 0; }
 
 h1 + h2 {
@@ -499,12 +496,12 @@ header.site-header {
   .main-navigation:last-child {
     margin-right: 0; }
   .main-navigation ul {
-    text-align: right; }
+    float: right; }
     .main-navigation ul li {
-      display: inline-block; }
+      float: left; }
       .main-navigation ul li a {
         color: white;
-        text-align: none;
+        text-decoration: none;
         padding: 10px;
         border-bottom: 2px solid white; }
 

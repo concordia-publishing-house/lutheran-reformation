@@ -34,14 +34,14 @@ header.site-header {
   font-weight: 900;
 
   ul {
-    text-align: right;
+    float: right;
     
     li {
-      display: inline-block;
+      float: left;
 
         a {
           color:white;
-          text-align: none;
+          text-decoration: none;
           padding:10px;
           border-bottom: 2px solid white;
         }
