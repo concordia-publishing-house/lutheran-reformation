@@ -528,6 +528,22 @@ header.site-header {
         text-decoration: none;
         padding: 10px; }
 
+.menu-secondary-navigation-container {
+  float: left;
+  display: block;
+  margin-right: 2.35765%;
+  width: 65.88078%; }
+  .menu-secondary-navigation-container:last-child {
+    margin-right: 0; }
+
+.search-container {
+  float: left;
+  display: block;
+  margin-right: 2.35765%;
+  width: 31.76157%; }
+  .search-container:last-child {
+    margin-right: 0; }
+
 .site-footer {
   background: #354b59;
   padding: 60px 0;

@@ -59,3 +59,10 @@ header.site-header {
 .menu-toggle {
   @extend %visuallyhidden;
 }
+
+.menu-secondary-navigation-container {
+  @include span-columns(8);
+}
+.search-container {
+  @include span-columns(4);
+}
