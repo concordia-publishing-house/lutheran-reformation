@@ -651,7 +651,8 @@ header.entry-header h1 {
 .footer-logos .lcms-logo-white {
   background-image: url(images/lcms-logo-white.svg); }
   .no-svg .footer-logos .lcms-logo-white {
-    background-image: url(images/lcms-logo-white.png); }
+    background-image: url(images/lcms-logo-white.png);
+    background-repeat: no-repeat; }
     @media only screen and (-moz-min-device-pixel-ratio: 1.5), only screen and (-o-min-device-pixel-ratio: 3 / 2), only screen and (-webkit-min-device-pixel-ratio: 1.5), only screen and (min-device-pixel-ratio: 1.5) {
       .no-svg .footer-logos .lcms-logo-white {
         background-image: url(images/lcms-logo-white@2x.png); } }
