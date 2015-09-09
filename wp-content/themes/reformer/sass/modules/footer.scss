@@ -7,18 +7,21 @@
 }
 
 .site-footer a {
-	color: #248389;
 	text-decoration: none;
 }
 
 .site-footer ul {
 	margin:0;
 	padding:0;
-}
 
-.site-footer li {
-	list-style-type: none;
-	margin-bottom: 20px; 
+	li {
+		list-style-type: none;
+		margin-bottom: 20px; 
+
+		a {
+			color: #248389;
+		}
+	}
 }
 
 .site-footer li a {
@@ -42,11 +45,14 @@
 
 .footer-social-buttons a {
 	padding: 10px;
+	color: #248389;
+}
+.footer-buttons a {
+	color:white;
 }
 
 .footer-logos div {
-	width: 335px;
-	float: left;
+	@include span-columns(6);
 	height:80px;
 }
 

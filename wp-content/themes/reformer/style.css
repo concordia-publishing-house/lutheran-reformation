@@ -577,16 +577,16 @@ header.entry-header h1 {
   width: 100%; }
 
 .site-footer a {
-  color: #248389;
   text-decoration: none; }
 
 .site-footer ul {
   margin: 0;
   padding: 0; }
-
-.site-footer li {
-  list-style-type: none;
-  margin-bottom: 20px; }
+  .site-footer ul li {
+    list-style-type: none;
+    margin-bottom: 20px; }
+    .site-footer ul li a {
+      color: #248389; }
 
 .site-footer li a {
   font-family: 'Montserrat';
@@ -615,12 +615,20 @@ header.entry-header h1 {
     margin-right: 0; }
 
 .footer-social-buttons a {
-  padding: 10px; }
+  padding: 10px;
+  color: #248389; }
+
+.footer-buttons a {
+  color: white; }
 
 .footer-logos div {
-  width: 335px;
   float: left;
+  display: block;
+  margin-right: 2.35765%;
+  width: 48.82117%;
   height: 80px; }
+  .footer-logos div:last-child {
+    margin-right: 0; }
 
 .footer-logos div a {
   width: 100%;
