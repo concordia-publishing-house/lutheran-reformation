@@ -30,7 +30,7 @@ header.site-header {
 }
 .main-navigation {
   @include span-columns(10);
-  @include margin(4em null);
+  @include margin(4em null null);
   text-transform: uppercase;
   font-weight: 900;
 
