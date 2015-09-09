@@ -80,6 +80,8 @@ html {
   clip: rect(0, 0, 0, 0);
   position: absolute; }
 
+/* Adding SVG fallback support
+  ========================================================================== */
 /* http://meyerweb.com/eric/tools/css/reset/
    v2.0 | 20110126
    License: none (public domain)
@@ -647,9 +649,12 @@ header.entry-header h1 {
   height: 100%; }
 
 .footer-logos .lcms-logo-white {
-  background: url(images/lcms-logo-white.png);
-  background-image: url(images/lcms-logo-white.svg), none;
-  background-repeat: no-repeat; }
+  background-image: url(images/lcms-logo-white.svg); }
+  .no-svg .footer-logos .lcms-logo-white {
+    background-image: url(images/lcms-logo-white.png); }
+    @media only screen and (-moz-min-device-pixel-ratio: 1.5), only screen and (-o-min-device-pixel-ratio: 3 / 2), only screen and (-webkit-min-device-pixel-ratio: 1.5), only screen and (min-device-pixel-ratio: 1.5) {
+      .no-svg .footer-logos .lcms-logo-white {
+        background-image: url(images/lcms-logo-white@2x.png); } }
 
 .footer-logos .cph-logo-white {
   background: url(images/cph-logo-white.png);

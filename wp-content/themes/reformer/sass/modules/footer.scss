@@ -80,9 +80,7 @@
   height: 100%;
 }
 .footer-logos .lcms-logo-white {
-	background: url(images/lcms-logo-white.png);
-  background-image: url(images/lcms-logo-white.svg), none;
-  background-repeat: no-repeat;
+	@include background-image('lcms-logo-white');
 }
 
 .footer-logos .cph-logo-white {
