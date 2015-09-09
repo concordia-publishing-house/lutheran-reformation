@@ -14,7 +14,7 @@
 .btn, .btn:visited {
   display: inline-block;
   padding:8px 14px;
-  border-radius: 5px;
+  border-radius: 4px;
   border: 1px solid rgba( $orange, 0.2 );
   text-decoration: none;
   font-family: 'Montserrat';
@@ -36,7 +36,7 @@
   border-color: $gold;
 }
 
-.btn-tertiary, .btn-secondary:visited {
+.btn-tertiary, .btn-tertiary:visited {
   background-color: $blue;
   color:white;
   border-color: $blue;

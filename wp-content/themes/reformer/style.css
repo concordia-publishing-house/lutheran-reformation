@@ -323,7 +323,7 @@ input[type=text], input[type=password], input[type=url], input[type=email], inpu
   display: block;
   font-size: 1em;
   margin: 3px 0 16px;
-  padding: 1em;
+  padding: 0.75em 1em;
   position: relative;
   width: 100%;
   transition: all 800ms ease;
@@ -368,7 +368,7 @@ form.btn-inset {
 .btn, .btn:visited {
   display: inline-block;
   padding: 8px 14px;
-  border-radius: 5px;
+  border-radius: 4px;
   border: 1px solid rgba(236, 96, 65, 0.2);
   text-decoration: none;
   font-family: 'Montserrat';
@@ -387,7 +387,7 @@ form.btn-inset {
   color: white;
   border-color: #efb333; }
 
-.btn-tertiary, .btn-secondary:visited {
+.btn-tertiary, .btn-tertiary:visited {
   background-color: #248389;
   color: white;
   border-color: #248389; }
@@ -619,15 +619,18 @@ header.entry-header h1 {
   font-style: italic;
   color: #4597a0; }
   .footer-social-buttons a {
-    padding: 10px;
+    padding: 0 15px;
     color: #248389; }
+    .footer-social-buttons a:last-child {
+      margin-left: 10px; }
   .footer-social-buttons i {
     font-size: 1.5em; }
 
 .footer-buttons {
   text-align: right; }
   .footer-buttons a {
-    color: white; }
+    color: white;
+    margin-left: 10px; }
 
 .footer-logos div {
   float: left;
