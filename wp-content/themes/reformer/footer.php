@@ -22,7 +22,7 @@
 				<div class="footer-secondary">
 					<div class="footer-buttons">
 						<a href="#" class="btn btn-secondary"><i class="icon-heart"></i> Get Involved</a>
-						<a href="#" class="btn btn-primary"><i class="icon-cart-fill"></i>Shop</a>
+						<a href="#" class="btn btn-primary"><i class="icon-cart-fill"></i> Shop</a>
 					</div>
 					<div class="footer-email-signup">
 						<h5>Get the latest on Reformation 2017</h5>
