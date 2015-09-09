@@ -70,7 +70,7 @@ html {
 /* Usage */
 /* Visibily Hide
   ========================================================================== */
-.screen-reader-text, .menu-toggle {
+.screen-reader-text, .menu-toggle, body.home header.entry-header {
   margin: -1px;
   padding: 0;
   width: 1px;

@@ -86,3 +86,7 @@ header.site-header {
     position: absolute;
     padding:0.5em;
 }
+
+body.home header.entry-header {
+  @extend %visuallyhidden;
+}
