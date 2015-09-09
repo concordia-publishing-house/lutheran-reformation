@@ -16,19 +16,15 @@
 
 	li {
 		list-style-type: none;
-		margin-bottom: 20px; 
+		margin-bottom: 20px;
+		font-family: 'Montserrat';
+		text-transform: uppercase;
 
 		a {
-			color: #248389;
+			color: $link-color;
+			text-decoration: none;
 		}
 	}
-}
-
-.site-footer li a {
-	font-family: 'Montserrat';
-	text-transform: uppercase;
-	color:#1b898f;
-	text-decoration: none;
 }
 
 .site-footer .footer-copyright {
@@ -41,14 +37,31 @@
 }
 .footer-secondary {
 	@include span-columns(6);
+
+		div {
+			margin-bottom: 3em;
+		}
 }
 
-.footer-social-buttons a {
-	padding: 10px;
-	color: #248389;
-}
-.footer-buttons a {
-	color:white;
+.footer-social-buttons {
+	text-align: right;
+	font-size: 1em;
+  font-style: italic;
+  color: rgb(69, 151, 160);
+
+	a {
+		padding: 10px;
+		color: $link-color;
+	}
+
+	i { font-size: 1.5em;}
+} 
+.footer-buttons {
+	text-align: right;
+ 
+ 	a {
+		color:white;
+	}
 }
 
 .footer-logos div {
@@ -76,4 +89,10 @@
 .footer-buttons .btn {
   font-size: 0.75em;
   padding: 16px 32px 18px;
+}
+
+.footer-email-signup h5 {
+  font-size: 1em;
+  font-style: italic;
+  color: rgb(69, 151, 160);
 }
