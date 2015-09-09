@@ -31,9 +31,15 @@
 }
 
 .btn-secondary, .btn-secondary:visited {
-  background: #D0FCEF;
-   color: #3C9B80;
-  border-color: #B0ECDA;
+  background: $gold;
+   color: white;
+  border-color: $gold;
+}
+
+.btn-tertiary, .btn-secondary:visited {
+  background-color: $slate;
+  color:white;
+  border-color: $slate;
 }
 
 .btn-large {

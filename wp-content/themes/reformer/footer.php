@@ -21,14 +21,14 @@
 				</div>
 				<div class="footer-secondary">
 					<div class="footer-buttons">
-						<a href="#" class="button"><i class="icon-heart"></i> Get Involved</a>
-						<a href="#" class="button"><i class="icon-cart"></i>Shop</a>
+						<a href="#" class="btn btn-secondary"><i class="icon-heart"></i> Get Involved</a>
+						<a href="#" class="btn btn-primary"><i class="icon-cart"></i>Shop</a>
 					</div>
 					<div class="footer-email-signup">
 						<h5>Get the latest on Reformation 2017</h5>
 						<form class="btn-inset">
 							<input id="text" type="email" placeholder="Enter Email">
-	            <button type="submit" class="btn btn-primary">Sign Up</button>
+	            <button type="submit" class="btn btn-tertiary">Sign Up</button>
           	</form>
 	        </div>
 	        <div class="footer-social-buttons">

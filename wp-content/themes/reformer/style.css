@@ -383,9 +383,14 @@ form.btn-inset {
   border-color: #ec6041; }
 
 .btn-secondary, .btn-secondary:visited {
-  background: #D0FCEF;
-  color: #3C9B80;
-  border-color: #B0ECDA; }
+  background: #efb333;
+  color: white;
+  border-color: #efb333; }
+
+.btn-tertiary, .btn-secondary:visited {
+  background-color: #196d73;
+  color: white;
+  border-color: #196d73; }
 
 .btn-large {
   font-size: 1.125em;
