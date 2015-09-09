@@ -388,9 +388,9 @@ form.btn-inset {
   border-color: #efb333; }
 
 .btn-tertiary, .btn-secondary:visited {
-  background-color: #20DAA5;
+  background-color: #248389;
   color: white;
-  border-color: #20DAA5; }
+  border-color: #248389; }
 
 .btn-large {
   font-size: 1.125em;
@@ -588,7 +588,7 @@ header.entry-header h1 {
     font-family: 'Montserrat';
     text-transform: uppercase; }
     .site-footer ul li a {
-      color: #20DAA5;
+      color: #248389;
       text-decoration: none; }
 
 .site-footer .footer-copyright {
@@ -620,7 +620,7 @@ header.entry-header h1 {
   color: #4597a0; }
   .footer-social-buttons a {
     padding: 10px;
-    color: #20DAA5; }
+    color: #248389; }
   .footer-social-buttons i {
     font-size: 1.5em; }
 
