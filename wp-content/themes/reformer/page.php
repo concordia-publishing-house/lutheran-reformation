@@ -34,6 +34,5 @@ get_header(); ?>
 			</main><!-- #main -->
 		</div><!-- .container -->
 	</div><!-- #primary -->
-
-<?php get_sidebar(); ?>
+	
 <?php get_footer(); ?>
