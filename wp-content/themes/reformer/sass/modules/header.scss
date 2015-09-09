@@ -7,6 +7,12 @@ header.site-header {
 .site-branding {
   @include span-columns(2);
   @include omega();
+  @include background-image('reformation-logo');
+
+  p {
+    @extend %visuallyhidden;
+  }
+
 }
 
 .secondary-navigation {

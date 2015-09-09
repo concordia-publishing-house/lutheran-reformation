@@ -84,9 +84,7 @@
 }
 
 .footer-logos .cph-logo-white {
-	background: url(images/cph-logo-white.png);
-  background-image: url(images/cph-logo-white.svg), none;
-  background-repeat: no-repeat;
+	@include background-image('cph-logo-white');
 }
 
 .footer-buttons .btn {

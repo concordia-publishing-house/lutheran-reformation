@@ -70,7 +70,7 @@ html {
 /* Usage */
 /* Visibily Hide
   ========================================================================== */
-.screen-reader-text, .menu-toggle, body.home header.entry-header {
+.screen-reader-text, .site-branding p, .menu-toggle, body.home header.entry-header {
   margin: -1px;
   padding: 0;
   width: 1px;
@@ -487,9 +487,17 @@ header.site-header {
   display: block;
   margin-right: 2.35765%;
   width: 14.70196%;
-  margin-right: 0; }
+  margin-right: 0;
+  background-image: url(images/reformation-logo.svg);
+  background-repeat: no-repeat; }
   .site-branding:last-child {
     margin-right: 0; }
+  .no-svg .site-branding {
+    background-image: url(images/reformation-logo.png);
+    background-repeat: no-repeat; }
+    @media only screen and (-moz-min-device-pixel-ratio: 1.5), only screen and (-o-min-device-pixel-ratio: 3 / 2), only screen and (-webkit-min-device-pixel-ratio: 1.5), only screen and (min-device-pixel-ratio: 1.5) {
+      .no-svg .site-branding {
+        background-image: url(images/reformation-logo@2x.png); } }
 
 .secondary-navigation {
   float: left;
@@ -649,7 +657,8 @@ header.entry-header h1 {
   height: 100%; }
 
 .footer-logos .lcms-logo-white {
-  background-image: url(images/lcms-logo-white.svg); }
+  background-image: url(images/lcms-logo-white.svg);
+  background-repeat: no-repeat; }
   .no-svg .footer-logos .lcms-logo-white {
     background-image: url(images/lcms-logo-white.png);
     background-repeat: no-repeat; }
@@ -658,9 +667,14 @@ header.entry-header h1 {
         background-image: url(images/lcms-logo-white@2x.png); } }
 
 .footer-logos .cph-logo-white {
-  background: url(images/cph-logo-white.png);
-  background-image: url(images/cph-logo-white.svg), none;
+  background-image: url(images/cph-logo-white.svg);
   background-repeat: no-repeat; }
+  .no-svg .footer-logos .cph-logo-white {
+    background-image: url(images/cph-logo-white.png);
+    background-repeat: no-repeat; }
+    @media only screen and (-moz-min-device-pixel-ratio: 1.5), only screen and (-o-min-device-pixel-ratio: 3 / 2), only screen and (-webkit-min-device-pixel-ratio: 1.5), only screen and (min-device-pixel-ratio: 1.5) {
+      .no-svg .footer-logos .cph-logo-white {
+        background-image: url(images/cph-logo-white@2x.png); } }
 
 .footer-buttons .btn {
   font-size: 0.75em;
