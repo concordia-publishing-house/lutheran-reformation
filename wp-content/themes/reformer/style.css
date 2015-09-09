@@ -561,6 +561,10 @@ header.site-header {
   position: absolute;
   padding: 0.5em; }
 
+header.entry-header h1 {
+  font-size: 1.55478em;
+  color: white; }
+
 .site-footer {
   background: #354b59;
   padding: 60px 0;
