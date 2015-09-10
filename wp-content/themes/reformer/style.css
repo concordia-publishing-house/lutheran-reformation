@@ -786,7 +786,8 @@ header.entry-header h1 {
   display: block;
   margin-top: 0px;
   text-transform: uppercase;
-  color: #f4d9ac; }
+  color: #f4d9ac;
+  font-size: 1em; }
 
 .countdown-descr {
   display: block;
