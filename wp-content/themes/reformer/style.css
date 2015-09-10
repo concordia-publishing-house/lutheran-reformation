@@ -377,7 +377,9 @@ form.btn-inset {
   text-transform: uppercase;
   font-weight: 400;
   color: #364b59;
-  font-size: .8em; }
+  font-size: .8em;
+  text-shadow: none;
+  box-shadow: none; }
 
 .btn-primary, .btn-primary:visited {
   background: #ec6041;
@@ -711,11 +713,21 @@ header.entry-header h1 {
     max-width: 660px; }
 
 .countdown {
+  display: block;
   background: url(images/countdown-bg.gif);
   color: white;
   text-align: center; }
+  .countdown {
+    *zoom: 1; }
+  .countdown:before, .countdown:after {
+    content: "";
+    display: table; }
+  .countdown:after {
+    clear: both; }
   .countdown .countdown-buttons {
-    margin: 3em 0; }
+    display: inline-block;
+    margin: 3em 0;
+    width: 100%; }
     .countdown .countdown-buttons .btn {
       background: transparent;
       border-color: white;

@@ -17,8 +17,9 @@ get_header(); ?>
 							<div class="countdown-buttons">
 								<a class="btn" href="/events"><i class="icon-calendar"></i> View Events</a>
 								<a class="btn" href="#"><i class="icon-mail"></i> Get Updates</a>
+							</div>
 						</div>
-					</div>								
+					</div>							
 
 				<?php endif; ?>
 				<?php while ( have_posts() ) : the_post(); ?>

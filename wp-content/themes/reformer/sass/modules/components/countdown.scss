@@ -1,11 +1,13 @@
 .countdown {
+	@include row();
 	background: url(images/countdown-bg.gif);
 	color:white;
 	text-align:center;
 
 	.countdown-buttons {
-
+		display: inline-block;
 		margin:3em 0;
+		width: 100%;
 		
 		.btn {
 			background:transparent;
@@ -60,14 +62,14 @@
 	text-align: center;
 }
 .countdown-amount {
-    font-size: 200%;
-    font-weight: bold;
+  font-size: 200%;
+  font-weight: bold;
 }
 .countdown-period {
-    display: block;
-    margin-top:0px;
-    text-transform: uppercase;
-    color:#f4d9ac;
+  display: block;
+  margin-top:0px;
+  text-transform: uppercase;
+  color:#f4d9ac;
 }
 .countdown-descr {
 	display: block;
