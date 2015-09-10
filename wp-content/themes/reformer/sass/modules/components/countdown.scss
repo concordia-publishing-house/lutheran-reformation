@@ -3,6 +3,11 @@
 	background: url(images/countdown-bg.gif);
 	color:white;
 	text-align:center;
+	padding: 2em 0;
+
+	h5 {
+		font-style: italic;
+	}
 
 	.countdown-buttons {
 		display: inline-block;
@@ -13,6 +18,10 @@
 			background:transparent;
 			border-color:white;
 			color:white;
+
+			&:first-child {
+				margin-right: 10px;
+			}
 		}
 	}
 }

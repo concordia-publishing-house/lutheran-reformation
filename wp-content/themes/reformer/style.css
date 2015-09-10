@@ -716,7 +716,8 @@ header.entry-header h1 {
   display: block;
   background: url(images/countdown-bg.gif);
   color: white;
-  text-align: center; }
+  text-align: center;
+  padding: 2em 0; }
   .countdown {
     *zoom: 1; }
   .countdown:before, .countdown:after {
@@ -724,6 +725,8 @@ header.entry-header h1 {
     display: table; }
   .countdown:after {
     clear: both; }
+  .countdown h5 {
+    font-style: italic; }
   .countdown .countdown-buttons {
     display: inline-block;
     margin: 3em 0;
@@ -732,6 +735,8 @@ header.entry-header h1 {
       background: transparent;
       border-color: white;
       color: white; }
+      .countdown .countdown-buttons .btn:first-child {
+        margin-right: 10px; }
 
 .is-countdown {
   width: 55%;
