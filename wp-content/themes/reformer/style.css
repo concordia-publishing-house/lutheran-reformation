@@ -414,7 +414,6 @@ form.button-inset {
   border-radius: 0; }
 
 .button [class^="icon-"] {
-  vertical-align: -10%;
   margin: 0 2px; }
 
 /* Global */
