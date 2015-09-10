@@ -712,18 +712,26 @@ header.entry-header h1 {
 
 .countdown {
   background: url(images/countdown-bg.gif);
-  color: white; }
+  color: white;
+  text-align: center; }
+  .countdown .countdown-buttons {
+    margin: 3em 0; }
+    .countdown .countdown-buttons .btn {
+      background: transparent;
+      border-color: white;
+      color: white; }
 
 .is-countdown {
-  width: 75%;
+  width: 55%;
   padding-top: 65px;
-  margin: 0 auto; }
+  margin: 0 auto;
+  font-family: "Montserrat", Helvetica, sans-serif; }
 
 .countdown-rtl {
   direction: rtl; }
 
 .countdown-holding span {
-  color: #888; }
+  color: white; }
 
 .countdown-row {
   clear: both;
@@ -764,8 +772,9 @@ header.entry-header h1 {
 
 .countdown-period {
   display: block;
-  margin-top: 20px;
-  text-transform: lowercase; }
+  margin-top: 0px;
+  text-transform: uppercase;
+  color: #f4d9ac; }
 
 .countdown-descr {
   display: block;

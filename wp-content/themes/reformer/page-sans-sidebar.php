@@ -14,6 +14,9 @@ get_header(); ?>
 						<div class="container">
 							<h5>Reformation Day 2017 is in</h5>
 							<div id="clock"></div>
+							<div class="countdown-buttons">
+								<a class="btn" href="/events"><i class="icon-calendar"></i> View Events</a>
+								<a class="btn" href="#"><i class="icon-mail"></i> Get Updates</a>
 						</div>
 					</div>								
 
