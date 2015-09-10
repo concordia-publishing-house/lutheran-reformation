@@ -8,6 +8,15 @@ get_header(); ?>
 
 	<div id="primary" class="full-content-area">
 			<main id="main" class="site-main" role="main">
+
+				<?php if(is_front_page()) : ?>
+
+					<div class="ll-countdown">
+						<h2>Time Until Little Luther&rsquo;s Arrival In the U.S.</h2>
+						<div id="clock"></div>
+					</div>								
+
+				<?php endif; ?>
 				<?php if( $post->post_name == "home" ) { ?>
 
 					<script type="text/javascript" src="<?php echo get_template_directory_uri(); ?>/js/"></script>
