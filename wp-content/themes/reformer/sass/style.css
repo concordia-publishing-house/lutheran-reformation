@@ -267,10 +267,10 @@ label.required:after, legend.required:after {
   color: #c42031;
   margin-left: 3px; }
 
-form.btn-inset {
+form.button-inset {
   position: relative; }
 
-.btn-inset button[type=submit] {
+.button-inset button[type=submit] {
   position: absolute;
   top: 0em;
   right: 0em;
@@ -282,7 +282,7 @@ form.btn-inset {
   padding-left: 25px; }
 
 /* Buttons */
-.btn, .btn:visited {
+.button, .button:visited {
   display: inline-block;
   padding: 8px 14px;
   border-radius: 5px;
@@ -294,26 +294,26 @@ form.btn-inset {
   color: #364b59;
   font-size: .8em; }
 
-.btn-primary, .btn-primary:visited {
+.button-primary, .button-primary:visited {
   background: #ee6042;
   color: white;
   border-color: #ee6042; }
 
-.btn-secondary, .btn-secondary:visited {
+.button-secondary, .button-secondary:visited {
   background: #D0FCEF;
   color: #3C9B80;
   border-color: #B0ECDA; }
 
-.btn-large {
+.button-large {
   font-size: 1.125em;
   padding: 12px 26px;
   border-radius: 6px; }
 
-.btn-small {
+.button-small {
   font-size: .7em;
   padding: 4px 8px; }
 
-.btn-link {
+.button-link {
   border: none;
   padding-left: 0;
   padding-right: 0;
@@ -321,7 +321,7 @@ form.btn-inset {
   border-bottom: 2px solid;
   border-radius: 0; }
 
-.btn [class^="icon-"] {
+.button [class^="icon-"] {
   vertical-align: -10%;
   margin: 0 2px; }
 

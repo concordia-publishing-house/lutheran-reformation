@@ -3,7 +3,7 @@ Error: Undefined variable: "$orange".
         on line 18 of /Users/paulna/sites/lutheran-reformation/wp-content/themes/reformer/sass/base/buttons.scss
 
 13: 
-14: .btn, .btn:visited {
+14: .button, .button:visited {
 15:   display: inline-block;
 16:   padding:8px 14px;
 17:   border-radius: 5px;
@@ -80,4 +80,4 @@ Backtrace:
 body:before {
   white-space: pre;
   font-family: monospace;
-  content: "Error: Undefined variable: \"$orange\".\A         on line 18 of /Users/paulna/sites/lutheran-reformation/wp-content/themes/reformer/sass/base/buttons.scss\A \A 13: \A 14: .btn, .btn:visited {\A 15:   display: inline-block;\A 16:   padding:8px 14px;\A 17:   border-radius: 5px;\A 18:   border: 1px solid rgba( $orange, 0.2 );\A 19:   text-decoration: none;\A 20:   font-family: 'Montserrat';\A 21:   text-transform: uppercase;\A 22:   font-weight: 400;\A 23:   color: #364b59;"; }
+  content: "Error: Undefined variable: \"$orange\".\A         on line 18 of /Users/paulna/sites/lutheran-reformation/wp-content/themes/reformer/sass/base/buttons.scss\A \A 13: \A 14: .button, .button:visited {\A 15:   display: inline-block;\A 16:   padding:8px 14px;\A 17:   border-radius: 5px;\A 18:   border: 1px solid rgba( $orange, 0.2 );\A 19:   text-decoration: none;\A 20:   font-family: 'Montserrat';\A 21:   text-transform: uppercase;\A 22:   font-weight: 400;\A 23:   color: #364b59;"; }
