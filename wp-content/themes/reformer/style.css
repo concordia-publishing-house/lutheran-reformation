@@ -429,9 +429,9 @@ body {
 
 a {
   color: #20DAA5;
-  -webkit-transition: all 800ms ease-in-out;
-  -moz-transition: all 800ms ease-in-out;
-  transition: all 800ms ease-in-out; }
+  -webkit-transition: color 800ms ease-in-out;
+  -moz-transition: color 800ms ease-in-out;
+  transition: color 800ms ease-in-out; }
 
 a:hover {
   color: #2BC297;
@@ -740,7 +740,7 @@ header.entry-header h1 {
 
 .is-countdown {
   width: 55%;
-  padding-top: 65px;
+  padding-top: 35px;
   margin: 0 auto;
   font-family: "Montserrat", Helvetica, sans-serif; }
 
