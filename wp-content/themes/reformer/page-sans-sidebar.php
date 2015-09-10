@@ -17,21 +17,6 @@ get_header(); ?>
 					</div>								
 
 				<?php endif; ?>
-				<?php if( $post->post_name == "home" ) { ?>
-
-					<script type="text/javascript" src="<?php echo get_template_directory_uri(); ?>/js/"></script>
-					or
-					<script>
-						$(function () {
-							$('#clock').countdown({until: new Date(2017, 10 - 1, 31)});
-						});
-					</script>
-					<div class="ll-countdown">
-						<h2>Time Until Little Luther&rsquo;s Arrival In the U.S.</h2>
-						<div id="clock"></div>
-					</div>	
-					<?php } ?>
-			
 				<?php while ( have_posts() ) : the_post(); ?>
 
 					<?php get_template_part( 'template-parts/content', 'page' ); ?>

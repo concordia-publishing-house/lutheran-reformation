@@ -49,7 +49,18 @@
 		</div><!-- .container -->
 	</footer><!-- #colophon -->
 </div><!-- #page -->
+<?php if(is_front_page()) : ?>
+	<script src="http://cph.org/images/topics/images/topicpages/littleluther/js/jquery.plugin.js"></script>
+	<script src="http://cph.org/images/topics/images/topicpages/littleluther/js/jquery.countdown.js"></script>
 
+	<script>
+	$(function () {
+
+		$('#clock').countdown({until: new Date(2017, 10 - 1, 31)});
+
+	});
+	</script>
+	<?php endif; ?>
 <?php wp_footer(); ?>
 
 </body>
