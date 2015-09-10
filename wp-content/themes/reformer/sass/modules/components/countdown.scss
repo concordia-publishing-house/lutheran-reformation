@@ -1,4 +1,7 @@
-/* jQuery Countdown styles 2.0.0. */
+.countdown {
+	background: url(images/countdown-bg.gif);
+	color:white;
+}
 .is-countdown {
 	width:75%;
 	padding-top:65px;
@@ -42,7 +45,6 @@
 	float: left;
 	font-size: 30px;
 	text-align: center;
-	text-shadow: 0px 0px 7px #A1A1A1;
 }
 .countdown-amount {
     font-size: 200%;

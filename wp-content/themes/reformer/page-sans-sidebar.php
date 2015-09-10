@@ -10,10 +10,11 @@ get_header(); ?>
 			<main id="main" class="site-main" role="main">
 
 				<?php if(is_front_page()) : ?>
-
-					<div class="ll-countdown">
-						<h2>Time Until Little Luther&rsquo;s Arrival In the U.S.</h2>
-						<div id="clock"></div>
+					<div class="countdown">
+						<div class="container">
+							<h5>Reformation Day 2017 is in</h5>
+							<div id="clock"></div>
+						</div>
 					</div>								
 
 				<?php endif; ?>
