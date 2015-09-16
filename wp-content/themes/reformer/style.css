@@ -483,12 +483,12 @@ header.site-header {
   padding: 10px 0 30px;
   font-family: "Montserrat", Helvetica, sans-serif; }
 
-header .slider {
+body.home header.site-header {
   position: absolute;
-  z-index: 0; }
+  z-index: 10;
+  background: transparent; }
 
 .site-branding {
-  position: relative;
   float: left;
   display: block;
   margin-right: 2.35765%;
@@ -513,7 +513,6 @@ header .slider {
       display: block; }
 
 .secondary-navigation {
-  position: relative;
   float: left;
   display: block;
   margin-right: 2.35765%;
@@ -531,7 +530,6 @@ header .slider {
         padding: 8px; }
 
 .main-navigation {
-  position: relative;
   float: left;
   display: block;
   margin-right: 2.35765%;
