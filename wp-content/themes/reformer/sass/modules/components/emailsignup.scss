@@ -1,5 +1,7 @@
 .email-signup {
   background:#76899d url(images/ref-email-signup.png);
+  background-repeat: no-repeat;
+  background-position: right;
   text-align: center;
   padding: 100px 0;
 
@@ -9,16 +11,17 @@
   }
 
   h2 {
-  font-family: 'Merriweather', serif;
-  text-transform: none;
-  font-weight: bold;
-  color:white;
-  font-size: 2em;
+    font-family: 'Merriweather', serif;
+    text-transform: none;
+    font-weight: bold;
+    color:white;
+    font-size: 1.85em;
   }
 
   p {
-    color:white;
+    color:rgba(255, 255, 255, .6);
     font-weight: 100;
+    margin: 1em 0 0;
   }
 
   form {

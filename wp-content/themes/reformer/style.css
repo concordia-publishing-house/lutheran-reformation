@@ -704,6 +704,8 @@ header.entry-header h1 {
 
 .email-signup {
   background: #76899d url(images/ref-email-signup.png);
+  background-repeat: no-repeat;
+  background-position: right;
   text-align: center;
   padding: 100px 0; }
   .email-signup .row {
@@ -714,10 +716,11 @@ header.entry-header h1 {
     text-transform: none;
     font-weight: bold;
     color: white;
-    font-size: 2em; }
+    font-size: 1.85em; }
   .email-signup p {
-    color: white;
-    font-weight: 100; }
+    color: rgba(255, 255, 255, 0.6);
+    font-weight: 100;
+    margin: 1em 0 0; }
   .email-signup form {
     margin: 25px auto 0;
     max-width: 660px; }
