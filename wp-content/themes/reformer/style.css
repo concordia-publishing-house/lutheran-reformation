@@ -303,6 +303,9 @@ blockquote {
   border-bottom: 1px solid #e7e7e7;
   border-radius: 3px; }
 
+em {
+  font-style: italic; }
+
 /* Input design */
 fieldset {
   border: 0; }
