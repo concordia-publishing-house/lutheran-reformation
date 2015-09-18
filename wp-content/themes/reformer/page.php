@@ -15,24 +15,7 @@
 get_header(); ?>
 <div class="container">
 	<div id="primary" class="content-area">
-				<?php
-					$pages = get_pages('child_of='.$post->ID.'&sort_column=post_date&sort_order=desc&parent='.$post->ID);
-					foreach($pages as $page) {
-				?>
-
-					<article id="<?php echo $page->post_name; ?>">
-						<h4><a href="<?php echo get_page_link($page->ID) ?>"><?php echo $page->post_title ?></a></h4>
-						<?php echo apply_filters('the_content', $page->post_excerpt); ?>
-					</article>
-
-				<?php } ?>
-	</div><!-- #primary -->
-	<div id="secondary" class="widget-area">
-		<?php get_sidebar(); ?>
-	</div>
-</div><!-- .container -->
-<div class="page-extras">
-	<?php while ( have_posts() ) : the_post(); ?>
+		<?php while ( have_posts() ) : the_post(); ?>
 
 					<?php get_template_part( 'template-parts/content', 'page' ); ?>
 
@@ -44,5 +27,25 @@ get_header(); ?>
 					?>
 
 				<?php endwhile; // End of the loop. ?>
+			<div class="sub-pages">	
+				<?php
+					$pages = get_pages('child_of='.$post->ID.'&sort_column=post_date&sort_order=desc&parent='.$post->ID);
+					foreach($pages as $page) {
+				?>
+
+					<article id="<?php echo $page->post_name; ?>">
+						<h4><a href="<?php echo get_page_link($page->ID) ?>"><?php echo $page->post_title ?></a></h4>
+						<?php echo apply_filters('the_content', $page->post_excerpt); ?>
+					</article>
+
+				<?php } ?>
+			</div>
+	</div><!-- #primary -->
+	<div id="secondary" class="widget-area">
+		<?php get_sidebar(); ?>
+	</div>
+</div><!-- .container -->
+<div class="page-extras">
+	
 </div>
 <?php get_footer(); ?>

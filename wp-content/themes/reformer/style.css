@@ -469,7 +469,8 @@ hr {
   float: left;
   display: block;
   margin-right: 2.35765%;
-  width: 65.88078%; }
+  width: 65.88078%;
+  padding: 30px 0; }
   .content-area:last-child {
     margin-right: 0; }
 
@@ -477,7 +478,8 @@ hr {
   float: left;
   display: block;
   margin-right: 2.35765%;
-  width: 31.76157%; }
+  width: 31.76157%;
+  padding: 30px 0; }
   .widget-area:last-child {
     margin-right: 0; }
 
