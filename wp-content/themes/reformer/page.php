@@ -13,11 +13,8 @@
  */
 
 get_header(); ?>
-
+<div class="container">
 	<div id="primary" class="content-area">
-		<div class="container">
-			<main id="main" class="site-main" role="main">
-
 				<?php
 					$pages = get_pages('child_of='.$post->ID.'&sort_column=post_date&sort_order=desc&parent='.$post->ID);
 					foreach($pages as $page) {
@@ -29,9 +26,10 @@ get_header(); ?>
 					</article>
 
 				<?php } ?>
-
-
-				<?php while ( have_posts() ) : the_post(); ?>
+	</div><!-- #primary -->
+</div><!-- .container -->
+<div class="page-extras">
+	<?php while ( have_posts() ) : the_post(); ?>
 
 					<?php get_template_part( 'template-parts/content', 'page' ); ?>
 
@@ -43,11 +41,5 @@ get_header(); ?>
 					?>
 
 				<?php endwhile; // End of the loop. ?>
-
-				
-
-			</main><!-- #main -->
-		</div><!-- .container -->
-	</div><!-- #primary -->
-	
+</div>
 <?php get_footer(); ?>
