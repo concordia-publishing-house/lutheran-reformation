@@ -31,6 +31,18 @@ get_header(); ?>
 
 				<?php endwhile; // End of the loop. ?>
 
+				<?php
+					$pages = get_pages('child_of='.$post->ID.'&sort_column=post_date&sort_order=desc&parent='.$post->ID);
+					foreach($pages as $page) {
+				?>
+
+						<div class="section" id="<?php echo $page->post_name; ?>">
+							<h4><a href="<?php echo get_page_link($page->ID) ?>"><?php echo $page->post_title ?></a></h4>
+							<?php echo apply_filters('the_content', $page->post_content); ?>
+						</div>
+
+				<?php } ?>
+
 			</main><!-- #main -->
 		</div><!-- .container -->
 	</div><!-- #primary -->
