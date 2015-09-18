@@ -497,6 +497,9 @@ body.home header.site-header {
 body.home .site-branding .site-title img {
   width: 100%; }
 
+.container.navigation-container {
+  min-height: 300px; }
+
 .site-branding {
   float: left;
   display: block;
@@ -591,7 +594,7 @@ body.home .site-branding .site-title img {
   padding: 0.5em; }
 
 header.entry-header h1 {
-  font-size: 1.55478em;
+  font-size: 3.68264em;
   color: white; }
 
 .site-footer {
