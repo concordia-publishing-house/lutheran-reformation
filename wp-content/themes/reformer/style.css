@@ -492,6 +492,9 @@ body.home header.site-header {
   background: transparent;
   width: 100%; }
 
+body.home .site-branding .site-title img {
+  width: 100%; }
+
 .site-branding {
   float: left;
   display: block;
@@ -501,16 +504,9 @@ body.home header.site-header {
   .site-branding:last-child {
     margin-right: 0; }
   .site-branding .site-title {
-    background-image: url(images/reformation-logo.svg);
-    background-repeat: no-repeat;
-    width: 100%;
-    height: 11em; }
-    .no-svg .site-branding .site-title {
-      background-image: url(images/reformation-logo.png);
-      background-repeat: no-repeat; }
-      @media only screen and (-moz-min-device-pixel-ratio: 1.5), only screen and (-o-min-device-pixel-ratio: 3 / 2), only screen and (-webkit-min-device-pixel-ratio: 1.5), only screen and (min-device-pixel-ratio: 1.5) {
-        .no-svg .site-branding .site-title {
-          background-image: url(images/reformation-logo@2x.png); } }
+    width: 100%; }
+    .site-branding .site-title img {
+      width: 80%; }
     .site-branding .site-title a {
       width: 100%;
       height: 100%;
