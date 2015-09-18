@@ -70,7 +70,7 @@ html {
 /* Usage */
 /* Visibily Hide
   ========================================================================== */
-.screen-reader-text, .site-branding .site-title a span, .menu-toggle, body.home header.entry-header, .header-breadcrumbs a:first-child {
+.screen-reader-text, .site-branding .site-title a span, .menu-toggle, body.home header.entry-header {
   margin: -1px;
   padding: 0;
   width: 1px;
@@ -500,6 +500,9 @@ body.home .site-branding .site-title img {
 .container.navigation-container {
   min-height: 300px; }
 
+body.home .container.navigation-container {
+  min-height: inherit; }
+
 .site-branding {
   float: left;
   display: block;
@@ -603,16 +606,6 @@ header.entry-header h1 {
   .header-breadcrumbs a {
     color: white;
     text-decoration: none; }
-    .header-breadcrumbs a:first-child {
-      font-family: 'reformicon';
-      speak: none;
-      font-style: normal;
-      font-weight: normal;
-      font-variant: normal;
-      text-transform: none;
-      line-height: 1; }
-      .header-breadcrumbs a:first-child:before {
-        content: "^"; }
 
 .site-footer {
   background: #354b59;
