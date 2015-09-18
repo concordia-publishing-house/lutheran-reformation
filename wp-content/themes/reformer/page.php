@@ -38,7 +38,7 @@ get_header(); ?>
 
 						<div class="section" id="<?php echo $page->post_name; ?>">
 							<h4><a href="<?php echo get_page_link($page->ID) ?>"><?php echo $page->post_title ?></a></h4>
-							<?php echo apply_filters('the_content', $page->post_content); ?>
+							<?php echo apply_filters('the_content', $page->post_excerpt); ?>
 						</div>
 
 				<?php } ?>
