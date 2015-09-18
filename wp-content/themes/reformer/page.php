@@ -23,13 +23,13 @@ get_header(); ?>
 					foreach($pages as $page) {
 				?>
 
-					<div class="section" id="<?php echo $page->post_name; ?>">
+					<article id="<?php echo $page->post_name; ?>">
 						<h4><a href="<?php echo get_page_link($page->ID) ?>"><?php echo $page->post_title ?></a></h4>
 						<?php echo apply_filters('the_content', $page->post_excerpt); ?>
-					</div>
+					</article>
 
 				<?php } ?>
-				
+
 
 				<?php while ( have_posts() ) : the_post(); ?>
 
