@@ -27,6 +27,9 @@ get_header(); ?>
 
 				<?php } ?>
 	</div><!-- #primary -->
+	<div id="secondary" class="widget-area">
+		<?php get_sidebar(); ?>
+	</div>
 </div><!-- .container -->
 <div class="page-extras">
 	<?php while ( have_posts() ) : the_post(); ?>
