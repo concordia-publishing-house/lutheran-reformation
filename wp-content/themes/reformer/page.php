@@ -36,10 +36,13 @@ get_header(); ?>
 					<article id="<?php echo $page->post_name; ?>">
 						<div class="featured-image">
 							<?php 
-								if ( has_post_thumbnail() ) { // check if the post has a Post Thumbnail assigned to it.
-									the_post_thumbnail();
-								} 
-								?>
+						if ( has_post_thumbnail() ) {
+							$large_image_url = wp_get_attachment_image_src( get_post_thumbnail_id(), 'medium' );
+							echo '<a href="' . $large_image_url[0] . '" title="' . the_title_attribute( 'echo=0' ) . '">';
+							the_post_thumbnail( 'thumbnail' );
+							echo '</a>';
+						}
+						?>
 						</div>
 						<div class="featured-content">
 							<h4><a href="<?php echo get_page_link($page->ID) ?>"><?php echo $page->post_title ?></a></h4>
