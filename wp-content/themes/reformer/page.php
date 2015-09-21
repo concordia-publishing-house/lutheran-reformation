@@ -32,7 +32,7 @@ get_header(); ?>
 					$pages = get_pages('child_of='.$post->ID.'&sort_column=post_date&sort_order=desc&parent='.$post->ID);
 					foreach($pages as $page) {
 				?>
-
+				<?php print_r($pages); ?>
 					<article id="<?php echo $page->post_name; ?>">
 						<div class="featured-image">
 							<?php echo get_the_post_thumbnail( $post->ID, 'post-thumbnail' ); ?>
