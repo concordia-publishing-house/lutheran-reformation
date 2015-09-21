@@ -35,13 +35,7 @@ get_header(); ?>
 
 					<article id="<?php echo $page->post_name; ?>">
 						<div class="featured-image">
-							<?php 
-						if ( has_post_thumbnail() ) {
-							$large_image_url = wp_get_attachment_image_src( get_post_thumbnail_id(), 'medium' );
-							echo '<a href="' . $large_image_url[0] . '" title="' . the_title_attribute( 'echo=0' ) . '">';
-							the_post_thumbnail( 'thumbnail' );
-							echo '</a>';
-						}
+							<?php echo get_the_post_thumbnail( $post->ID, 'post-thumbnail' );	}
 						?>
 						</div>
 						<div class="featured-content">
