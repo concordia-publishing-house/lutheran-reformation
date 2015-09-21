@@ -37,6 +37,13 @@ p {
   letter-spacing: .005rem;
 }
 
+.content-area p {
+  font-size: 1.2em;
+  line-height:1.5;
+  letter-spacing: .01rem; 
+  margin-bottom: 30px;
+}
+
 /* Blockquote */
 blockquote {
   font-size: 1.4em;
