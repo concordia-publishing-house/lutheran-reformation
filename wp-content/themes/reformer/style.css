@@ -565,7 +565,8 @@ body.home .container.navigation-container {
       .secondary-navigation ul li a {
         color: white;
         text-decoration: none;
-        padding: 8px; }
+        padding: 8px;
+        text-shadow: 0 0 6px rgba(0, 0, 0, 0.75); }
 
 .main-navigation {
   float: left;
@@ -591,7 +592,8 @@ body.home .container.navigation-container {
       .main-navigation ul li a {
         color: white;
         text-decoration: none;
-        padding: 10px 25px; }
+        padding: 10px 25px;
+        text-shadow: 0 0 6px rgba(0, 0, 0, 0.75); }
 
 .menu-secondary-navigation-container {
   float: left;
@@ -629,10 +631,12 @@ body.home .container.navigation-container {
 header.entry-header h1 {
   font-size: 4.90895em;
   margin-bottom: 0;
-  color: white; }
+  color: white;
+  text-shadow: 0 0 6px rgba(0, 0, 0, 0.75); }
 
 .header-breadcrumbs {
-  color: rgba(255, 255, 255, 0.7); }
+  color: rgba(255, 255, 255, 0.7);
+  text-shadow: 0 0 6px rgba(0, 0, 0, 0.5); }
   .header-breadcrumbs a {
     color: white;
     text-decoration: none; }
