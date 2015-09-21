@@ -918,6 +918,8 @@ header.entry-header h1 {
   width: 65.88078%; }
   .featured-content:last-child {
     margin-right: 0; }
+  .featured-content a {
+    text-decoration: none; }
 
 /* -------------------------------- 
 
