@@ -39,10 +39,11 @@ p {
 }
 
 .content-area p {
-  font-size: 1.2em;
-  line-height:1.5;
+  font-size: 1.125em;
+  line-height:1.45;
   letter-spacing: .01rem; 
   margin-bottom: 30px;
+  color:$grey;
 }
 
 /* Blockquote */
