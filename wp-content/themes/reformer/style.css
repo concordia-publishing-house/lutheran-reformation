@@ -903,6 +903,22 @@ header.entry-header h1 {
     width: 92%;
     text-align: center;
     margin: 0 auto; } }
+.featured-image {
+  float: left;
+  display: block;
+  margin-right: 2.35765%;
+  width: 23.23176%; }
+  .featured-image:last-child {
+    margin-right: 0; }
+
+.featured-content {
+  float: left;
+  display: block;
+  margin-right: 2.35765%;
+  width: 57.35098%; }
+  .featured-content:last-child {
+    margin-right: 0; }
+
 /* Colors */
 .colors {
   margin: 0;

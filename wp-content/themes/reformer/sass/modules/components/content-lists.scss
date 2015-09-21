@@ -1,0 +1,6 @@
+.featured-image {
+	@include span-columns(3);
+}
+.featured-content {
+	@include span-columns(7);
+}
