@@ -35,7 +35,7 @@ get_header(); ?>
 				<?php //print_r($pages); ?>
 					<article id="<?php echo $page->post_name; ?>">
 						<div class="featured-image">
-							<?php echo get_the_post_thumbnail( $page->ID, 'post-thumbnail' ); ?>
+							<?php echo get_the_post_thumbnail( $page->ID, 'post-thumbnail', 'medium' ); ?>
 						</div>
 						<div class="featured-content">
 							<h4><a href="<?php echo get_page_link($page->ID) ?>"><?php echo $page->post_title ?></a></h4>
