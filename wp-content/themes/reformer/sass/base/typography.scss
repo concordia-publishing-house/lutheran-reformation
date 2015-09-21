@@ -8,14 +8,14 @@ body {
 h1 {
   font-size: modular-scale(4);
   font-family: $secondary-font;
-  text-transform: uppercase;
+  font-weight: 900;
   margin:.35em 0;
 }
 
 h2 {
   font-size: modular-scale(3);
   font-family: $secondary-font;
-  text-transform: uppercase;
+  font-weight: 900;
   margin:.35em 0;
 }
 h3 {
@@ -25,6 +25,7 @@ h3 {
 }
 h4, h5, h6 {
   font-size: modular-scale(1);
+  text-transform: uppercase;
   margin:0.35em 0;
 }
 h1 + h2 {
