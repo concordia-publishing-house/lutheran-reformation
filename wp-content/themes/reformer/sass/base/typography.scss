@@ -36,12 +36,6 @@ h1 + h2 {
 }
 
 p {
-  margin-bottom: 20px;
-  line-height: 1.45;
-  letter-spacing: .005rem;
-}
-
-.content-area p {
   font-size: 1.125em;
   line-height:1.45;
   letter-spacing: .01rem; 
@@ -50,8 +44,8 @@ p {
 }
 
 .lead {
-  font-size: 1.65em;
-  line-height: 1.6;
+  font-size: 1.45em;
+  line-height: 1.45;
   letter-spacing: .05rem;
   font-family: $secondary-font;
 }
