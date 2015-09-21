@@ -87,6 +87,17 @@
 		"outputPathIsSetByUser": 0,
 		"processed": 0
 		},
+	"\/images\/ref-allaboutJesus-biblestudy.jpg": {
+		"fileType": 16384,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 543506,
+		"inputAbbreviatedPath": "\/images\/ref-allaboutJesus-biblestudy.jpg",
+		"outputAbbreviatedPath": "\/images\/ref-allaboutJesus-biblestudy.jpg",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
 	"\/images\/ref-email-signup.png": {
 		"fileType": 32768,
 		"ignore": 0,
@@ -127,6 +138,28 @@
 		"initialSize": 266828,
 		"inputAbbreviatedPath": "\/images\/ref-media.jpg",
 		"outputAbbreviatedPath": "\/images\/ref-media.jpg",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
+	"\/images\/ref-podcasts.jpg": {
+		"fileType": 16384,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 61710,
+		"inputAbbreviatedPath": "\/images\/ref-podcasts.jpg",
+		"outputAbbreviatedPath": "\/images\/ref-podcasts.jpg",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
+	"\/images\/ref-reformation-remembered.jpg": {
+		"fileType": 16384,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 241039,
+		"inputAbbreviatedPath": "\/images\/ref-reformation-remembered.jpg",
+		"outputAbbreviatedPath": "\/images\/ref-reformation-remembered.jpg",
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0,
 		"processed": 0
