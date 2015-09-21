@@ -6,29 +6,35 @@ body {
   font-family: $primary-font;
 }
 h1 {
-  font-size: modular-scale(5);
+  font-size: modular-scale(4);
   font-family: $secondary-font;
   text-transform: uppercase;
   margin:.35em 0;
 }
 
 h2 {
-  font-size: modular-scale(4);
+  font-size: modular-scale(3);
   font-family: $secondary-font;
   text-transform: uppercase;
   margin:.35em 0;
 }
 h3 {
-  font-size: modular-scale(3);
+  font-size: modular-scale(2);
   font-family: $primary-font;
   margin:.25em 0;
 }
 h4, h5, h6 {
-  font-size: modular-scale(2);
+  font-size: modular-scale(1);
   margin:0.35em 0;
 }
 h1 + h2 {
   margin-top:0
+}
+
+p {
+  margin-bottom: 20px;
+  line-height: 1.45;
+  letter-spacing: .005rem;
 }
 
 /* Blockquote */

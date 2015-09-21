@@ -270,28 +270,33 @@ body {
   font-family: "minion-pro", Georgia, serif; }
 
 h1 {
-  font-size: 3.68264em;
-  font-family: "Montserrat", Helvetica, sans-serif;
-  text-transform: uppercase;
-  margin: .35em 0; }
-
-h2 {
   font-size: 2.76267em;
   font-family: "Montserrat", Helvetica, sans-serif;
   text-transform: uppercase;
   margin: .35em 0; }
 
-h3 {
+h2 {
   font-size: 2.07252em;
+  font-family: "Montserrat", Helvetica, sans-serif;
+  text-transform: uppercase;
+  margin: .35em 0; }
+
+h3 {
+  font-size: 1.55478em;
   font-family: "minion-pro", Georgia, serif;
   margin: .25em 0; }
 
 h4, h5, h6 {
-  font-size: 1.55478em;
+  font-size: 1.16638em;
   margin: 0.35em 0; }
 
 h1 + h2 {
   margin-top: 0; }
+
+p {
+  margin-bottom: 20px;
+  line-height: 1.45;
+  letter-spacing: .005rem; }
 
 /* Blockquote */
 blockquote {
@@ -469,7 +474,7 @@ hr {
   float: left;
   display: block;
   margin-right: 2.35765%;
-  width: 65.88078%;
+  width: 48.82117%;
   padding: 30px 0; }
   .content-area:last-child {
     margin-right: 0; }
@@ -479,6 +484,7 @@ hr {
   display: block;
   margin-right: 2.35765%;
   width: 31.76157%;
+  margin-left: 17.05961%;
   padding: 30px 0; }
   .widget-area:last-child {
     margin-right: 0; }
