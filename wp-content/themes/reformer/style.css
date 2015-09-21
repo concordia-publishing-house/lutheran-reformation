@@ -284,12 +284,14 @@ h2 {
 h3 {
   font-size: 1.55478em;
   font-family: "Montserrat", Helvetica, sans-serif;
+  font-weight: 900;
   margin: .25em 0; }
 
 h4, h5, h6 {
   font-size: 1.16638em;
   text-transform: uppercase;
   font-family: "Montserrat", Helvetica, sans-serif;
+  font-weight: 900;
   margin: 0.35em 0; }
 
 h1 + h2 {
@@ -468,15 +470,30 @@ hr {
 # Scaffoling
 --------------------------------------------------------------*/
 .container, .wpb_wrapper {
+  padding: 0 20px; }
+
+.container {
   max-width: 68em;
   margin-left: auto;
   margin-right: auto; }
-  .container, .wpb_wrapper {
+  .container {
     *zoom: 1; }
-  .container:before, .container:after, .wpb_wrapper:before, .wpb_wrapper:after {
+  .container:before, .container:after {
     content: "";
     display: table; }
-  .container:after, .wpb_wrapper:after {
+  .container:after {
+    clear: both; }
+
+.wpb_wrapper {
+  max-width: 68em;
+  margin-left: auto;
+  margin-right: auto; }
+  .wpb_wrapper {
+    *zoom: 1; }
+  .wpb_wrapper:before, .wpb_wrapper:after {
+    content: "";
+    display: table; }
+  .wpb_wrapper:after {
     clear: both; }
 
 .content-area {

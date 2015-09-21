@@ -21,12 +21,14 @@ h2 {
 h3 {
   font-size: modular-scale(2);
   font-family: $secondary-font;
+  font-weight: 900;
   margin:.25em 0;
 }
 h4, h5, h6 {
   font-size: modular-scale(1);
   text-transform: uppercase;
   font-family: $secondary-font;
+  font-weight: 900;
   margin:0.35em 0;
 }
 h1 + h2 {

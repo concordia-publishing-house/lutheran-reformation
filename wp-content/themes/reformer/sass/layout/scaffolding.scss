@@ -9,8 +9,14 @@
     right: auto;
   }
 }
-
 .container, .wpb_wrapper {
+	padding:0 20px;
+}
+.container {
+	@include outer-container;
+}
+
+.wpb_wrapper {
 	@include outer-container;
 }
 
