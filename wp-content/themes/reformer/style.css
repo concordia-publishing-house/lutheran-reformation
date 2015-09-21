@@ -638,7 +638,8 @@ header.entry-header h1 {
 .header-breadcrumbs {
   color: rgba(255, 255, 255, 0.7);
   text-shadow: 0 0 3px rgba(0, 0, 0, 0.5);
-  font-size: 0.875em; }
+  font-size: 0.875em;
+  text-transform: uppercase; }
   .header-breadcrumbs a {
     color: white;
     text-decoration: none; }
