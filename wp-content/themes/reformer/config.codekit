@@ -98,6 +98,50 @@
 		"outputPathIsSetByUser": 0,
 		"processed": 0
 		},
+	"\/images\/ref-history.jpg": {
+		"fileType": 16384,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 838857,
+		"inputAbbreviatedPath": "\/images\/ref-history.jpg",
+		"outputAbbreviatedPath": "\/images\/ref-history.jpg",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
+	"\/images\/ref-media.jpg": {
+		"fileType": 16384,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 266828,
+		"inputAbbreviatedPath": "\/images\/ref-media.jpg",
+		"outputAbbreviatedPath": "\/images\/ref-media.jpg",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
+	"\/images\/ref-theology.jpg": {
+		"fileType": 16384,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 556862,
+		"inputAbbreviatedPath": "\/images\/ref-theology.jpg",
+		"outputAbbreviatedPath": "\/images\/ref-theology.jpg",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
+	"\/images\/ref-worship.jpg": {
+		"fileType": 16384,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 453432,
+		"inputAbbreviatedPath": "\/images\/ref-worship.jpg",
+		"outputAbbreviatedPath": "\/images\/ref-worship.jpg",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
 	"\/images\/reformation-logo.png": {
 		"fileType": 32768,
 		"ignore": 0,
