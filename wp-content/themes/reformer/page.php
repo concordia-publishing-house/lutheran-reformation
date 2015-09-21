@@ -36,7 +36,7 @@ get_header(); ?>
 					<article id="<?php echo $page->post_name; ?>">
 						<div class="featured-image">
 							<?php echo '<a href="' . get_permalink( $page->ID ) . '" title="' . esc_attr( $page->post_name ) . '">';
-							echo get_the_post_thumbnail( $page->ID, 'thumbnail'); 
+							echo get_the_post_thumbnail( $page->ID, 'medium'); 
 							echo "</a>";
 							?>
 						</div>
