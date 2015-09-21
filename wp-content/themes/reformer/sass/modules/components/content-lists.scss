@@ -1,8 +1,17 @@
 .featured-image {
 	@include span-columns(4);
+
+	img {
+		width: 100%;
+		height:auto;
+	}
 }
 .featured-content {
 	@include span-columns(8);
+
+	h4 {
+		margin-top:0;
+	}
 
 	a {
 		text-decoration: none; 
