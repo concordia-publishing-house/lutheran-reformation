@@ -35,7 +35,11 @@ get_header(); ?>
 
 					<article id="<?php echo $page->post_name; ?>">
 						<div class="featured-image">
-							<?php the_post_thumbnail('medium', array('class' => 'alignleft')); ?>
+							<?php 
+								if ( has_post_thumbnail() ) { // check if the post has a Post Thumbnail assigned to it.
+									the_post_thumbnail();
+								} 
+								?>
 						</div>
 						<div class="featured-content">
 							<h4><a href="<?php echo get_page_link($page->ID) ?>"><?php echo $page->post_title ?></a></h4>
