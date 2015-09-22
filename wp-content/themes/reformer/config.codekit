@@ -142,6 +142,28 @@
 		"outputPathIsSetByUser": 0,
 		"processed": 0
 		},
+	"\/images\/ref-hymn-contest.jpg": {
+		"fileType": 16384,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 372867,
+		"inputAbbreviatedPath": "\/images\/ref-hymn-contest.jpg",
+		"outputAbbreviatedPath": "\/images\/ref-hymn-contest.jpg",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
+	"\/images\/ref-hymncompetition.jpg": {
+		"fileType": 16384,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 264892,
+		"inputAbbreviatedPath": "\/images\/ref-hymncompetition.jpg",
+		"outputAbbreviatedPath": "\/images\/ref-hymncompetition.jpg",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
 	"\/images\/ref-media.jpg": {
 		"fileType": 16384,
 		"ignore": 0,
