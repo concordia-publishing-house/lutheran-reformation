@@ -1,5 +1,10 @@
-.sub-pages article {
+.sub-pages {
 	margin: 20px 0;
+
+	article {
+		margin-bottom: 20px;
+		display:inline-block;
+	}
 }
 
 .featured-image {

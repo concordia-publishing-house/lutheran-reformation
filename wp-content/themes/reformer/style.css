@@ -287,11 +287,15 @@ h3 {
   font-weight: 900;
   margin: .25em 0; }
 
-h4, h5, h6 {
+h4 {
   font-size: 1.16638em;
   text-transform: uppercase;
   font-family: "Montserrat", Helvetica, sans-serif;
   font-weight: 900;
+  margin: 0.35em 0; }
+
+h5, h6 {
+  font-size: 1.16638em;
   margin: 0.35em 0; }
 
 h1 + h2 {
@@ -904,8 +908,11 @@ header.entry-header h1 {
     width: 92%;
     text-align: center;
     margin: 0 auto; } }
-.sub-pages article {
+.sub-pages {
   margin: 20px 0; }
+  .sub-pages article {
+    margin-bottom: 20px;
+    display: inline-block; }
 
 .featured-image {
   float: left;
