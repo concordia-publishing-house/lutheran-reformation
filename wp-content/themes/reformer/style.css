@@ -1287,11 +1287,14 @@ Main components
     transform: translateX(0); } }
 .ref-quotes {
   width: 100%;
-  display: inline-block; }
+  display: inline-block;
+  text-align: center; }
   .ref-quotes.luther-quote-01 {
     background: url(images/ref-dietofworms-bg.jpg);
     background-size: cover;
     color: white; }
+  .ref-quotes .container {
+    padding: 150px 130px; }
   .ref-quotes q {
     font-size: 1.45em;
     line-height: 1.45;

@@ -1,11 +1,16 @@
 .ref-quotes {
 	width:100%;
 	display: inline-block; 
+	text-align:center;
 
 	&.luther-quote-01 {
 		background: url(images/ref-dietofworms-bg.jpg);
 		background-size:cover;
 		color:white;
+	}
+
+	.container {
+		padding: 150px 130px;
 	}
 
 	q {
