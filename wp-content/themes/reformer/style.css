@@ -640,7 +640,8 @@ body.home .container.navigation-container {
       border-bottom: 2px solid rgba(255, 255, 255, 0.5);
       -webkit-transition: all 800ms ease-in-out;
       -moz-transition: all 800ms ease-in-out;
-      transition: all 800ms ease-in-out; }
+      transition: all 800ms ease-in-out;
+      margin: 0; }
       .main-navigation ul li:hover {
         border-bottom: 2px solid #efb333; }
       .main-navigation ul li a {
