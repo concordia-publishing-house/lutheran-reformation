@@ -821,6 +821,9 @@ header.entry-header h1 {
     border-bottom: 1px solid rgba(0, 0, 0, 0.1); }
     .widget-area aside li:last-child {
       border: none; }
+  .widget-area aside .bullet-list li {
+    padding: 0;
+    border: none; }
 
 .email-signup {
   background: #76899d url(images/ref-email-signup.png);
