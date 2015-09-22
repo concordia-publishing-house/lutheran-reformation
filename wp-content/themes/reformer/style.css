@@ -797,6 +797,24 @@ header.entry-header h1 {
   font-style: italic;
   color: #4597a0; }
 
+.widget-area aside:first-child {
+  background-color: #e6e2de;
+  padding: 20px;
+  font-size: 0.875em;
+  border: 1px solid #dedad6; }
+  .widget-area aside:first-child h2 {
+    font-size: 1.125em;
+    /* margin: 0 0 20px; */
+    padding: 0 10px 10px;
+    border-bottom: 1px solid #323232;
+    text-align: center;
+    color: #323232; }
+  .widget-area aside:first-child li {
+    padding: 20px 10px;
+    border-bottom: 1px solid rgba(0, 0, 0, 0.1); }
+    .widget-area aside:first-child li:last-child {
+      border: none; }
+
 .email-signup {
   background: #76899d url(images/ref-email-signup.png);
   background-repeat: no-repeat;
