@@ -1,3 +1,4 @@
+@charset "UTF-8";
 /*
 Theme Name: Reformer
 Theme URI: http://lutheranreformation.org/
@@ -326,6 +327,15 @@ blockquote {
 
 em {
   font-style: italic; }
+
+q {
+  quotes: "“" "”" "‘" "’"; }
+
+q:before {
+  content: open-quote; }
+
+q:after {
+  content: close-quote; }
 
 /* Input design */
 fieldset {
@@ -1275,6 +1285,22 @@ Main components
     -ms-transform: translateX(0);
     -o-transform: translateX(0);
     transform: translateX(0); } }
+.ref-quotes {
+  width: 100%;
+  display: inline-block; }
+  .ref-quotes.luther-quote-01 {
+    background: url(images/ref-dietofworms-bg.jpg);
+    background-size: cover;
+    color: white; }
+  .ref-quotes q {
+    font-size: 1.45em;
+    line-height: 1.45;
+    letter-spacing: .05rem;
+    margin-bottom: 20px; }
+  .ref-quotes .quote-reference {
+    color: rgba(255, 255, 255, 0.5);
+    font-style: 1em; }
+
 /* Colors */
 .colors {
   margin: 0;
