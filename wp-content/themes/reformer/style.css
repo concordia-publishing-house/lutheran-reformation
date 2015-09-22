@@ -904,6 +904,9 @@ header.entry-header h1 {
     width: 92%;
     text-align: center;
     margin: 0 auto; } }
+.sub-pages article {
+  margin: 20px 0; }
+
 .featured-image {
   float: left;
   display: block;
