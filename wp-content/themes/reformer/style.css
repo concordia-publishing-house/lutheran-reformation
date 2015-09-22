@@ -342,7 +342,7 @@ li {
   margin-bottom: 14px; }
 
 .bullet-list {
-  list-style-type: square; }
+  list-style-type: disc; }
 
 /* Input design */
 fieldset {
@@ -805,13 +805,14 @@ header.entry-header h1 {
   color: #4597a0; }
 
 .widget-area aside {
-  background-color: #e6e2de;
+  background-color: #FAF9F9;
   padding: 20px;
   font-size: 0.875em;
-  border: 1px solid #dedad6; }
+  border-right: 1px solid #dedad6;
+  border-bottom: 1px solid #dedad6; }
   .widget-area aside h2 {
     font-size: 1.125em;
-    /* margin: 0 0 20px; */
+    margin: 0 0 20px;
     padding: 0 10px 10px;
     border-bottom: 1px solid #323232;
     text-align: center;
@@ -821,9 +822,11 @@ header.entry-header h1 {
     border-bottom: 1px solid rgba(0, 0, 0, 0.1); }
     .widget-area aside li:last-child {
       border: none; }
-  .widget-area aside .bullet-list li {
-    padding: 0;
-    border: none; }
+  .widget-area aside .bullet-list {
+    margin-top: 14px; }
+    .widget-area aside .bullet-list li {
+      padding: 0;
+      border: none; }
 
 .email-signup {
   background: #76899d url(images/ref-email-signup.png);

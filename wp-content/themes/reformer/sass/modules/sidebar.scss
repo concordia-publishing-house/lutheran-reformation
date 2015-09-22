@@ -2,11 +2,12 @@
     background-color: $lite-grey;
     padding: 20px;
     font-size: 0.875em;
-    border: 1px solid #dedad6;
+    border-right: 1px solid #dedad6;
+    border-bottom: 1px solid #dedad6;
  
  h2 {
     font-size: 1.125em;
-    /* margin: 0 0 20px; */
+    margin: 0 0 20px;
     padding: 0 10px 10px;
     border-bottom: 1px solid $grey;
     text-align: center;
@@ -23,6 +24,8 @@
 	}
 
 	.bullet-list {
+
+		margin-top:14px;
 
 		li {
 			padding:0;
