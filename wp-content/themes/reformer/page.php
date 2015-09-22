@@ -50,9 +50,7 @@ get_header(); ?>
 				<?php } ?>
 			</div>
 	</div><!-- #primary -->
-	<div id="secondary" class="widget-area">
 		<?php get_sidebar(); ?>
-	</div>
 </div><!-- .container -->
 <div class="page-extras">
 	<?php if( dynamic_sidebar('footer-widget-area-1') ) : else : endif; ?>
