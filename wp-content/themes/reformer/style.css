@@ -809,7 +809,8 @@ header.entry-header h1 {
   padding: 20px;
   font-size: 0.875em;
   border-right: 1px solid #dedad6;
-  border-bottom: 1px solid #dedad6; }
+  border-bottom: 1px solid #dedad6;
+  color: #ADA69D; }
   .widget-area aside h2 {
     font-size: 1.125em;
     margin: 0 0 20px;
