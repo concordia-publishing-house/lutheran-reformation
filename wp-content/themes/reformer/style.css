@@ -398,8 +398,11 @@ form.button-inset {
 
 .hymn-competition-form {
   background-color: #e9f0f5;
-  padding: 20px;
-  font-family: "Montserrat", Helvetica, sans-serif; }
+  padding: 40px;
+  font-family: "Montserrat", Helvetica, sans-serif;
+  border-radius: 5px;
+  border-right: 1px solid #BAC9D4;
+  border-bottom: 1px solid #BAC9D4; }
 
 .button-inset button[type=submit] {
   position: absolute;

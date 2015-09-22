@@ -54,6 +54,9 @@ form.button-inset {
 
 .hymn-competition-form {
   background-color:$lite-blue;
-  padding: 20px;
+  padding: 40px;
   font-family: $secondary-font;
+  border-radius: 5px;
+  border-right: 1px solid #BAC9D4;
+  border-bottom: 1px solid #BAC9D4;
 }
