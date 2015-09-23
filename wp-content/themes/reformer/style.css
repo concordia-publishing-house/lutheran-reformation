@@ -1387,7 +1387,7 @@ Main components
     letter-spacing: .05rem;
     margin-bottom: 20px; }
   .ref-quotes .quote-reference {
-    color: rgba(255, 255, 255, 0.5);
+    opacity: 0.5;
     font-style: 1em; }
 
 /* Colors */
