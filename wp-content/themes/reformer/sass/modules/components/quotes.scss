@@ -9,6 +9,36 @@
 		color:white;
 	}
 
+	&.luther-quote-02 {
+		background: url(images/ref-luther-music.jpg);
+		background-size:cover;
+		color:$darkslate;
+	}
+
+	&.luther-quote-03 {
+		background: url(images/ref-luther-cranach.jpg);
+		background-size:cover;
+		color:white;
+	}
+
+	&.luther-quote-04 {
+		background: url(images/ref-luther-communion.jpg);
+		background-size:cover;
+		color:$darkslate;
+	}
+
+	&.luther-quote-05 {
+		background: url(images/ref-luther-rose.jpg);
+		background-size:cover;
+		color:white;
+	}
+
+	&.luther-quote-06 {
+		background: url(images/ref-luther-engraving.jpg);
+		background-size:cover;
+		color:white;
+	}
+
 	.container {
 		padding: 150px 130px;
 	}
