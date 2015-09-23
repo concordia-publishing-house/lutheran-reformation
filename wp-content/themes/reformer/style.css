@@ -615,16 +615,16 @@ body.home .container.navigation-container {
       display: block; }
 
 .secondary-navigation {
-  float: left;
-  display: block;
-  margin-right: 2.35765%;
-  width: 82.94039%;
-  font-size: 0.875em; }
-  .secondary-navigation:last-child {
-    margin-right: 0; }
+  display: none; }
   @media (min-width: 50em) {
     .secondary-navigation {
-      display: none; } }
+      float: left;
+      display: block;
+      margin-right: 2.35765%;
+      width: 82.94039%;
+      font-size: 0.875em; }
+      .secondary-navigation:last-child {
+        margin-right: 0; } }
   .secondary-navigation ul {
     text-align: right; }
     .secondary-navigation ul li {
@@ -663,10 +663,8 @@ body.home .container.navigation-container {
       .main-navigation ul li a {
         color: white;
         text-decoration: none;
+        padding: 10px 25px;
         text-shadow: 0 1px 3px rgba(0, 0, 0, 0.75); }
-        @media (min-width: 64.375em) {
-          .main-navigation ul li a {
-            padding: 10px 25px; } }
 
 .menu-secondary-navigation-container {
   float: left;
