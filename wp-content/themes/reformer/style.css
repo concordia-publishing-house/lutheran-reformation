@@ -898,6 +898,17 @@ header.entry-header h1 {
     border-color: #364b59;
     background-color: #364b59; }
 
+.hymn-competition-sidebar {
+  background: #323232;
+  padding: 20px; }
+  .hymn-competition-sidebar h4 {
+    font-size: 1.1em;
+    color: white; }
+  .hymn-competition-sidebar p {
+    color: #FAF9F9;
+    font-size: 1em;
+    line-height: 1.3; }
+
 .email-signup {
   background: #76899d url(images/ref-email-signup.png);
   background-repeat: no-repeat;
