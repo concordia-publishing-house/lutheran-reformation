@@ -103,11 +103,13 @@ body.home .container.navigation-container {
   }
 }
 .main-navigation {
-  @include span-columns(10);
-  @include margin(4em null null);
-  text-transform: uppercase;
-  font-weight: 900;
-  @include breakpoint(medium) { display: none; }
+  display: none;
+  @include breakpoint(medium) {
+    @include span-columns(10);
+    @include margin(4em null null);
+    text-transform: uppercase;
+    font-weight: 900;
+  }
 
   ul {
     float: right;
