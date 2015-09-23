@@ -20,14 +20,14 @@ get_header(); ?>
 							</div>
 						</div>
 					</div>							
-
-				<?php endif; ?>
-
-				<?php query_posts(array('showposts' => 20, 'post_parent' => 7, 'post_type' => 'page')); while (have_posts()) { the_post(); ?>
+					<?php query_posts(array('showposts' => 20, 'post_parent' => 7, 'post_type' => 'page')); while (have_posts()) { the_post(); ?>
 
 				<h2><?php the_title(); ?></h2>
 
 				<?php } ?>
+				<?php endif; ?>
+
+				
 				
 				<?php while ( have_posts() ) : the_post(); ?>
 
