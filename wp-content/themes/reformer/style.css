@@ -862,6 +862,12 @@ header.entry-header h1 {
       padding: 0;
       border: none; }
 
+.email-signup-sidebar {
+  background: #206d57;
+  color: white; }
+  .email-signup-sidebar input {
+    padding: 0; }
+
 .email-signup {
   background: #76899d url(images/ref-email-signup.png);
   background-repeat: no-repeat;
@@ -1363,6 +1369,8 @@ Main components
     background: url(images/ref-luther-music.jpg);
     background-size: cover;
     color: #364b59; }
+    .ref-quotes.luther-quote-02 p {
+      color: #364b59; }
   .ref-quotes.luther-quote-03 {
     background: url(images/ref-luther-cranach.jpg);
     background-size: cover;
@@ -1371,6 +1379,8 @@ Main components
     background: url(images/ref-luther-communion.jpg);
     background-size: cover;
     color: #364b59; }
+    .ref-quotes.luther-quote-04 p {
+      color: #364b59; }
   .ref-quotes.luther-quote-05 {
     background: url(images/ref-luther-rose.jpg);
     background-size: cover;
@@ -1387,6 +1397,7 @@ Main components
     letter-spacing: .05rem;
     margin-bottom: 20px; }
   .ref-quotes .quote-reference {
+    color: white;
     opacity: 0.5;
     font-style: 1em; }
 
