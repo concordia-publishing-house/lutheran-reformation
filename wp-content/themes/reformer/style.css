@@ -888,7 +888,9 @@ header.entry-header h1 {
     border-top-left-radius: 0;
     border-top-right-radius: 0;
     border-bottom-left-radius: 4px;
-    width: 100%; }
+    width: 100%;
+    border-color: #364b59;
+    background-color: #364b59; }
 
 .email-signup {
   background: #76899d url(images/ref-email-signup.png);
