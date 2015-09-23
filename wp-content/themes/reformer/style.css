@@ -588,6 +588,8 @@ body.home header.site-header {
   background: transparent;
   width: 100%; }
 
+body.home .site-branding .site-title h2 {
+  display: none; }
 body.home .site-branding .site-title img {
   width: 100%; }
 

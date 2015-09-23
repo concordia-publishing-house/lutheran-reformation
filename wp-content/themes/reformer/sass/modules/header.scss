@@ -46,8 +46,16 @@ body.home header.site-header {
     width: 100%;
   }
 
-body.home .site-branding .site-title img {
+body.home .site-branding .site-title {
+
+  h2 {
+    display: none;
+  }
+
+  img {
   width: 100%;
+}
+
 }
 
 .container.navigation-container {
