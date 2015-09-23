@@ -115,6 +115,7 @@ body.home .site-title a {
 
     li {
       display: inline-block;
+      margin-left:0;
 
         a {
           color:white;
@@ -178,6 +179,7 @@ body.home .site-title a {
     width: 20px;
     border:none;
     background:transparent;
+    display: none; //to be resolved 
 }
 
 .search-container form.search-form {

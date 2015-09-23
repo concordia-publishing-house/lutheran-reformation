@@ -50,10 +50,14 @@ p {
 }
 
 .lead {
-  font-size: 1.45em;
+  font-size: 1.25em;
   line-height: 1.45;
   letter-spacing: .05rem;
   font-family: $secondary-font;
+  margin-bottom:40px;
+  padding:30px;
+  background: $lite-blue;
+  color:$blue;
 }
 
 /* Blockquote */

@@ -310,10 +310,14 @@ p {
   color: #323232; }
 
 .lead {
-  font-size: 1.45em;
+  font-size: 1.25em;
   line-height: 1.45;
   letter-spacing: .05rem;
-  font-family: "Montserrat", Helvetica, sans-serif; }
+  font-family: "Montserrat", Helvetica, sans-serif;
+  margin-bottom: 40px;
+  padding: 30px;
+  background: #e9f0f5;
+  color: #248389; }
 
 /* Blockquote */
 blockquote {
@@ -644,7 +648,8 @@ body.home .site-title a {
   .secondary-navigation ul {
     text-align: right; }
     .secondary-navigation ul li {
-      display: inline-block; }
+      display: inline-block;
+      margin-left: 0; }
       .secondary-navigation ul li a {
         color: white;
         text-decoration: none;
@@ -706,7 +711,8 @@ body.home .site-title a {
   height: 20px;
   width: 20px;
   border: none;
-  background: transparent; }
+  background: transparent;
+  display: none; }
 
 .search-container form.search-form {
   position: relative; }
@@ -1017,7 +1023,7 @@ header.entry-header h1 {
 .sub-pages {
   margin: 20px 0; }
   .sub-pages article {
-    margin-bottom: 20px;
+    margin-bottom: 40px;
     display: inline-block; }
 
 .featured-image {
