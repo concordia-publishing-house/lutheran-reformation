@@ -890,7 +890,8 @@ header.entry-header h1 {
   background: url(images/countdown-bg.gif);
   color: white;
   text-align: center;
-  padding: 2em 0; }
+  padding: 2em 0;
+  margin-bottom: 2em; }
   .countdown {
     *zoom: 1; }
   .countdown:before, .countdown:after {
