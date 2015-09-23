@@ -71,7 +71,7 @@ html {
 /* Usage */
 /* Visibily Hide
   ========================================================================== */
-.screen-reader-text, .site-branding .site-title a span, .menu-toggle, body.home header.entry-header {
+.screen-reader-text, .menu-toggle, body.home header.entry-header {
   margin: -1px;
   padding: 0;
   width: 1px;
@@ -593,6 +593,14 @@ body.home .site-branding .site-title h2 {
 body.home .site-branding .site-title img {
   width: 100%; }
 
+.site-title {
+  float: left;
+  font-size: 16px;
+  width: 20%;
+  color: #DEC3A7;
+  padding-top: 24px;
+  text-transform: uppercase; }
+
 .container.navigation-container {
   min-height: 300px; }
 
@@ -610,11 +618,12 @@ body.home .container.navigation-container {
   .site-branding .site-title {
     width: 100%; }
     .site-branding .site-title img {
-      width: 80%; }
+      width: 100%; }
     .site-branding .site-title a {
-      width: 100%;
+      width: 60%;
       height: 100%;
-      display: block; }
+      display: block;
+      float: left; }
 
 .secondary-navigation {
   display: none; }
