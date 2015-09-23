@@ -610,6 +610,9 @@ body.home .site-branding .site-title img {
   color: #DEC3A7;
   padding-top: 24px;
   text-transform: uppercase; }
+  .site-title h2 a {
+    color: #DEC3A7;
+    text-decoration: none; }
 
 .container.navigation-container {
   min-height: 300px; }
