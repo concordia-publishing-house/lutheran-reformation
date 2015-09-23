@@ -37,6 +37,17 @@
 
 }
 
+.widget-area {
+	
+	aside {
+		margin-top: 30px;
+
+	&:first-child {
+		margin:0;
+	}
+	}		
+
+}
 .email-signup-sidebar {
 	background:$slate;
 	padding:20px;
