@@ -22,6 +22,29 @@ get_header(); ?>
 					</div>							
 
 				<?php endif; ?>
+				<div class="sub-pages">	
+				<?php
+					$pages = get_pages('child_of='.$post->ID.'&sort_column=post_date&sort_order=desc&parent='.$post->ID);
+					foreach($pages as $page) {
+				?>
+				<?php //print_r($pages); ?>
+					<article id="<?php echo $page->post_name; ?>">
+						<div class="featured-image">
+							<?php echo '<a href="' . get_permalink( $page->ID ) . '" title="' . esc_attr( $page->post_name ) . '">';
+							echo get_the_post_thumbnail( $page->ID, 'medium'); 
+							echo "</a>";
+							?>
+						</div>
+						<div class="featured-content">
+							<h4><a href="<?php echo get_page_link($page->ID) ?>"><?php echo $page->post_title ?></a></h4>
+							<?php echo apply_filters('the_content', $page->post_excerpt); ?>
+						</div>
+
+					</article>
+
+				<?php } ?>
+			</div>
+				
 				<?php while ( have_posts() ) : the_post(); ?>
 
 					<?php get_template_part( 'template-parts/content', 'page' ); ?>
