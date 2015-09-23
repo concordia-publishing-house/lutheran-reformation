@@ -96,6 +96,9 @@ body.home .container.navigation-container {
 
 }
 
+body.home .site-title a {
+  width: 100%;
+}
 .secondary-navigation {
   display: none;
   @include breakpoint(medium) {
