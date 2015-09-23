@@ -39,6 +39,13 @@ body.page-id-111 .site-header, body.parent-pageid-111 .site-header {
   background-repeat: no-repeat;
 }
 
+body.page-id-112 .site-header, body.parent-pageid-112 .site-header {
+  background: $grey url(images/ref-resources-bg.jpg);
+  background-size:cover;
+  background-position: center;
+  background-repeat: no-repeat;
+}
+
 body.home header.site-header {
     position:absolute;
     z-index: 10;

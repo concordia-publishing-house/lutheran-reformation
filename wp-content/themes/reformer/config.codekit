@@ -263,6 +263,17 @@
 		"outputPathIsSetByUser": 0,
 		"processed": 0
 		},
+	"\/images\/ref-resources-bg.jpg": {
+		"fileType": 16384,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 398174,
+		"inputAbbreviatedPath": "\/images\/ref-resources-bg.jpg",
+		"outputAbbreviatedPath": "\/images\/ref-resources-bg.jpg",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
 	"\/images\/ref-theology.jpg": {
 		"fileType": 16384,
 		"ignore": 0,
