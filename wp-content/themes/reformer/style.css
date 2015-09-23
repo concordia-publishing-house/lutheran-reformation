@@ -624,6 +624,8 @@ body.home .container.navigation-container {
       height: 100%;
       display: block;
       float: left; }
+    .site-branding .site-title span {
+      display: inline-block; }
 
 body.home .site-title a {
   width: 100%; }
