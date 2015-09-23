@@ -85,6 +85,7 @@ body.home .container.navigation-container {
 .secondary-navigation {
   @include span-columns(10);
   font-size: modular-scale(0);
+  @include breakpoint(medium) { display: none; }
 
   ul {
     text-align: right;
@@ -103,10 +104,10 @@ body.home .container.navigation-container {
 }
 .main-navigation {
   @include span-columns(10);
-  @include breakpoint(medium) { @include margin(4em null null); }
-  @include breakpoint(small) { @include margin(2em null null); }
+  @include margin(4em null null);
   text-transform: uppercase;
   font-weight: 900;
+  @include breakpoint(medium) { display: none; }
 
   ul {
     float: right;
@@ -125,9 +126,9 @@ body.home .container.navigation-container {
       a {
         color:white;
         text-decoration: none;
-        @include breakpoint(small) { padding:10px 15px; }
-        @include breakpoint(medium) { padding:10px 15px; }
-        @include breakpoint(large) { padding:10px 15px; }
+        // @include breakpoint(small) { padding:10px 15px; }
+        // @include breakpoint(medium) { padding:10px 15px; }
+        @include breakpoint(large) { padding:10px 25px; }
         text-shadow:0 1px 3px rgba(0, 0, 0, 0.75);
       }
     }

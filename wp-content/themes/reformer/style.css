@@ -622,6 +622,9 @@ body.home .container.navigation-container {
   font-size: 0.875em; }
   .secondary-navigation:last-child {
     margin-right: 0; }
+  @media (min-width: 50em) {
+    .secondary-navigation {
+      display: none; } }
   .secondary-navigation ul {
     text-align: right; }
     .secondary-navigation ul li {
@@ -637,16 +640,14 @@ body.home .container.navigation-container {
   display: block;
   margin-right: 2.35765%;
   width: 82.94039%;
+  margin-top: 4em;
   text-transform: uppercase;
   font-weight: 900; }
   .main-navigation:last-child {
     margin-right: 0; }
   @media (min-width: 50em) {
     .main-navigation {
-      margin-top: 4em; } }
-  @media (min-width: 37.5em) {
-    .main-navigation {
-      margin-top: 2em; } }
+      display: none; } }
   .main-navigation ul {
     float: right; }
     .main-navigation ul li {
@@ -663,15 +664,9 @@ body.home .container.navigation-container {
         color: white;
         text-decoration: none;
         text-shadow: 0 1px 3px rgba(0, 0, 0, 0.75); }
-        @media (min-width: 37.5em) {
-          .main-navigation ul li a {
-            padding: 10px 15px; } }
-        @media (min-width: 50em) {
-          .main-navigation ul li a {
-            padding: 10px 15px; } }
         @media (min-width: 64.375em) {
           .main-navigation ul li a {
-            padding: 10px 15px; } }
+            padding: 10px 25px; } }
 
 .menu-secondary-navigation-container {
   float: left;
