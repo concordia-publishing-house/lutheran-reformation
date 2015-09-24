@@ -149,7 +149,7 @@ body.home .site-title a {
     width:auto;
     float: left;
     display: block;
-    @include margin(2em null null);
+    @include margin(3em null null);
     text-transform: uppercase;
     font-weight: 900;
   }
@@ -176,6 +176,8 @@ body.home .site-title a {
         color:white;
         text-decoration: none;
         padding:10px 15px;
+        font-size: 0.875em;
+        @media (min-width: 850px) { font-size: 1em;}
         @include breakpoint(large) {padding:10px 25px;}
         text-shadow:0 1px 3px rgba(0, 0, 0, 0.75);
       }
