@@ -88,10 +88,11 @@ body.home .container.navigation-container {
 }
 .site-branding {
   @include span-columns(4);
+  @include omega();
   @include breakpoint(medium) {
     @include span-columns(2);
+    @include omega();
   }
-  @include omega();
   
   .site-title {
      // @include background-image('reformation-logo');
