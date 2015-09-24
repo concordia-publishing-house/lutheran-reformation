@@ -123,9 +123,15 @@ body.home .site-title a {
 .secondary-navigation {
   display: none;
   @include breakpoint(medium) {
-  @include span-columns(10);
-  font-size: modular-scale(0);
+    width:auto;
+    float: left;
+    display: block;
+    margin-top:2em;
   }
+   @media (min-width: 1150px) {
+    @include span-columns(10);
+    font-size: modular-scale(0);
+    }
 
   ul {
     text-align: right;

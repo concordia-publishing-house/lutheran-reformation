@@ -670,6 +670,12 @@ body.home .site-title a {
   display: none; }
   @media (min-width: 50em) {
     .secondary-navigation {
+      width: auto;
+      float: left;
+      display: block;
+      margin-top: 2em; } }
+  @media (min-width: 1150px) {
+    .secondary-navigation {
       float: left;
       display: block;
       margin-right: 2.35765%;
