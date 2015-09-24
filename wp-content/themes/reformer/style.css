@@ -1049,9 +1049,12 @@ header.entry-header h1 {
   .countdown-section {
     float: none;
     padding-bottom: 50px;
-    width: 92%;
     text-align: center;
     margin: 0 auto; } }
+  @media screen and (max-width: 768px) and (min-width: 37.5em) {
+    .countdown-section {
+      width: 100%; } }
+
 .sub-pages {
   margin: 20px 0; }
   .sub-pages article {

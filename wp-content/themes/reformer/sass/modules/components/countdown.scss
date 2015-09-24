@@ -96,7 +96,7 @@
 	.countdown-section {
 		float:none;
 		padding-bottom:50px;
-		width:92%;
+		@include breakpoint(small) { width:100%;}
 		text-align: center;
 		margin:0 auto;
 	}
