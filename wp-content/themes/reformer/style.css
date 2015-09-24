@@ -632,10 +632,18 @@ body.home .container.navigation-container {
   float: left;
   display: block;
   margin-right: 2.35765%;
-  width: 14.70196%;
+  width: 31.76157%;
   margin-right: 0; }
   .site-branding:last-child {
     margin-right: 0; }
+  @media (min-width: 50em) {
+    .site-branding {
+      float: left;
+      display: block;
+      margin-right: 2.35765%;
+      width: 14.70196%; }
+      .site-branding:last-child {
+        margin-right: 0; } }
   .site-branding .site-title {
     width: 100%; }
     .site-branding .site-title img {
