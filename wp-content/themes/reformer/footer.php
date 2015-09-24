@@ -62,7 +62,7 @@
 	</script>
 	<?php endif; ?>
 	<script>
-  	jQuery("#page_header").fitText(1.2, { minFontSize: '50px', maxFontSize: '80px' });
+  	jQuery("#page_header").fitText(1.2, { minFontSize: '40px', maxFontSize: '80px' });
 	</script>
 </body>
 </html>
