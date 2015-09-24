@@ -533,23 +533,27 @@ hr {
     clear: both; }
 
 .content-area {
-  float: left;
-  display: block;
-  margin-right: 2.35765%;
-  width: 65.88078%;
   padding: 30px 0 60px; }
-  .content-area:last-child {
-    margin-right: 0; }
+  @media (min-width: 64.375em) {
+    .content-area {
+      float: left;
+      display: block;
+      margin-right: 2.35765%;
+      width: 65.88078%; }
+      .content-area:last-child {
+        margin-right: 0; } }
 
 .widget-area {
-  float: left;
-  display: block;
-  margin-right: 2.35765%;
-  width: 23.23176%;
-  margin-left: 8.5298%;
   padding: 30px 0 60px; }
-  .widget-area:last-child {
-    margin-right: 0; }
+  @media (min-width: 64.375em) {
+    .widget-area {
+      float: left;
+      display: block;
+      margin-right: 2.35765%;
+      width: 23.23176%;
+      margin-left: 8.5298%; }
+      .widget-area:last-child {
+        margin-right: 0; } }
 
 header.site-header {
   background: #323232;
