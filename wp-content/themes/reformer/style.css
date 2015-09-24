@@ -724,7 +724,7 @@ body.home .site-title a {
         text-decoration: none;
         padding: 10px 15px;
         text-shadow: 0 1px 3px rgba(0, 0, 0, 0.75); }
-        @media (min-width: 50em) {
+        @media (min-width: 64.375em) {
           .main-navigation ul li a {
             padding: 10px 25px; } }
 

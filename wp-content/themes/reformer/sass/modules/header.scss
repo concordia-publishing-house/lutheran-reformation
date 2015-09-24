@@ -176,7 +176,7 @@ body.home .site-title a {
         color:white;
         text-decoration: none;
         padding:10px 15px;
-        @include breakpoint(medium) {padding:10px 25px;}
+        @include breakpoint(large) {padding:10px 25px;}
         text-shadow:0 1px 3px rgba(0, 0, 0, 0.75);
       }
     }
