@@ -53,7 +53,9 @@
 <?php if(is_front_page()) : ?>
 	<script src="http://cph.org/images/topics/images/topicpages/littleluther/js/jquery.plugin.js"></script>
 	<script src="http://cph.org/images/topics/images/topicpages/littleluther/js/jquery.countdown.js"></script>
-
+	<script>
+  	jQuery("#page_header").fitText();
+	</script>
 	<script>
 	jQuery(function () {
 
