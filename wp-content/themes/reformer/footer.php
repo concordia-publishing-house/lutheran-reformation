@@ -54,9 +54,6 @@
 	<script src="http://cph.org/images/topics/images/topicpages/littleluther/js/jquery.plugin.js"></script>
 	<script src="http://cph.org/images/topics/images/topicpages/littleluther/js/jquery.countdown.js"></script>
 	<script>
-  	jQuery("#page_header").fitText();
-	</script>
-	<script>
 	jQuery(function () {
 
 		jQuery('#clock').countdown({until: new Date(2017, 10 - 1, 31)});
@@ -64,5 +61,8 @@
 	});
 	</script>
 	<?php endif; ?>
+	<script>
+  	jQuery("#page_header").fitText();
+	</script>
 </body>
 </html>
