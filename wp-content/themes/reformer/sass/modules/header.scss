@@ -123,15 +123,9 @@ body.home .site-title a {
 .secondary-navigation {
   display: none;
   @include breakpoint(medium) {
-    width:auto;
-    float: left;
-    display: block;
-    margin-top:2em;
+  @include span-columns(10);
+  font-size: modular-scale(0);
   }
-   @media (min-width: 1150px) {
-    @include span-columns(10);
-    font-size: modular-scale(0);
-    }
 
   ul {
     text-align: right;
@@ -152,10 +146,16 @@ body.home .site-title a {
 .main-navigation {
   display: none;
   @include breakpoint(medium) {
-    @include span-columns(10);
-    @include margin(4em null null);
+    width:auto;
+    float: left;
+    display: block;
+    @include margin(2em null null);
     text-transform: uppercase;
     font-weight: 900;
+  }
+   @media (min-width: 1150px) {
+    @include span-columns(10);
+    @include margin(4em null null);
   }
 
   ul {
