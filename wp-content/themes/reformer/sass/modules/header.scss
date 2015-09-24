@@ -79,17 +79,19 @@ body.home .site-branding .site-title {
 }
 
 .container.navigation-container {
-    min-height: 300px;
+    min-height: 100px;
+    @include breakpoint(medium) { min-height: 200px;}
+    @include breakpoint(large) { min-height: 300px;}
 }
 body.home .container.navigation-container {
     min-height: inherit;
 }
 .site-branding {
   @include span-columns(4);
-  @include omega();
   @include breakpoint(medium) {
     @include span-columns(2);
   }
+  @include omega();
   
   .site-title {
      // @include background-image('reformation-logo');

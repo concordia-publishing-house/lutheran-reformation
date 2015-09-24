@@ -533,7 +533,7 @@ hr {
     clear: both; }
 
 .content-area {
-  padding: 30px 30px 0; }
+  padding: 30px 0 60px; }
   @media (min-width: 64.375em) {
     .content-area {
       float: left;
@@ -545,7 +545,7 @@ hr {
         margin-right: 0; } }
   @media (min-width: 50em) {
     .content-area {
-      padding: 30px 0 60px; } }
+      padding: 30px 30px 0; } }
 
 .widget-area {
   padding: 30px 0 60px; }
@@ -623,7 +623,13 @@ body.home .site-branding .site-title img {
     text-decoration: none; }
 
 .container.navigation-container {
-  min-height: 300px; }
+  min-height: 100px; }
+  @media (min-width: 50em) {
+    .container.navigation-container {
+      min-height: 200px; } }
+  @media (min-width: 64.375em) {
+    .container.navigation-container {
+      min-height: 300px; } }
 
 body.home .container.navigation-container {
   min-height: inherit; }
