@@ -172,3 +172,15 @@ add_action( 'init', 'my_add_excerpts_to_pages' );
 function my_add_excerpts_to_pages() {
      add_post_type_support( 'page', 'excerpt' );
 }
+
+// Register Script
+function ge_custom_scripts() {
+// From: http://wp.me/pxhFk-4UE
+    wp_deregister_script( 'lettering_js' );
+    wp_register_script( 'lettering_js', '//cdnjs.cloudflare.com/ajax/libs/lettering.js/0.6.1/jquery.lettering.min.js', array( 'jquery' ), '0.6.1', false );
+    wp_enqueue_script( 'lettering_js' );
+ 
+}
+ 
+// Hook into the 'wp_enqueue_scripts' action
+add_action( 'wp_enqueue_scripts', 'ge_custom_scripts' );
