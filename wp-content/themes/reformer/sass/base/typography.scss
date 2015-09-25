@@ -55,7 +55,7 @@ p {
   // letter-spacing: .05rem;
   // font-family: $secondary-font;
   margin-bottom:40px;
-  padding:30px;
+  @include breakpoint (small) {padding:30px;}
   // background: $lite-blue;
   color:$grey;
 }

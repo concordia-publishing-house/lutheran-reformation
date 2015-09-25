@@ -312,8 +312,10 @@ p {
 .lead {
   font-size: 1.45em;
   margin-bottom: 40px;
-  padding: 30px;
   color: #323232; }
+  @media (min-width: 37.5em) {
+    .lead {
+      padding: 30px; } }
 
 /* Blockquote */
 blockquote {
