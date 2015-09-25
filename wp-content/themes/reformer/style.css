@@ -977,7 +977,8 @@ header.entry-header h1 {
     color: #323232; }
   .widget-area aside#text-4 li, .widget-area aside#text-5 li {
     padding: 20px 10px;
-    border-bottom: 1px solid rgba(0, 0, 0, 0.1); }
+    border-bottom: 1px solid rgba(0, 0, 0, 0.1);
+    margin-left: 0; }
     .widget-area aside#text-4 li:last-child, .widget-area aside#text-5 li:last-child {
       border: none; }
   .widget-area aside#text-4 .bullet-list, .widget-area aside#text-5 .bullet-list {
