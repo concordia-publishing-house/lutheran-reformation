@@ -803,6 +803,9 @@ header.entry-header h1 {
     text-transform: uppercase;
     font-family: "Montserrat", Helvetica, sans-serif; }
 
+#responsive-menu #responsive-menu-title {
+  font-family: "Montserrat", Helvetica, sans-serif; }
+
 .site-footer {
   background: #354b59;
   padding: 60px 0;
