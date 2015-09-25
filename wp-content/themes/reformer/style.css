@@ -567,6 +567,20 @@ hr {
       .widget-area:last-child {
         margin-right: 0; } }
 
+.logo-grid figure {
+  text-align: center; }
+  @media (min-width: 37.5em) {
+    .logo-grid figure {
+      float: left;
+      display: block;
+      margin-right: 2.35765%;
+      width: 48.82117%; }
+      .logo-grid figure:last-child {
+        margin-right: 0; } }
+.logo-grid figcaption {
+  font-family: "Montserrat", Helvetica, sans-serif;
+  font-size: 0.875em; }
+
 header.site-header {
   background: #323232;
   padding: 10px 0 30px;
