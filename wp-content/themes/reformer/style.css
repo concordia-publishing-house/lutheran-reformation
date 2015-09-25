@@ -886,24 +886,23 @@ header.entry-header h1 {
     margin-bottom: 20px;
     font-size: 0.875em;
     line-height: 0.5;
-    text-align: center; }
-    .footer-logos h4 span {
-      display: inline-block;
-      position: relative; }
-    .footer-logos h4:before, .footer-logos h4:after {
-      content: "";
-      position: absolute;
-      height: 5px;
-      border-bottom: 1px solid white;
-      border-top: 1px solid white;
-      top: 0;
-      width: 600px; }
+    text-align: center;
+    position: relative;
+    z-index: 1; }
     .footer-logos h4:before {
-      right: 100%;
-      margin-right: 15px; }
-    .footer-logos h4:after {
-      left: 100%;
-      margin-left: 15px; }
+      border-top: 2px solid #dfdfdf;
+      content: "";
+      margin: 0 auto;
+      position: absolute;
+      top: 50%;
+      left: 0;
+      right: 0;
+      bottom: 0;
+      width: 95%;
+      z-index: -1; }
+    .footer-logos h4 span {
+      background: #354b59;
+      padding: 0 15px; }
   .footer-logos div {
     float: left;
     display: block;
