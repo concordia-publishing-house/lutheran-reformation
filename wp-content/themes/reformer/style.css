@@ -952,29 +952,29 @@ header.entry-header h1 {
   font-style: italic;
   color: #4597a0; }
 
-.widget-area aside#text-4, .widget-area aside#text-5 {
+.widget-area aside#text-4, .widget-area aside#text-5, .widget-area aside#text-14 {
   background-color: #FAF9F9;
   padding: 20px;
   font-size: 0.875em;
   border-right: 1px solid #dedad6;
   border-bottom: 1px solid #dedad6;
   color: #867F76; }
-  .widget-area aside#text-4 h2, .widget-area aside#text-5 h2 {
+  .widget-area aside#text-4 h2, .widget-area aside#text-5 h2, .widget-area aside#text-14 h2 {
     font-size: 1.125em;
     margin: 0 0 20px;
     padding: 0 10px 10px;
     border-bottom: 1px solid #323232;
     text-align: center;
     color: #323232; }
-  .widget-area aside#text-4 li, .widget-area aside#text-5 li {
+  .widget-area aside#text-4 li, .widget-area aside#text-5 li, .widget-area aside#text-14 li {
     padding: 20px 10px;
     border-bottom: 1px solid rgba(0, 0, 0, 0.1);
     margin-left: 0; }
-    .widget-area aside#text-4 li:last-child, .widget-area aside#text-5 li:last-child {
+    .widget-area aside#text-4 li:last-child, .widget-area aside#text-5 li:last-child, .widget-area aside#text-14 li:last-child {
       border: none; }
-  .widget-area aside#text-4 .bullet-list, .widget-area aside#text-5 .bullet-list {
+  .widget-area aside#text-4 .bullet-list, .widget-area aside#text-5 .bullet-list, .widget-area aside#text-14 .bullet-list {
     margin-top: 14px; }
-    .widget-area aside#text-4 .bullet-list li, .widget-area aside#text-5 .bullet-list li {
+    .widget-area aside#text-4 .bullet-list li, .widget-area aside#text-5 .bullet-list li, .widget-area aside#text-14 .bullet-list li {
       padding: 0;
       border: none; }
 
