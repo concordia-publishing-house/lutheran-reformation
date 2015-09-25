@@ -8,7 +8,9 @@
 }
 
 .featured-image {
-	@include span-columns(4);
+	width:100%;
+	margin-bottom: 20px;
+	@include breakpoint(small) { @include span-columns(4); }
 
 	img {
 		width: 100%;
@@ -16,7 +18,8 @@
 	}
 }
 .featured-content {
-	@include span-columns(8);
+	width:100%;
+	@include breakpoint(small) { @include span-columns(8); }
 
 	h4 {
 		margin-top:0;
