@@ -880,6 +880,12 @@ header.entry-header h1 {
 
 .footer-logos {
   width: 100%; }
+  .footer-logos h4 {
+    font-size: 0.875em;
+    text-align: center;
+    position: relative;
+    z-index: 1;
+    overflow: hidden; }
   .footer-logos h4:before, .footer-logos h4:after {
     position: absolute;
     top: 51%;
