@@ -574,7 +574,8 @@ hr {
       float: left;
       display: block;
       margin-right: 2.35765%;
-      width: 48.82117%; }
+      width: 48.82117%;
+      margin-right: 0; }
       .logo-grid figure:last-child {
         margin-right: 0; } }
 .logo-grid figcaption {

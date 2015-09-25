@@ -43,7 +43,8 @@
 
 .logo-grid {
 	figure {
-		@include breakpoint(small) { @include span-columns(6); }
+		@include breakpoint(small) { @include span-columns(6); @include omega(); }
+
 		text-align:center;
 	}
 	figcaption {

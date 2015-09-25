@@ -395,6 +395,72 @@
 		"outputPathIsSetByUser": 0,
 		"processed": 0
 		},
+	"\/images\/reformation2017-logo-color-vr.jpg": {
+		"fileType": 16384,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 189321,
+		"inputAbbreviatedPath": "\/images\/reformation2017-logo-color-vr.jpg",
+		"outputAbbreviatedPath": "\/images\/reformation2017-logo-color-vr.jpg",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
+	"\/images\/reformation2017-logo-color-vr.png": {
+		"fileType": 32768,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 0,
+		"inputAbbreviatedPath": "\/images\/reformation2017-logo-color-vr.png",
+		"outputAbbreviatedPath": "\/images\/reformation2017-logo-color-vr.png",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
+	"\/images\/reformation2017-logo-grayscale-hr.jpg": {
+		"fileType": 16384,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 0,
+		"inputAbbreviatedPath": "\/images\/reformation2017-logo-grayscale-hr.jpg",
+		"outputAbbreviatedPath": "\/images\/reformation2017-logo-grayscale-hr.jpg",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
+	"\/images\/reformation2017-logo-grayscale-hr.png": {
+		"fileType": 32768,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 0,
+		"inputAbbreviatedPath": "\/images\/reformation2017-logo-grayscale-hr.png",
+		"outputAbbreviatedPath": "\/images\/reformation2017-logo-grayscale-hr.png",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
+	"\/images\/reformation2017-logo-grayscale-vr.jpg": {
+		"fileType": 16384,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 119363,
+		"inputAbbreviatedPath": "\/images\/reformation2017-logo-grayscale-vr.jpg",
+		"outputAbbreviatedPath": "\/images\/reformation2017-logo-grayscale-vr.jpg",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
+	"\/images\/reformation2017-logo-grayscale-vr.png": {
+		"fileType": 32768,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 0,
+		"inputAbbreviatedPath": "\/images\/reformation2017-logo-grayscale-vr.png",
+		"outputAbbreviatedPath": "\/images\/reformation2017-logo-grayscale-vr.png",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
 	"\/images\/thrivent-logo.png": {
 		"fileType": 32768,
 		"ignore": 0,
