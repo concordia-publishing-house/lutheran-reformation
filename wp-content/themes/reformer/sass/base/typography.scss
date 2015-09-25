@@ -75,6 +75,9 @@ blockquote {
 em {
   font-style: italic;
 }
+strong, b {
+  font-weight: 900;
+}
 
 q {
   quotes: "“" "”" "‘" "’"; 
