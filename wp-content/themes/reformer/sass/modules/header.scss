@@ -256,6 +256,11 @@ body.home header.entry-header {
   font-size: 34px;
 }
 
-#responsive-menu .responsive-menu li a {
-  text-transform: uppercase;
+#responsive-menu .responsive-menu li {
+  margin-bottom: 0;
+  
+  a {
+    text-transform: uppercase;
+    font-family: $secondary-font;
+  }
 }

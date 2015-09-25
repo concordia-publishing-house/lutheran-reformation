@@ -797,8 +797,11 @@ header.entry-header h1 {
 #click-menu #RMX {
   font-size: 34px; }
 
-#responsive-menu .responsive-menu li a {
-  text-transform: uppercase; }
+#responsive-menu .responsive-menu li {
+  margin-bottom: 0; }
+  #responsive-menu .responsive-menu li a {
+    text-transform: uppercase;
+    font-family: "Montserrat", Helvetica, sans-serif; }
 
 .site-footer {
   background: #354b59;
