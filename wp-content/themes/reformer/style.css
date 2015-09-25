@@ -888,6 +888,9 @@ header.entry-header h1 {
     height: 1px;
     content: '\a0';
     background-color: #848e95; }
+  .footer-logos h4:before {
+    margin-left: -50%;
+    text-align: right; }
   .footer-logos div {
     float: left;
     display: block;
