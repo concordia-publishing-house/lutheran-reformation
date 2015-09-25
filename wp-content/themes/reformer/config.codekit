@@ -131,6 +131,17 @@
 		"outputPathIsSetByUser": 0,
 		"processed": 0
 		},
+	"\/images\/ref-contact-header.jpg": {
+		"fileType": 16384,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 378169,
+		"inputAbbreviatedPath": "\/images\/ref-contact-header.jpg",
+		"outputAbbreviatedPath": "\/images\/ref-contact-header.jpg",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
 	"\/images\/ref-dietofworms-bg.jpg": {
 		"fileType": 16384,
 		"ignore": 0,
