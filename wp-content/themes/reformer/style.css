@@ -1493,30 +1493,36 @@ Main components
   text-align: center; }
   .ref-quotes.luther-quote-01 {
     background: url(images/ref-dietofworms-bg.jpg);
+    background-position: center;
     background-size: cover;
     color: white; }
   .ref-quotes.luther-quote-02 {
     background: url(images/ref-luther-music.jpg);
+    background-position: center;
     background-size: cover;
     color: #364b59; }
     .ref-quotes.luther-quote-02 p {
       color: #364b59; }
   .ref-quotes.luther-quote-03 {
     background: url(images/ref-luther-cranach.jpg);
+    background-position: center;
     background-size: cover;
     color: white; }
   .ref-quotes.luther-quote-04 {
     background: url(images/ref-luther-communion.jpg);
+    background-position: center;
     background-size: cover;
     color: #364b59; }
     .ref-quotes.luther-quote-04 p {
       color: #364b59; }
   .ref-quotes.luther-quote-05 {
     background: url(images/ref-luther-rose.jpg);
+    background-position: center;
     background-size: cover;
     color: white; }
   .ref-quotes.luther-quote-06 {
     background: url(images/ref-luther-engraving.jpg);
+    background-position: center;
     background-size: cover;
     color: white; }
   .ref-quotes .container {
