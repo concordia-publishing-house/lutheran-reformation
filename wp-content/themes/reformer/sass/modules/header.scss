@@ -89,10 +89,10 @@ body.home .container.navigation-container {
 }
 .site-branding {
   width: 100%;
-  @include breakpoint(small) { 
-    @include span-columns(4);
-    @include omega();
-  }
+  // @include breakpoint(small) { 
+  //   @include span-columns(4);
+  //   @include omega();
+  // }
   @include breakpoint(medium) {
     @include span-columns(2);
     @include omega();
