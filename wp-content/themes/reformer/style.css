@@ -918,12 +918,15 @@ header.entry-header h1 {
       background: #354b59;
       padding: 0 15px; }
   .footer-logos div {
-    float: left;
-    display: block;
-    margin-right: 2.35765%;
-    width: 31.76157%; }
-    .footer-logos div:last-child {
-      margin-right: 0; }
+    width: 100%; }
+    @media (min-width: 37.5em) {
+      .footer-logos div {
+        float: left;
+        display: block;
+        margin-right: 2.35765%;
+        width: 31.76157%; }
+        .footer-logos div:last-child {
+          margin-right: 0; } }
 
 .footer-logos div a {
   width: 100%;
