@@ -885,21 +885,25 @@ header.entry-header h1 {
   .footer-logos h4 {
     margin-bottom: 20px;
     font-size: 0.875em;
-    text-align: center;
-    position: relative;
-    z-index: 1;
-    overflow: hidden; }
-  .footer-logos h4:before, .footer-logos h4:after {
-    position: absolute;
-    top: 51%;
-    overflow: hidden;
-    width: 50%;
-    height: 1px;
-    content: '\a0';
-    background-color: #848e95; }
-  .footer-logos h4:before {
-    margin-left: -50%;
-    text-align: right; }
+    line-height: 0.5;
+    text-align: center; }
+    .footer-logos h4 span {
+      display: inline-block;
+      position: relative; }
+    .footer-logos h4:before, .footer-logos h4:after {
+      content: "";
+      position: absolute;
+      height: 5px;
+      border-bottom: 1px solid white;
+      border-top: 1px solid white;
+      top: 0;
+      width: 600px; }
+    .footer-logos h4:before {
+      right: 100%;
+      margin-right: 15px; }
+    .footer-logos h4:after {
+      left: 100%;
+      margin-left: 15px; }
   .footer-logos div {
     float: left;
     display: block;
