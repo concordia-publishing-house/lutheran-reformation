@@ -893,7 +893,7 @@ header.entry-header h1 {
     position: relative;
     z-index: 1; }
     .footer-logos h4:before {
-      border-top: 2px solid #dfdfdf;
+      border-top: 2px solid #848e95;
       content: "";
       margin: 0 auto;
       position: absolute;
