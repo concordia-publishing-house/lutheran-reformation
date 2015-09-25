@@ -310,12 +310,12 @@ p {
   color: #323232; }
 
 .lead {
-  font-size: 1.45em;
+  font-size: 1.25em;
   margin-bottom: 40px;
   color: #323232; }
   @media (min-width: 37.5em) {
     .lead {
-      padding: 30px; } }
+      font-size: 1.45em; } }
 
 /* Blockquote */
 blockquote {
