@@ -68,7 +68,7 @@ body.home .site-branding .site-title {
   float: left;
   font-size: 16px;
   width:150px;
-  @include breakpoint (small) {width: 20%;}
+  @include breakpoint (medium) {width: 20%;}
   color: #DEC3A7;
   padding-top: 24px;
   text-transform: uppercase;
@@ -108,7 +108,7 @@ body.home .container.navigation-container {
 
      a {
       width: 90px;
-        @include breakpoint (small) {width: 60%;}
+        @include breakpoint (medium) {width: 60%;}
         height: 100%;
         display: block;
         float: left;

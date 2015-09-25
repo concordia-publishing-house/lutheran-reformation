@@ -626,7 +626,7 @@ body.home .site-branding .site-title img {
   color: #DEC3A7;
   padding-top: 24px;
   text-transform: uppercase; }
-  @media (min-width: 37.5em) {
+  @media (min-width: 50em) {
     .site-title h2 {
       width: 20%; } }
   .site-title h2 a {
@@ -674,7 +674,7 @@ body.home .container.navigation-container {
       height: 100%;
       display: block;
       float: left; }
-      @media (min-width: 37.5em) {
+      @media (min-width: 50em) {
         .site-branding .site-title a {
           width: 60%; } }
     .site-branding .site-title span {
