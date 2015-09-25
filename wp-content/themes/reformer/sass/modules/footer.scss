@@ -87,6 +87,12 @@
 			width: 100%;
 			max-width: 250px;
 			height: auto;
+			opacity: 0.75;
+			@include transition(opactiy 800ms ease-in-out);
+			
+			&:hover {
+				opacity: 1;
+			}
 		}
 	}
 
@@ -119,6 +125,7 @@
 	}
 		div {
 			width: 100%;
+			text-align: center;
 		@include breakpoint(small) { @include span-columns(4); }
 		// height:80px;
 	}

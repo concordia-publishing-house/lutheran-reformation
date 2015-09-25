@@ -895,7 +895,13 @@ header.entry-header h1 {
     .footer-logos .sponsors img {
       width: 100%;
       max-width: 250px;
-      height: auto; }
+      height: auto;
+      opacity: 0.75;
+      -webkit-transition: opactiy 800ms ease-in-out;
+      -moz-transition: opactiy 800ms ease-in-out;
+      transition: opactiy 800ms ease-in-out; }
+      .footer-logos .sponsors img:hover {
+        opacity: 1; }
   .footer-logos h4 {
     margin-bottom: 20px;
     font-size: 0.875em;
@@ -918,7 +924,8 @@ header.entry-header h1 {
       background: #354b59;
       padding: 0 15px; }
   .footer-logos div {
-    width: 100%; }
+    width: 100%;
+    text-align: center; }
     @media (min-width: 37.5em) {
       .footer-logos div {
         float: left;

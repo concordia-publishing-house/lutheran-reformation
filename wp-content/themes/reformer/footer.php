@@ -21,7 +21,7 @@
 				</div>
 				<div class="footer-secondary">
 					<div class="footer-buttons">
-						<a href="#" class="button button-secondary"><i class="icon-heart"></i> Get Involved</a>
+						<a href="/get-involved/stand-with-your-community-grant/" class="button button-secondary"><i class="icon-heart"></i> Get Involved</a>
 						<a href="#" class="button button-primary"><i class="icon-cart-fill"></i> Shop</a>
 					</div>
 					<div class="footer-email-signup">
