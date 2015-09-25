@@ -310,14 +310,10 @@ p {
   color: #323232; }
 
 .lead {
-  font-size: 1.25em;
-  line-height: 1.45;
-  letter-spacing: .05rem;
-  font-family: "Montserrat", Helvetica, sans-serif;
+  font-size: 1.45em;
   margin-bottom: 40px;
   padding: 30px;
-  background: #e9f0f5;
-  color: #248389; }
+  color: #323232; }
 
 /* Blockquote */
 blockquote {
