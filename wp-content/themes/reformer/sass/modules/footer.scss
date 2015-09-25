@@ -78,8 +78,16 @@
 	padding:30px 0;
 	
 	.sponsors {
-		width: 80%;
-		margin:auto;
+		width: 100%;
+		@include breakpoint (medium) {width: 80%;}
+		margin:auto !important;
+		float: none;
+
+		img {
+			width: 100%;
+			max-width: 250px;
+			height: auto;
+		}
 	}
 
 	h4 {
