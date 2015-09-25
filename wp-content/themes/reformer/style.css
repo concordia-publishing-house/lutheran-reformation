@@ -878,39 +878,28 @@ header.entry-header h1 {
     color: white;
     margin-left: 10px; }
 
-.footer-logos div {
-  float: left;
-  display: block;
-  margin-right: 2.35765%;
-  width: 48.82117%;
-  height: 80px; }
-  .footer-logos div:last-child {
-    margin-right: 0; }
+.footer-logos {
+  width: 100%; }
+  .footer-logos h4:before, .footer-logos h4:after {
+    position: absolute;
+    top: 51%;
+    overflow: hidden;
+    width: 50%;
+    height: 1px;
+    content: '\a0';
+    background-color: #848e95; }
+  .footer-logos div {
+    float: left;
+    display: block;
+    margin-right: 2.35765%;
+    width: 31.76157%; }
+    .footer-logos div:last-child {
+      margin-right: 0; }
 
 .footer-logos div a {
   width: 100%;
   display: block;
   height: 100%; }
-
-.footer-logos .lcms-logo-white {
-  background-image: url(images/lcms-logo-white.svg);
-  background-repeat: no-repeat; }
-  .no-svg .footer-logos .lcms-logo-white {
-    background-image: url(images/lcms-logo-white.png);
-    background-repeat: no-repeat; }
-    @media only screen and (-moz-min-device-pixel-ratio: 1.5), only screen and (-o-min-device-pixel-ratio: 3 / 2), only screen and (-webkit-min-device-pixel-ratio: 1.5), only screen and (min-device-pixel-ratio: 1.5) {
-      .no-svg .footer-logos .lcms-logo-white {
-        background-image: url(images/lcms-logo-white@2x.png); } }
-
-.footer-logos .cph-logo-white {
-  background-image: url(images/cph-logo-white.svg);
-  background-repeat: no-repeat; }
-  .no-svg .footer-logos .cph-logo-white {
-    background-image: url(images/cph-logo-white.png);
-    background-repeat: no-repeat; }
-    @media only screen and (-moz-min-device-pixel-ratio: 1.5), only screen and (-o-min-device-pixel-ratio: 3 / 2), only screen and (-webkit-min-device-pixel-ratio: 1.5), only screen and (min-device-pixel-ratio: 1.5) {
-      .no-svg .footer-logos .cph-logo-white {
-        background-image: url(images/cph-logo-white@2x.png); } }
 
 .footer-buttons .button {
   font-size: 0.75em;

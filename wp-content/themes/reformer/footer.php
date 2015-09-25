@@ -34,13 +34,15 @@
 	        <div class="footer-social-buttons">
 	        	Get Connected <a href=""><i class="icon-twitter"></i></a><a href=""><i class="icon-facebook"></i></a><a href=""><i class="icon-gplus"></i></a><a href=""><i class="icon-pinterest"></i></a><a href=""><i class="icon-instagram"></i></a><a href=""><i class="icon-vimeo"></i></a>
 	        </div>
-	        <div class="footer-logos">
-	        	<div class="one-half column lcms-logo-white"><a href="http://lcms.org" title="The Lutheran Church—Missouri Synod" target="_blank"></a></div>
-	        	<div class="one-half column cph-logo-white"><a href="http://cph.org" title="Concordia Publishing House" target="_blank"></a></div>
-        	</div>
-        </div>
+	      </div>
 			</div><!-- .row -->
 			<div class="row">
+				<div class="footer-logos">
+					<h4>Lutheran Reformation Sponsors</h4>
+	        	<div class="lcms-logo-white"><a href="http://lcms.org" title="The Lutheran Church—Missouri Synod" target="_blank"><img src="images/lcms-logo-white.png" alt="LutheranReformation.org Sponsor - The Lutheran Church—Missouri Synod"></a></a></div>
+	        	<div class="thrivent-logo-white"><a href="https://www.thrivent.com" title="Thrivent Financial" target="_blank"><img src="images/thrivent-logo.png" alt="LutheranReformation.org Sponsor - Thrivent Financial"></a></div>
+	        	<div class="cph-logo-white"><a href="http://cph.org" title="Concordia Publishing House" target="_blank"><img src="images/cph-logo-white.png" alt="LutheranReformation.org Sponsor - Concordia Publishing House"></a></a></div>
+        </div>
 				<div class="twelve columns footer-copyright">
 				© 2015 The Lutheran Church—Missouri Synod. All Rights Reserved. 	
 				</div>
