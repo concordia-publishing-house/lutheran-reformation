@@ -1520,7 +1520,10 @@ Main components
     background-size: cover;
     color: white; }
   .ref-quotes .container {
-    padding: 150px 130px; }
+    padding: 120px 30px; }
+    @media (min-width: 37.5em) {
+      .ref-quotes .container {
+        padding: 150px 130px; } }
   .ref-quotes q {
     font-size: 1.45em;
     line-height: 1.45;
