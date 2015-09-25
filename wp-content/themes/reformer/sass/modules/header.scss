@@ -240,20 +240,22 @@ body.home header.entry-header {
     a {
       color:white;
       text-decoration: none;
-    
-    // &:first-child {
-    //   // @extend %visuallyhidden;
-    //   font-family: 'reformicon';
-    //   speak: none;
-    //   font-style: normal;
-    //   font-weight: normal;
-    //   font-variant: normal;
-    //   text-transform: none;
-    //   line-height: 1;
-
-    //     &:before {
-    //       content: "^"
-    //     }
-    //   }
     }
+}
+
+#click-menu-label {
+  font-family: $secondary-font;
+  margin-top: 4px;
+  text-transform: uppercase;
+  font-size: 11px;
+}
+#click-menu, #click-menu .threeLines .line {
+  border-radius: 5px;
+}
+#click-menu #RMX {
+  font-size: 34px;
+}
+
+#responsive-menu .responsive-menu li a {
+  text-transform: uppercase;
 }

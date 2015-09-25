@@ -785,6 +785,21 @@ header.entry-header h1 {
     color: white;
     text-decoration: none; }
 
+#click-menu-label {
+  font-family: "Montserrat", Helvetica, sans-serif;
+  margin-top: 4px;
+  text-transform: uppercase;
+  font-size: 11px; }
+
+#click-menu, #click-menu .threeLines .line {
+  border-radius: 5px; }
+
+#click-menu #RMX {
+  font-size: 34px; }
+
+#responsive-menu .responsive-menu li a {
+  text-transform: uppercase; }
+
 .site-footer {
   background: #354b59;
   padding: 60px 0;
