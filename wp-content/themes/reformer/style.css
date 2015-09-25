@@ -810,7 +810,7 @@ header.entry-header h1 {
 
 .footer-primary {
   width: 100%; }
-  @media (min-width: 50em) {
+  @media (min-width: 37.5em) {
     .footer-primary {
       float: left;
       display: block;
@@ -821,7 +821,7 @@ header.entry-header h1 {
 
 .footer-secondary {
   width: 100%; }
-  @media (min-width: 50em) {
+  @media (min-width: 37.5em) {
     .footer-secondary {
       float: left;
       display: block;
@@ -887,7 +887,10 @@ header.entry-header h1 {
 
 .footer-buttons .button {
   font-size: 0.75em;
-  padding: 16px 32px 18px; }
+  padding: 14px 12px 16px; }
+  @media (min-width: 37.5em) {
+    .footer-buttons .button {
+      padding: 16px 32px 18px; } }
 
 .footer-email-signup h5 {
   font-size: 1em;
