@@ -833,6 +833,7 @@ header.entry-header h1 {
     margin-bottom: 3em; }
 
 .footer-social-buttons {
+  display: none;
   text-align: right;
   font-size: 1em;
   font-style: italic;
