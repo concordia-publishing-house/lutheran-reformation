@@ -958,6 +958,23 @@ header.entry-header h1 {
     color: white;
     border-color: #364b59; }
 
+.community-grant-sidebar {
+  background: #5e4328;
+  padding: 20px; }
+  .community-grant-sidebar h4 {
+    font-size: 1.1em;
+    color: white; }
+  .community-grant-sidebar p {
+    color: #FAF9F9;
+    font-size: 1em;
+    line-height: 1.3; }
+    .community-grant-sidebar p span {
+      font-size: 0.875em; }
+  .community-grant-sidebar .button {
+    background-color: #ec6041;
+    color: white;
+    border-color: #ec6041; }
+
 .email-signup {
   background: #76899d url(images/ref-email-signup.png);
   background-repeat: no-repeat;

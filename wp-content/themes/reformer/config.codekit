@@ -109,6 +109,28 @@
 		"outputPathIsSetByUser": 0,
 		"processed": 0
 		},
+	"\/images\/ref-communitygrant-header.jpg": {
+		"fileType": 16384,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 693826,
+		"inputAbbreviatedPath": "\/images\/ref-communitygrant-header.jpg",
+		"outputAbbreviatedPath": "\/images\/ref-communitygrant-header.jpg",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
+	"\/images\/ref-communitygrant.jpg": {
+		"fileType": 16384,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 420681,
+		"inputAbbreviatedPath": "\/images\/ref-communitygrant.jpg",
+		"outputAbbreviatedPath": "\/images\/ref-communitygrant.jpg",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
 	"\/images\/ref-dietofworms-bg.jpg": {
 		"fileType": 16384,
 		"ignore": 0,
