@@ -534,7 +534,7 @@ hr {
     clear: both; }
 
 .content-area {
-  padding: 30px 0 60px; }
+  padding: 30px 0 0; }
   @media (min-width: 64.375em) {
     .content-area {
       float: left;
@@ -544,9 +544,6 @@ hr {
       padding: 30px 0 60px; }
       .content-area:last-child {
         margin-right: 0; } }
-  @media (min-width: 50em) {
-    .content-area {
-      padding: 30px 30px 0; } }
 
 .widget-area {
   padding: 30px 0 60px; }
