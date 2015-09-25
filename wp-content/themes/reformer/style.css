@@ -809,20 +809,26 @@ header.entry-header h1 {
   text-align: center; }
 
 .footer-primary {
-  float: left;
-  display: block;
-  margin-right: 2.35765%;
-  width: 48.82117%; }
-  .footer-primary:last-child {
-    margin-right: 0; }
+  width: 100%; }
+  @media (min-width: 50em) {
+    .footer-primary {
+      float: left;
+      display: block;
+      margin-right: 2.35765%;
+      width: 48.82117%; }
+      .footer-primary:last-child {
+        margin-right: 0; } }
 
 .footer-secondary {
-  float: left;
-  display: block;
-  margin-right: 2.35765%;
-  width: 48.82117%; }
-  .footer-secondary:last-child {
-    margin-right: 0; }
+  width: 100%; }
+  @media (min-width: 50em) {
+    .footer-secondary {
+      float: left;
+      display: block;
+      margin-right: 2.35765%;
+      width: 48.82117%; }
+      .footer-secondary:last-child {
+        margin-right: 0; } }
   .footer-secondary div {
     margin-bottom: 3em; }
 
