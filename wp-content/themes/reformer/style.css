@@ -879,8 +879,11 @@ header.entry-header h1 {
     margin-left: 10px; }
 
 .footer-logos {
-  width: 100%; }
+  width: 100%;
+  display: inline-block;
+  padding: 30px 0; }
   .footer-logos h4 {
+    margin-bottom: 20px;
     font-size: 0.875em;
     text-align: center;
     position: relative;
