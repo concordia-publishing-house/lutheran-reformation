@@ -38,10 +38,12 @@
 			</div><!-- .row -->
 			<div class="row">
 				<div class="footer-logos">
-					<h4><span>Lutheran Reformation Sponsors<span></h4>
+					<h4><span>Lutheran Reformation Sponsors</span></h4>
+					<div class="sponsors">
 	        	<div class="lcms-logo-white"><a href="http://lcms.org" title="The Lutheran Church—Missouri Synod" target="_blank"><img src="<?php bloginfo('stylesheet_directory'); ?>/images/lcms-logo-white.png" alt="LutheranReformation.org Sponsor - The Lutheran Church—Missouri Synod"></a></a></div>
 	        	<div class="thrivent-logo-white"><a href="https://www.thrivent.com" title="Thrivent Financial" target="_blank"><img src="<?php bloginfo('stylesheet_directory'); ?>/images/thrivent-logo.png" alt="LutheranReformation.org Sponsor - Thrivent Financial"></a></div>
 	        	<div class="cph-logo-white"><a href="http://cph.org" title="Concordia Publishing House" target="_blank"><img src="<?php bloginfo('stylesheet_directory'); ?>/images/cph-logo-white.png" alt="LutheranReformation.org Sponsor - Concordia Publishing House"></a></a></div>
+	        </div>
         </div>
 				<div class="twelve columns footer-copyright">
 				© 2015 The Lutheran Church—Missouri Synod. All Rights Reserved. 	
