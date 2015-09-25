@@ -17,7 +17,7 @@
   border-radius: 4px;
   border: 1px solid rgba( $orange, 0.2 );
   text-decoration: none;
-  font-family: 'Montserrat';
+  font-family: $secondary-font;
   text-transform: uppercase;
   font-weight: 400;
   color: #364b59;
@@ -67,4 +67,9 @@
 .button [class^="icon-"] {
   // vertical-align: -10%;
   margin: 0 2px;
+}
+
+.vc_btn, a.vc_btn, button.vc_btn {
+  font-family: $secondary-font;
+  text-transform: uppercase;
 }
