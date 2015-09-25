@@ -441,6 +441,9 @@ form.button-inset {
   color: white;
   border-color: #ec6041; }
 
+.button-primary:hover {
+  color: white; }
+
 .button-secondary, .button-secondary:visited {
   background: #efb333;
   color: white;
