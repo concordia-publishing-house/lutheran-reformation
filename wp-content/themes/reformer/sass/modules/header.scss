@@ -70,6 +70,17 @@ body.home .site-branding .site-title {
   width: 100%;
 }
 
+body.search {
+
+  .container.navigation-container {
+    min-height: 200px;
+  }
+
+  .entry-header h1 {
+    display: none;
+  }
+}
+
 }
 .site-title  h2 {
   float: left;
