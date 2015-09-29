@@ -8,7 +8,7 @@
  */
 
 get_header(); ?>
-
+<div class="container">
 	<section id="primary" class="content-area">
 		<div class="container">
 			<main id="main" class="site-main" role="main">
@@ -46,4 +46,8 @@ get_header(); ?>
 	</section><!-- #primary -->
 
 <?php get_sidebar(); ?>
+</div><!-- .container -->
+<div class="page-extras">
+	<?php if( dynamic_sidebar('footer-widget-area-1') ) : else : endif; ?>
+</div>
 <?php get_footer(); ?>
