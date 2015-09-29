@@ -41,7 +41,7 @@ get_header(); ?>
 							?>
 						</div>
 						<div class="featured-content">
-							<h4><a href="<?php echo get_page_link($page->ID) ?>"><?php echo $page->post_title ?></a></h4>
+							<h3><a href="<?php echo get_page_link($page->ID) ?>"><?php echo $page->post_title ?></a></h3>
 							<?php echo apply_filters('the_content', $page->post_excerpt); ?>
 						</div>
 

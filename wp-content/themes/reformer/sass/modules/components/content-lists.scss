@@ -21,7 +21,7 @@
 	width:100%;
 	@include breakpoint(small) { @include span-columns(8); }
 
-	h4 {
+	h3 {
 		margin-top:0;
 	}
 
