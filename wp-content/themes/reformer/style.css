@@ -639,9 +639,10 @@ body.home .site-branding .site-title h2 {
   display: none; }
 body.home .site-branding .site-title img {
   width: 100%; }
-body.home .site-branding .site-title body.search .container.navigation-container {
+
+body.search .container.navigation-container {
   min-height: 200px; }
-body.home .site-branding .site-title body.search .entry-header h1 {
+body.search header.entry-header h1 {
   display: none; }
 
 .site-title h2 {
