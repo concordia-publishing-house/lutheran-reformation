@@ -27,6 +27,7 @@ get_header(); ?>
 
 		</main><!-- #main -->
 	</div><!-- #primary -->
+	<?php get_sidebar(); ?>
 </div><!-- .container -->
 <div class="page-extras">
 	<?php if( dynamic_sidebar('footer-widget-area-1') ) : else : endif; ?>
