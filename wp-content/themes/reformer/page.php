@@ -27,7 +27,7 @@ get_header(); ?>
 					?>
 
 				<?php endwhile; // End of the loop. ?>
-			<div class="sub-pages">	
+			<div class="content-list">	
 				<?php
 					$pages = get_pages('child_of='.$post->ID.'&sort_column=post_date&sort_order=desc&parent='.$post->ID);
 					foreach($pages as $page) {
