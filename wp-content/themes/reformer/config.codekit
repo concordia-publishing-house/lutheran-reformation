@@ -736,7 +736,7 @@
 		"debugStyle": 0,
 		"decimalPrecision": 10,
 		"fileType": 4,
-		"ignore": 0,
+		"ignore": 1,
 		"ignoreWasSetByUser": 0,
 		"inputAbbreviatedPath": "\/sass\/base\/modal.scss",
 		"outputAbbreviatedPath": "\/.\" #targets our default style.css file at the root level of our theme\/modal.css",
