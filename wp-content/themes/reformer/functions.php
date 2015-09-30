@@ -172,3 +172,13 @@ add_action( 'init', 'my_add_excerpts_to_pages' );
 function my_add_excerpts_to_pages() {
      add_post_type_support( 'page', 'excerpt' );
 }
+
+
+
+
+function wpb_adding_scripts() {
+wp_register_script('modal', plugins_url('js/modal.js', __FILE__), array('jquery'),'1.0', true);
+wp_enqueue_script('modal');
+}
+
+add_action( 'wp_enqueue_scripts', 'wpb_adding_scripts' );  
