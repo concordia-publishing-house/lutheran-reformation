@@ -697,9 +697,9 @@ body.home .container.navigation-container {
     .site-branding .site-title span {
       display: block; }
 
-body.home .site-title a {
-  width: 150px; }
-
+@media (min-width: 1024px) {
+  body.home .site-title a {
+    width: 150px; } }
 .secondary-navigation {
   display: none; }
   @media (min-width: 980px) {

@@ -140,9 +140,10 @@ body.home .container.navigation-container {
   }
 
 }
-@media (min-width: 1024px) {}
-body.home .site-title a {
-   width: 150px;
+@media (min-width: 1024px) {
+  body.home .site-title a {
+     width: 150px;
+  }
 }
 .secondary-navigation {
   display: none;
