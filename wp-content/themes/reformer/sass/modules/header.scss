@@ -199,10 +199,10 @@ body.home .site-title a {
       a {
         color:white;
         text-decoration: none;
-        @include breakpoint(large) {padding:10px 25px;}
         @include breakpoint(medium) {padding:10px 15px;}
         font-size: 0.875em;
         @media (min-width: 850px) { font-size: 1em;}
+        @media (min-width: 1125px) {padding:10px 25px;}
         text-shadow:0 1px 3px rgba(0, 0, 0, 0.75);
       }
     }

@@ -758,15 +758,15 @@ body.home .site-title a {
         text-decoration: none;
         font-size: 0.875em;
         text-shadow: 0 1px 3px rgba(0, 0, 0, 0.75); }
-        @media (min-width: 64.375em) {
-          .main-navigation ul li a {
-            padding: 10px 25px; } }
         @media (min-width: 50em) {
           .main-navigation ul li a {
             padding: 10px 15px; } }
         @media (min-width: 850px) {
           .main-navigation ul li a {
             font-size: 1em; } }
+        @media (min-width: 1125px) {
+          .main-navigation ul li a {
+            padding: 10px 25px; } }
 
 .menu-secondary-navigation-container {
   float: left;
