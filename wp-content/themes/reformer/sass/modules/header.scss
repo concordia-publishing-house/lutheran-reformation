@@ -127,7 +127,7 @@ body.home .container.navigation-container {
 
      a {
       width: 90px;
-        @media (min-width: 1024px) {width: 110;}
+        @media (min-width: 1024px) {width: 110px;}
         height: 100%;
         display: block;
         float: left;
@@ -140,10 +140,10 @@ body.home .container.navigation-container {
   }
 
 }
-
-// body.home .site-title a {
-//   width: 100%;
-// }
+@media (min-width: 1024px) {}
+body.home .site-title a {
+   width: 150px;
+}
 .secondary-navigation {
   display: none;
   @media (min-width: 980px) {

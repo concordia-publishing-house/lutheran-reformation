@@ -693,9 +693,12 @@ body.home .container.navigation-container {
       float: left; }
       @media (min-width: 1024px) {
         .site-branding .site-title a {
-          width: 110; } }
+          width: 110px; } }
     .site-branding .site-title span {
       display: block; }
+
+body.home .site-title a {
+  width: 150px; }
 
 .secondary-navigation {
   display: none; }
