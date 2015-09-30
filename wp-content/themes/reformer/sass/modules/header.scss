@@ -127,7 +127,7 @@ body.home .container.navigation-container {
 
      a {
       width: 90px;
-        @include breakpoint (medium) {width: 60%;}
+        // @include breakpoint (medium) {width: 60%;}
         height: 100%;
         display: block;
         float: left;
@@ -141,9 +141,9 @@ body.home .container.navigation-container {
 
 }
 
-body.home .site-title a {
-  width: 100%;
-}
+// body.home .site-title a {
+//   width: 100%;
+// }
 .secondary-navigation {
   display: none;
   @media (min-width: 980px) {

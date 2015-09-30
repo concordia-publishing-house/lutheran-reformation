@@ -691,14 +691,8 @@ body.home .container.navigation-container {
       height: 100%;
       display: block;
       float: left; }
-      @media (min-width: 50em) {
-        .site-branding .site-title a {
-          width: 60%; } }
     .site-branding .site-title span {
       display: block; }
-
-body.home .site-title a {
-  width: 100%; }
 
 .secondary-navigation {
   display: none; }
