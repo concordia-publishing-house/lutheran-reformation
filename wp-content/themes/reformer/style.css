@@ -691,6 +691,9 @@ body.home .container.navigation-container {
       height: 100%;
       display: block;
       float: left; }
+      @media (min-width: 1024px) {
+        .site-branding .site-title a {
+          width: 110; } }
     .site-branding .site-title span {
       display: block; }
 
