@@ -724,10 +724,10 @@ body.home .site-title a {
 
 .main-navigation {
   display: none; }
-  @media (min-width: 50em) {
+  @media (min-width: 980px) {
     .main-navigation {
       width: auto;
-      float: left;
+      float: right;
       display: block;
       margin-top: 3em;
       text-transform: uppercase;

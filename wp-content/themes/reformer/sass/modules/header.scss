@@ -169,9 +169,9 @@ body.home .site-title a {
 }
 .main-navigation {
   display: none;
-  @include breakpoint(medium) {
+  @media (min-width: 980px) {
     width:auto;
-    float: left;
+    float: right;
     display: block;
     @include margin(3em null null);
     text-transform: uppercase;
