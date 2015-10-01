@@ -1431,7 +1431,7 @@ header.entry-header h1 {
     padding-bottom: 50px;
     text-align: center;
     margin: 0 auto; } }
-  @media screen and (max-width: 768px) and (max-width: 20em) {
+  @media screen and (max-width: 768px) and (max-width: 32.813em) {
     .countdown-section {
       width: 100%;
       float: none; } }
