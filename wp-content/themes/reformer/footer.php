@@ -56,7 +56,9 @@
 <?php wp_footer(); ?>
 <div class="remodal remodal-video" data-remodal-id="modal">
   <button data-remodal-action="close" class="remodal-close"></button>
-  <iframe src="https://player.vimeo.com/video/139893505?title=0&byline=0&portrait=0" width="850" height="478" frameborder="0" webkitallowfullscreen mozallowfullscreen allowfullscreen></iframe>
+  <div class='video-wrapper'>
+		<iframe src='http://player.vimeo.com/video/139893505' frameborder='0' webkitAllowFullScreen mozallowfullscreen allowFullScreen></iframe>
+	</div>
  </div>
 <?php if(is_front_page()) : ?>
 	<script src="http://cph.org/images/topics/images/topicpages/littleluther/js/jquery.plugin.js"></script>

@@ -545,7 +545,7 @@ html.remodal-is-locked {
 
 /* Default theme styles of the overlay */
 .remodal-overlay {
-  background: rgba(43, 46, 56, 0.9); }
+  background: rgba(43, 46, 56, 0.98); }
 
 .remodal-overlay.remodal-is-opening,
 .remodal-overlay.remodal-is-closing {
@@ -593,7 +593,7 @@ html.remodal-is-locked {
 .remodal-close {
   position: absolute;
   top: 0;
-  left: 0;
+  right: 0;
   display: block;
   overflow: visible;
   width: 35px;
@@ -603,22 +603,23 @@ html.remodal-is-locked {
   cursor: pointer;
   transition: color 0.2s;
   text-decoration: none;
-  color: #95979c;
+  color: white;
   border: 0;
   outline: 0;
   background: transparent; }
 
 .remodal-close:hover,
 .remodal-close:focus {
-  color: #2b2e38; }
+  color: rgba(255, 255, 255, 0.6); }
 
 .remodal-close:before {
-  font-family: Arial, "Helvetica CY", "Nimbus Sans L", sans-serif !important;
-  font-size: 25px;
+  font-family: "Montserrat", Helvetica, sans-serif;
+  font-size: 35px;
   line-height: 35px;
+  font-weight: 100;
   position: absolute;
   top: 0;
-  left: 0;
+  right: 20px;
   display: block;
   width: 35px;
   content: "\00d7";
@@ -694,7 +695,10 @@ html.remodal-is-locked {
    ========================================================================== */
 @media only screen and (min-width: 641px) {
   .remodal {
-    max-width: 700px; } }
+    max-width: 700px; }
+
+  .remodal.remodal-video {
+    max-width: 1000px; } }
 /* IE8
    ========================================================================== */
 .lt-ie9 .remodal-overlay {
@@ -730,6 +734,20 @@ hr {
   border: 0;
   margin: 20px 0;
   border-bottom: 1px solid #e7e7e7; }
+
+.video-wrapper {
+  height: 0;
+  overflow: hidden;
+  padding-bottom: 56.25%;
+  position: relative; }
+  .video-wrapper embed,
+  .video-wrapper object,
+  .video-wrapper iframe {
+    position: absolute;
+    top: 0px;
+    left: 0px;
+    height: 100%;
+    width: 100%; }
 
 /*--------------------------------------------------------------
 # Grid
