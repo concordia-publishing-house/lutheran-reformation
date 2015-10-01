@@ -1432,7 +1432,7 @@ header.entry-header h1 {
     padding-bottom: 50px;
     text-align: center;
     margin: 0 auto; } }
-  @media screen and (max-width: 768px) and (min-width: 37.5em) {
+  @media screen and (max-width: 768px) and (max-width: 20em) {
     .countdown-section {
       width: 100%; } }
 
