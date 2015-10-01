@@ -15,6 +15,10 @@
 .container, .wpb_wrapper {
 	padding:0 20px;
 }
+
+.wpb_wrapper > .container {
+padding:0;
+} 
 .container {
 	@include outer-container;
 }

@@ -761,6 +761,9 @@ hr {
 .container, .wpb_wrapper {
   padding: 0 20px; }
 
+.wpb_wrapper > .container {
+  padding: 0; }
+
 .container {
   max-width: 68em;
   margin-left: auto;
