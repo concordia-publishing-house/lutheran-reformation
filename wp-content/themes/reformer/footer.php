@@ -54,6 +54,16 @@
 	</footer><!-- #colophon -->
 </div><!-- #page -->
 <?php wp_footer(); ?>
+<div class="remodal" data-remodal-id="modal">
+  <button data-remodal-action="close" class="remodal-close"></button>
+  <h1>Remodal</h1>
+  <p>
+    Responsive, lightweight, fast, synchronized with CSS animations, fully customizable modal window plugin with declarative configuration and hash tracking.
+  </p>
+  <br>
+  <button data-remodal-action="cancel" class="remodal-cancel">Cancel</button>
+  <button data-remodal-action="confirm" class="remodal-confirm">OK</button>
+</div>
 <?php if(is_front_page()) : ?>
 	<script src="http://cph.org/images/topics/images/topicpages/littleluther/js/jquery.plugin.js"></script>
 	<script src="http://cph.org/images/topics/images/topicpages/littleluther/js/jquery.countdown.js"></script>
@@ -68,6 +78,8 @@
 	<script>
   	jQuery("#page_header").fitText(1.2, { minFontSize: '40px', maxFontSize: '80px' });
 	</script>
-	<script type="text/javascript" src="<?php bloginfo('template_url'); ?>/js/modal.js"></script>
+	<script type="text/javascript" src="<?php bloginfo('template_url'); ?>/js/remodal.js"></script>
 </body>
 </html>
+
+
