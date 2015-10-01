@@ -68,5 +68,6 @@
 	<script>
   	jQuery("#page_header").fitText(1.2, { minFontSize: '40px', maxFontSize: '80px' });
 	</script>
+	<script type="text/javascript" src="<?php bloginfo('template_url'); ?>/js/modal.js"></script>
 </body>
 </html>
