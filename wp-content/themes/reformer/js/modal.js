@@ -1,23 +1,17 @@
-// Click function for show the Modal
+jQuery(function() {
+  jQuery("#modal-1").on("change", function() {
+    if (jQuery(this).is(":checked")) {
+      jQuery("body").addClass("modal-open");
+    } else {
+      jQuery("body").removeClass("modal-open");
+    }
+  });
 
-jQuery(".show").on("click", function(){
-  jQuery(".mask").addClass("active");
-});
+  jQuery(".modal-fade-screen, .modal-close").on("click", function() {
+    jQuery(".modal-state:checked").prop("checked", false).change();
+  });
 
-// Function for close the Modal
-
-function closeModal(){
-  jQuery(".mask").removeClass("active");
-}
-
-// Call the closeModal function on the clicks/keyboard
-
-jQuery(".close, .mask").on("click", function(){
-  closeModal();
-});
-
-jQuery(document).keyup(function(e) {
-  if (e.keyCode == 27) {
-    closeModal();
-  }
+  jQuery(".modal-inner").on("click", function(e) {
+    e.stopPropagation();
+  });
 });
