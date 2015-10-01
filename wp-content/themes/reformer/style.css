@@ -619,7 +619,7 @@ html.remodal-is-locked {
   font-weight: 100;
   position: absolute;
   top: 0;
-  right: 20px;
+  right: 0;
   display: block;
   width: 35px;
   content: "\00d7";
