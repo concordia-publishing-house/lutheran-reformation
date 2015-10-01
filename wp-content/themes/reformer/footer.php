@@ -54,16 +54,10 @@
 	</footer><!-- #colophon -->
 </div><!-- #page -->
 <?php wp_footer(); ?>
-<div class="remodal" data-remodal-id="modal">
+<div class="remodal remodal-video" data-remodal-id="modal">
   <button data-remodal-action="close" class="remodal-close"></button>
-  <h1>Remodal</h1>
-  <p>
-    Responsive, lightweight, fast, synchronized with CSS animations, fully customizable modal window plugin with declarative configuration and hash tracking.
-  </p>
-  <br>
-  <button data-remodal-action="cancel" class="remodal-cancel">Cancel</button>
-  <button data-remodal-action="confirm" class="remodal-confirm">OK</button>
-</div>
+  <iframe src="https://player.vimeo.com/video/139893505?title=0&byline=0&portrait=0" width="850" height="478" frameborder="0" webkitallowfullscreen mozallowfullscreen allowfullscreen></iframe>
+ </div>
 <?php if(is_front_page()) : ?>
 	<script src="http://cph.org/images/topics/images/topicpages/littleluther/js/jquery.plugin.js"></script>
 	<script src="http://cph.org/images/topics/images/topicpages/littleluther/js/jquery.countdown.js"></script>
