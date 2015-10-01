@@ -1433,7 +1433,8 @@ header.entry-header h1 {
     margin: 0 auto; } }
   @media screen and (max-width: 768px) and (max-width: 20em) {
     .countdown-section {
-      width: 100%; } }
+      width: 100%;
+      float: none; } }
 
 .content-list {
   margin: 20px 0; }
