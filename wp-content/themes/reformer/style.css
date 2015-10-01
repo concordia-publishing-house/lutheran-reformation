@@ -1362,7 +1362,8 @@ header.entry-header h1 {
         margin-right: 10px; }
 
 .is-countdown {
-  width: 55%;
+  max-width: 37.5em;
+  width: 100%;
   padding-top: 20px;
   margin: 0 auto;
   font-family: "Montserrat", Helvetica, sans-serif; }
@@ -1423,7 +1424,6 @@ header.entry-header h1 {
 
 @media screen and (max-width: 768px) {
   .is-countdown {
-    width: 92%;
     padding-top: 35px;
     margin: 0 auto; }
 
