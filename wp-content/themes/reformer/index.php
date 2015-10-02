@@ -13,9 +13,9 @@
  */
 
 get_header(); ?>
-
+<!-- Blog? -->
+<div class="container">
 	<div id="primary" class="content-area">
-		<div class="container">
 			<main id="main" class="site-main" role="main">
 
 			<?php if ( have_posts() ) : ?>
@@ -50,8 +50,8 @@ get_header(); ?>
 			<?php endif; ?>
 
 			</main><!-- #main -->
-		</div><!-- .container -->
 	</div><!-- #primary -->
+</div><!-- .container -->
 
 <?php get_sidebar(); ?>
 <?php get_footer(); ?>
