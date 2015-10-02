@@ -78,6 +78,17 @@
 		"outputPathIsSetByUser": 0,
 		"processed": 0
 		},
+	"\/images\/lcef-logo-white.png": {
+		"fileType": 32768,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 8391,
+		"inputAbbreviatedPath": "\/images\/lcef-logo-white.png",
+		"outputAbbreviatedPath": "\/images\/lcef-logo-white.png",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
 	"\/images\/lcms-logo-white.png": {
 		"fileType": 32768,
 		"ignore": 0,
@@ -287,6 +298,17 @@
 		"outputPathIsSetByUser": 0,
 		"processed": 0
 		},
+	"\/images\/ref-main-banner.jpg": {
+		"fileType": 16384,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 281290,
+		"inputAbbreviatedPath": "\/images\/ref-main-banner.jpg",
+		"outputAbbreviatedPath": "\/images\/ref-main-banner.jpg",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
 	"\/images\/ref-media.jpg": {
 		"fileType": 16384,
 		"ignore": 0,
@@ -305,6 +327,17 @@
 		"initialSize": 61710,
 		"inputAbbreviatedPath": "\/images\/ref-podcasts.jpg",
 		"outputAbbreviatedPath": "\/images\/ref-podcasts.jpg",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
+	"\/images\/ref-reformation-map.jpg": {
+		"fileType": 16384,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 1.00612e+06,
+		"inputAbbreviatedPath": "\/images\/ref-reformation-map.jpg",
+		"outputAbbreviatedPath": "\/images\/ref-reformation-map.jpg",
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0,
 		"processed": 0
