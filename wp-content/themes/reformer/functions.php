@@ -185,13 +185,10 @@ add_action( 'wp_enqueue_scripts', 'wpb_adding_scripts' );
 
 
 // Change the URL to the ajax-loader image
-function change_wpcf7_ajax_loader($content) {
-    if ( is_page('contact') ) {
-        $string = $content;
-        $pattern = '/(<img class="ajax-loader" style="visibility: hidden;" alt="ajax loader" src=")(.*)(" \/>)/i';
-        $replacement = "$1".get_template_directory_uri()."/images/ajax-loader.gif$3";
-        $content =  preg_replace($pattern, $replacement, $string);
-    }
-    return $content;
+add_filter('wpcf7_ajax_loader', 'change_wpcf7_ajax_loader');
+
+// Change the URL to the ajax-loader image
+function change_wpcf7_ajax_loader($url) {
+    return get_stylesheet_directory_uri()."/images/ajax-loader.gif";
 }
 
