@@ -83,7 +83,7 @@ function the_reformer_posted_on() {
 	);
 
 	$posted_on = sprintf(
-		esc_html_x( 'Posted on %s', 'post date', 'the-reformer' ),
+		esc_html_x( 'Posted %s', 'post date', 'the-reformer' ),
 		'<a href="' . esc_url( get_permalink() ) . '" rel="bookmark">' . $time_string . '</a>'
 	);
 

@@ -18,7 +18,7 @@ get_header(); ?>
 				<?php get_template_part( 'template-parts/content', 'single' ); ?>
 
 				<?php the_post_navigation(); ?>
-
+				<a href="http://twitter.com/intent/tweet?status=<?php print(urlencode(the_title())); ?>+<?php print(urlencode(get_permalink())); ?>"><i class="icon-twitter"></i></a>
 				<?php
 					// If comments are open or we have at least one comment, load up the comment template.
 					if ( comments_open() || get_comments_number() ) :
