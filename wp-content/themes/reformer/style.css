@@ -1974,3 +1974,19 @@ Main components
       text-decoration: none;
       font-family: "Montserrat", Helvetica, sans-serif;
       font-size: 1.2em; }
+
+.tags-links a {
+  text-transform: capitalize;
+  text-decoration: none;
+  display: inline-block;
+  padding: 12px 26px;
+  border-radius: 4px;
+  border: 1px solid rgba(236, 96, 65, 0.2);
+  text-decoration: none;
+  font-family: "Montserrat", Helvetica, sans-serif;
+  text-transform: uppercase;
+  font-weight: 400;
+  color: #364b59;
+  font-size: .8em;
+  text-shadow: none;
+  box-shadow: none; }
