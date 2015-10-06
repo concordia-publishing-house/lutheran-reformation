@@ -51,7 +51,6 @@ hr {
 
 .bar {
   padding: 30px;
-  text-decoration: none;
   margin-bottom:20px;
   background: rgba($gold, .3);
   border-radius: 5px;
@@ -59,8 +58,19 @@ hr {
   h4 {
     text-transform: none; 
     margin-top:0;
+
+    a {
+      text-decoration: none;
+    }
   }
+
   p:last-child {
     margin-bottom: 0;
+  }
+}
+
+.three-bar-grid {
+  .bar {
+    @include columns(4);
   }
 }

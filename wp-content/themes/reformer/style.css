@@ -751,15 +751,21 @@ hr {
 
 .bar {
   padding: 30px;
-  text-decoration: none;
   margin-bottom: 20px;
   background: rgba(239, 179, 51, 0.3);
   border-radius: 5px; }
   .bar h4 {
     text-transform: none;
     margin-top: 0; }
+    .bar h4 a {
+      text-decoration: none; }
   .bar p:last-child {
     margin-bottom: 0; }
+
+.three-bar-grid .bar {
+  -webkit-columns: 4;
+  -moz-columns: 4;
+  columns: 4; }
 
 /*--------------------------------------------------------------
 # Grid
