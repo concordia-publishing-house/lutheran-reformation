@@ -1958,4 +1958,19 @@ Main components
   margin: 20px 0; }
 
 .post-navigation {
-  margin: 20px 0; }
+  margin-bottom: 20px;
+  width: 100%;
+  float: left;
+  border-top: 1px solid #FAF9F9;
+  border-bottom: 1px solid #FAF9F9; }
+  .post-navigation .nav-links div {
+    width: 49.97965826%;
+    float: left; }
+    .post-navigation .nav-links div.nav-previous {
+      border-right: 1px solid #FAF9F9; }
+    .post-navigation .nav-links div a {
+      padding: 30px 10px;
+      display: block;
+      text-decoration: none;
+      font-family: "Montserrat", Helvetica, sans-serif;
+      font-size: 1.2em; }

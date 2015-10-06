@@ -4,5 +4,28 @@
 }
 
 .post-navigation {
-	margin:20px 0;
+	margin-bottom: 20px;
+  width: 100%;
+  float: left;
+  border-top: 1px solid $lite-grey;
+  border-bottom: 1px solid $lite-grey;
+
+  	.nav-links {
+  		div {
+  		width: 49.97965826%;
+  		float: left;
+    	
+    	&.nav-previous {
+    		border-right: 1px solid $lite-grey;
+    	}
+    	a {
+    		padding: 30px 10px;
+    		display: block;
+    		text-decoration: none;
+    		font-family: $secondary-font;
+    		font-size: 1.2em;
+    	}
+    }
+
+  	}
 }
