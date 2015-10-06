@@ -1340,7 +1340,8 @@ header.entry-header h1 {
 .wpcf7-form-control-wrap .button-primary {
   margin: 20px auto;
   float: none;
-  display: block; }
+  display: block;
+  background: black; }
 
 div.wpcf7-mail-sent-ok {
   background-color: #99e2cd;
