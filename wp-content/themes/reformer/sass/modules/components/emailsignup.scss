@@ -48,6 +48,7 @@ div.wpcf7-mail-sent-ok {
     font-family: "Montserrat",Helvetica,sans-serif;
     font-weight: 900;
     max-width: 550px;
+    border: 0;
 }
 
 div.wpcf7 img.ajax-loader {
@@ -55,9 +56,9 @@ div.wpcf7 img.ajax-loader {
   vertical-align: middle;
   margin-left: 4px;
   position: absolute;
-  left: 47.5%;
-  width: 74px;
+  left: 46.4%;
+  width: 90px;
   margin-top: 0;
   background-color: $orange;
-  padding: 20px 10px;
+  padding: 18px 30px 10px;
 }
