@@ -752,8 +752,9 @@ hr {
 .bar {
   padding: 30px;
   text-decoration: none;
-  margin-bottom: 0;
-  background: rgba(239, 179, 51, 0.3); }
+  margin-bottom: 20px;
+  background: rgba(239, 179, 51, 0.3);
+  border-radius: 5px; }
   .bar h4 {
     text-transform: none;
     margin-top: 0; }
