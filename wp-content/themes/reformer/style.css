@@ -1959,7 +1959,8 @@ Main components
     display: block;
     margin: 20px 0; }
     .entry-footer span.cat-links {
-      text-align: right; }
+      text-align: right;
+      font-size: 0.7em; }
 
 .post-navigation {
   margin-bottom: 20px;
