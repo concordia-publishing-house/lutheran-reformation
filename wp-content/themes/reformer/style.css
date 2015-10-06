@@ -1961,13 +1961,13 @@ Main components
   margin-bottom: 20px;
   width: 100%;
   float: left;
-  border-top: 1px solid #FAF9F9;
-  border-bottom: 1px solid #FAF9F9; }
+  border-top: 1px solid rgba(50, 50, 50, 0.4);
+  border-bottom: 1px solid rgba(50, 50, 50, 0.4); }
   .post-navigation .nav-links div {
     width: 49.97965826%;
     float: left; }
     .post-navigation .nav-links div.nav-previous {
-      border-right: 1px solid #FAF9F9; }
+      border-right: 1px solid rgba(50, 50, 50, 0.4); }
     .post-navigation .nav-links div a {
       padding: 30px 10px;
       display: block;
@@ -1977,16 +1977,15 @@ Main components
 
 .tags-links a {
   text-transform: capitalize;
-  text-decoration: none;
   display: inline-block;
   padding: 12px 26px;
   border-radius: 4px;
-  border: 1px solid rgba(236, 96, 65, 0.2);
+  border: 1px solid rgba(50, 50, 50, 0.2);
+  background: rgba(50, 50, 50, 0.4);
   text-decoration: none;
   font-family: "Montserrat", Helvetica, sans-serif;
-  text-transform: uppercase;
   font-weight: 400;
-  color: #364b59;
-  font-size: .8em;
+  color: #196d73;
+  font-size: 0.75em;
   text-shadow: none;
   box-shadow: none; }

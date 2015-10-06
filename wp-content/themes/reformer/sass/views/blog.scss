@@ -7,8 +7,8 @@
 	margin-bottom: 20px;
   width: 100%;
   float: left;
-  border-top: 1px solid $lite-grey;
-  border-bottom: 1px solid $lite-grey;
+  border-top: 1px solid rgba($grey, 0.4);
+  border-bottom: 1px solid rgba($grey, 0.4);
 
   	.nav-links {
   		div {
@@ -16,7 +16,7 @@
   		float: left;
     	
     	&.nav-previous {
-    		border-right: 1px solid $lite-grey;
+    		border-right: 1px solid rgba($grey, 0.4);
     	}
     	a {
     		padding: 30px 10px;
@@ -32,17 +32,16 @@
 
 .tags-links a {
   text-transform: capitalize;
-  text-decoration: none;
   display: inline-block;
   padding:12px 26px;
   border-radius: 4px;
-  border: 1px solid rgba( $orange, 0.2 );
+  border: 1px solid rgba( $grey, 0.2 );
+  background: rgba( $grey, 0.4 );
   text-decoration: none;
   font-family: $secondary-font;
-  text-transform: uppercase;
   font-weight: 400;
-  color: #364b59;
-  font-size: .8em;
+  color: $slate;
+  font-size: 0.75em;
   text-shadow: none;
   box-shadow: none;
 }
