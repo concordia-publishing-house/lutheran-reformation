@@ -49,3 +49,15 @@ div.wpcf7-mail-sent-ok {
     font-weight: 900;
     max-width: 550px;
 }
+
+div.wpcf7 img.ajax-loader {
+  border: none;
+  vertical-align: middle;
+  margin-left: 4px;
+  position: absolute;
+  left: 47.5%;
+  width: 74px;
+  margin-top: 0;
+  background-color: $orange;
+  padding: 20px 10px;
+}
