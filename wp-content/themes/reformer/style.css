@@ -1347,8 +1347,9 @@ div.wpcf7 img.ajax-loader {
   border: none;
   vertical-align: middle;
   margin-left: 0;
-  width: 90px;
-  margin-top: 0; }
+  width: 50px;
+  margin: 10px auto;
+  display: block; }
 
 div.wpcf7-response-output {
   background-color: white;
