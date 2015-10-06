@@ -54,11 +54,10 @@ hr {
   margin-bottom:20px;
   background: rgba($link-color, .15);
   border-radius: 5px;
-  border:1px solid white;
+  border:1px solid rgba($link-color, .15);
 
   &:hover {
     background: rgba($link-color, .08);
-    border-color: rgba($link-color, .15);
   }
 
   h3 {
