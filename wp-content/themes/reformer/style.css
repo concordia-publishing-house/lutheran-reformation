@@ -1273,7 +1273,7 @@ header.entry-header h1 {
     margin-bottom: 0;
     border-bottom-left-radius: 0;
     border-bottom-right-radius: 0; }
-  .email-signup-sidebar .button-inset button[type=submit] {
+  .email-signup-sidebar .button-primary {
     position: relative;
     border-top-left-radius: 0;
     border-top-right-radius: 0;
