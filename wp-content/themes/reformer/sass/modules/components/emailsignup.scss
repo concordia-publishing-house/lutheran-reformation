@@ -45,12 +45,12 @@ div.wpcf7 img.ajax-loader {
   border: none;
   vertical-align: middle;
   margin-left: 0;
-  position: absolute;
-  left: 46%;
+  // position: absolute;
+  // left: 46%;
   width: 90px;
   margin-top: 0;
-  background-color: $orange;
-  padding: 18px 30px 10px;
+  // background-color: $orange;
+  // padding: 18px 30px 10px;
 }
 div.wpcf7-response-output {
   background-color: white;
@@ -75,3 +75,7 @@ div.wpcf7-response-output {
     color: $brown;
   }
 }
+
+span.wpcf7-not-valid-tip {
+    @extend %visuallyhidden;
+  }

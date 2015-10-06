@@ -71,7 +71,7 @@ html {
 /* Usage */
 /* Visibily Hide
   ========================================================================== */
-.screen-reader-text, .menu-toggle, body.home header.entry-header {
+.screen-reader-text, .menu-toggle, body.home header.entry-header, span.wpcf7-not-valid-tip {
   margin: -1px;
   padding: 0;
   width: 1px;
@@ -1347,12 +1347,8 @@ div.wpcf7 img.ajax-loader {
   border: none;
   vertical-align: middle;
   margin-left: 0;
-  position: absolute;
-  left: 46%;
   width: 90px;
-  margin-top: 0;
-  background-color: #ec6041;
-  padding: 18px 30px 10px; }
+  margin-top: 0; }
 
 div.wpcf7-response-output {
   background-color: white;
