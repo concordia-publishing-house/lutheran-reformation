@@ -749,6 +749,17 @@ hr {
     height: 100%;
     width: 100%; }
 
+.bar {
+  padding: 30px;
+  text-decoration: none;
+  margin-bottom: 0;
+  background: rgba(239, 179, 51, 0.3); }
+  .bar h4 {
+    text-transform: none;
+    margin-top: 0; }
+  .bar p:last-child {
+    margin-bottom: 0; }
+
 /*--------------------------------------------------------------
 # Grid
 --------------------------------------------------------------*/
