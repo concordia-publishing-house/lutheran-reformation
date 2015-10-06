@@ -1343,19 +1343,6 @@ header.entry-header h1 {
   display: block;
   background: black; }
 
-div.wpcf7-mail-sent-ok {
-  background-color: #99e2cd;
-  padding: 30px;
-  box-shadow: 0px 3px 3px rgba(0, 0, 0, 0.3);
-  border-radius: 3px;
-  color: #206d57;
-  /* width: 80%; */
-  margin: 20px auto;
-  font-family: "Montserrat",Helvetica,sans-serif;
-  font-weight: 900;
-  max-width: 550px;
-  border: 0; }
-
 div.wpcf7 img.ajax-loader {
   border: none;
   vertical-align: middle;
@@ -1366,6 +1353,25 @@ div.wpcf7 img.ajax-loader {
   margin-top: 0;
   background-color: #ec6041;
   padding: 18px 30px 10px; }
+
+.wpcf7-response-output {
+  background-color: white;
+  padding: 30px;
+  box-shadow: 0px 3px 3px rgba(0, 0, 0, 0.3);
+  border-radius: 3px;
+  color: #323232;
+  /* width: 80%; */
+  margin: 20px auto;
+  font-family: "Montserrat",Helvetica,sans-serif;
+  font-weight: 900;
+  max-width: 550px;
+  border: 0; }
+  .wpcf7-response-output.wpcf7-mail-sent-ok {
+    background-color: #99e2cd;
+    color: #206d57; }
+  .wpcf7-response-output.wpcf7-validation-errors {
+    background-color: #efb333;
+    color: #5e4328; }
 
 .countdown {
   display: block;
