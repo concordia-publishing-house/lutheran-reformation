@@ -756,18 +756,24 @@ hr {
   border-radius: 5px; }
   .bar h4 {
     text-transform: none;
-    margin-top: 0; }
+    margin-top: 0;
+    font-size: 1em; }
     .bar h4 a {
       text-decoration: none; }
-  .bar p:last-child {
-    margin-bottom: 0; }
+  .bar p {
+    font-size: .875em;
+    line-height: 1.2;
+    letter-spacing: 0; }
+    .bar p:last-child {
+      margin-bottom: 0; }
 
 .three-bar-grid {
   -webkit-columns: 3;
   -moz-columns: 3;
   columns: 3; }
   .three-bar-grid .bar {
-    display: inline-block; }
+    display: inline-block;
+    text-align: center; }
 
 /*--------------------------------------------------------------
 # Grid

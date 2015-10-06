@@ -58,14 +58,21 @@ hr {
   h4 {
     text-transform: none; 
     margin-top:0;
+    font-size: 1em;
 
     a {
       text-decoration: none;
     }
   }
 
-  p:last-child {
-    margin-bottom: 0;
+  p {
+    font-size: .875em;
+    line-height: 1.2;
+    letter-spacing: 0;
+    
+    &:last-child {
+      margin-bottom: 0;
+    }
   }
 }
 
@@ -73,5 +80,6 @@ hr {
   @include columns(3);
   .bar {
     display: inline-block;
+    text-align: center;
   }
 }
