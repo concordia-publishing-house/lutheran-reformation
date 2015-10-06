@@ -1058,6 +1058,22 @@
 		"shouldRunBless": 0,
 		"useLibsass": 0
 		},
+	"\/sass\/views\/blog.scss": {
+		"createSourceMap": 0,
+		"debugStyle": 0,
+		"decimalPrecision": 10,
+		"fileType": 4,
+		"ignore": 1,
+		"ignoreWasSetByUser": 0,
+		"inputAbbreviatedPath": "\/sass\/views\/blog.scss",
+		"outputAbbreviatedPath": "\/.\" #targets our default style.css file at the root level of our theme\/blog.css",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"outputStyle": 0,
+		"shouldRunAutoprefixer": 0,
+		"shouldRunBless": 0,
+		"useLibsass": 0
+		},
 	"\/sass\/views\/home.scss": {
 		"createSourceMap": 0,
 		"debugStyle": 0,
@@ -1188,6 +1204,15 @@
 		"ignoreWasSetByUser": 0,
 		"inputAbbreviatedPath": "\/Users\/paulna\/Sites\/lutheran-reformation\/wp-content\/themes\/reformer\/config.rb",
 		"outputAbbreviatedPath": "\/Users\/paulna\/Sites\/lutheran-reformation\/wp-content\/themes\/reformer\/config.rb",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0
+		},
+	"\/views\/blog.css": {
+		"fileType": 16,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"inputAbbreviatedPath": "\/views\/blog.css",
+		"outputAbbreviatedPath": "No Output Path",
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0
 		}
