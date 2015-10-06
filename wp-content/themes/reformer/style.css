@@ -752,8 +752,15 @@ hr {
 .bar {
   padding: 30px;
   margin-bottom: 20px;
-  background: rgba(239, 179, 51, 0.3);
-  border-radius: 5px; }
+  background: rgba(32, 218, 165, 0.15);
+  border-radius: 5px;
+  border: 1px solid white; }
+  .bar:hover {
+    background: rgba(32, 218, 165, 0.08);
+    border-color: rgba(32, 218, 165, 0.15); }
+  .bar h3 {
+    margin-bottom: 1.3em;
+    color: rgba(54, 75, 89, 0.3); }
   .bar h4 {
     text-transform: none;
     margin-top: 0;

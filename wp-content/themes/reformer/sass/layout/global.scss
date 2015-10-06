@@ -52,8 +52,19 @@ hr {
 .bar {
   padding: 30px;
   margin-bottom:20px;
-  background: rgba($gold, .3);
+  background: rgba($link-color, .15);
   border-radius: 5px;
+  border:1px solid white;
+
+  &:hover {
+    background: rgba($link-color, .08);
+    border-color: rgba($link-color, .15);
+  }
+
+  h3 {
+    margin-bottom: 1.3em;
+    color: rgba($darkslate, 0.3);
+  }
 
   h4 {
     text-transform: none; 
