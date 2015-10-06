@@ -70,7 +70,8 @@ hr {
 }
 
 .three-bar-grid {
+  @include columns(3);
   .bar {
-    @include columns(4);
+    display: inline-block;
   }
 }

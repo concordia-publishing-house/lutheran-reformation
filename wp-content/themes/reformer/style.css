@@ -762,10 +762,12 @@ hr {
   .bar p:last-child {
     margin-bottom: 0; }
 
-.three-bar-grid .bar {
-  -webkit-columns: 4;
-  -moz-columns: 4;
-  columns: 4; }
+.three-bar-grid {
+  -webkit-columns: 3;
+  -moz-columns: 3;
+  columns: 3; }
+  .three-bar-grid .bar {
+    display: inline-block; }
 
 /*--------------------------------------------------------------
 # Grid
