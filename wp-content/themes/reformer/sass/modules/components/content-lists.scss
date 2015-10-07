@@ -6,22 +6,22 @@
 		padding: 50px 0;
     border-top: 1px solid $lite-grey;
 
-    &.type-post {
-    	display:inline-block;
-			padding: 50px 0;
-	    border-top: 1px solid $lite-grey;
-
-	   &:first-child {
-	   	border-top: 0;
-	   }
-	   a {
-	   	text-decoration: none;
-	   }
-    }
-
 	}
 }
 
+
+article.type-post {
+	display:inline-block;
+	padding: 50px 0;
+  border-top: 1px solid $lite-grey;
+
+ &:first-child {
+ 	border-top: 0;
+ }
+ a {
+ 	text-decoration: none;
+ }
+}
 .featured-image {
 	width:100%;
 	margin-bottom: 20px;
