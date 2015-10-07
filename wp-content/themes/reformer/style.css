@@ -1581,10 +1581,17 @@ div.wpcf7-response-output {
 .content-list {
   margin: 20px 0; }
   .content-list article {
-    margin-bottom: 40px;
     display: inline-block;
     padding: 50px 0;
     border-top: 1px solid #FAF9F9; }
+    .content-list article.type-post {
+      display: inline-block;
+      padding: 50px 0;
+      border-top: 1px solid #FAF9F9; }
+      .content-list article.type-post:first-child {
+        border-top: 0; }
+      .content-list article.type-post a {
+        text-decoration: none; }
 
 .featured-image {
   width: 100%;

@@ -2,10 +2,22 @@
 	margin: 20px 0;
 
 	article {
-		margin-bottom: 40px;
 		display:inline-block;
 		padding: 50px 0;
     border-top: 1px solid $lite-grey;
+
+    &.type-post {
+    	display:inline-block;
+			padding: 50px 0;
+	    border-top: 1px solid $lite-grey;
+
+	   &:first-child {
+	   	border-top: 0;
+	   }
+	   a {
+	   	text-decoration: none;
+	   }
+    }
 
 	}
 }
