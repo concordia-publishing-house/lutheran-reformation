@@ -327,7 +327,7 @@ blockquote {
   border-bottom: 1px solid #e7e7e7;
   border-radius: 3px;
   margin-bottom: 30px; }
-  blockquote + p {
+  blockquote > p {
     line-height: 1.6;
     margin-bottom: 0; }
 

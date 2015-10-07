@@ -72,7 +72,7 @@ blockquote {
   border-radius: 3px;
   margin-bottom: 30px;
 
-  + p {
+  > p {
     line-height: 1.6;
     margin-bottom: 0;
   }
