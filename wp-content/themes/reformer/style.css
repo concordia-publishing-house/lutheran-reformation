@@ -1582,7 +1582,9 @@ div.wpcf7-response-output {
   margin: 20px 0; }
   .content-list article {
     margin-bottom: 40px;
-    display: inline-block; }
+    display: inline-block;
+    padding: 50px 0;
+    border-top: 1px solid #FAF9F9; }
 
 .featured-image {
   width: 100%;
