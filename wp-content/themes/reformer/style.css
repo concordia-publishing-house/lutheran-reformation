@@ -768,17 +768,17 @@ body {
   margin: 0; }
 
 a {
-  color: #20DAA5;
+  color: #52C2D0;
   -webkit-transition: color 800ms ease-in-out;
   -moz-transition: color 800ms ease-in-out;
   transition: color 800ms ease-in-out; }
 
 a:hover {
-  color: #2BC297;
+  color: #52C2D0;
   text-decoration: none; }
 
 a:visited {
-  color: #46B495; }
+  color: #46A8B4; }
 
 hr {
   border: 0;
@@ -802,11 +802,11 @@ hr {
 .bar {
   padding: 30px;
   margin-bottom: 20px;
-  background: rgba(32, 218, 165, 0.15);
+  background: rgba(82, 194, 208, 0.15);
   border-radius: 5px;
-  border: 1px solid rgba(32, 218, 165, 0.15); }
+  border: 1px solid rgba(82, 194, 208, 0.15); }
   .bar:hover {
-    background: rgba(32, 218, 165, 0.08); }
+    background: rgba(82, 194, 208, 0.08); }
   .bar.bar-paper {
     padding: 50px;
     margin-bottom: 20px;

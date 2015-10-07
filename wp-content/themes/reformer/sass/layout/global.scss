@@ -12,17 +12,17 @@ body {
 }
 
 a {
-  color:#20DAA5;
+  color:$link-color;
   @include transition(color 800ms ease-in-out);
 }
 
 a:hover {
-  color:#2BC297;
+  color:$link-color;
   text-decoration: none;
 }
 
 a:visited {
-  color:#46B495;
+  color:#46A8B4;
 }
 
 hr {
