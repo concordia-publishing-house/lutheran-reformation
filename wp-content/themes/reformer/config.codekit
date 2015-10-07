@@ -188,6 +188,17 @@
 		"outputPathIsSetByUser": 0,
 		"processed": 0
 		},
+	"\/images\/ref-flannel-graph.jpg": {
+		"fileType": 16384,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 138050,
+		"inputAbbreviatedPath": "\/images\/ref-flannel-graph.jpg",
+		"outputAbbreviatedPath": "\/images\/ref-flannel-graph.jpg",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
 	"\/images\/ref-getinvolved.jpg": {
 		"fileType": 16384,
 		"ignore": 0,
@@ -228,6 +239,17 @@
 		"initialSize": 264892,
 		"inputAbbreviatedPath": "\/images\/ref-hymncompetition.jpg",
 		"outputAbbreviatedPath": "\/images\/ref-hymncompetition.jpg",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
+	"\/images\/ref-hymnfeature.jpg": {
+		"fileType": 16384,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 278157,
+		"inputAbbreviatedPath": "\/images\/ref-hymnfeature.jpg",
+		"outputAbbreviatedPath": "\/images\/ref-hymnfeature.jpg",
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0,
 		"processed": 0
@@ -320,6 +342,17 @@
 		"outputPathIsSetByUser": 0,
 		"processed": 0
 		},
+	"\/images\/ref-pbs-comingsoon.jpg": {
+		"fileType": 16384,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 230821,
+		"inputAbbreviatedPath": "\/images\/ref-pbs-comingsoon.jpg",
+		"outputAbbreviatedPath": "\/images\/ref-pbs-comingsoon.jpg",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
 	"\/images\/ref-podcasts.jpg": {
 		"fileType": 16384,
 		"ignore": 0,
@@ -353,6 +386,17 @@
 		"outputPathIsSetByUser": 0,
 		"processed": 0
 		},
+	"\/images\/ref-reformationremembered.jpg": {
+		"fileType": 16384,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 264876,
+		"inputAbbreviatedPath": "\/images\/ref-reformationremembered.jpg",
+		"outputAbbreviatedPath": "\/images\/ref-reformationremembered.jpg",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
 	"\/images\/ref-resources-bg.jpg": {
 		"fileType": 16384,
 		"ignore": 0,
@@ -360,6 +404,50 @@
 		"initialSize": 398174,
 		"inputAbbreviatedPath": "\/images\/ref-resources-bg.jpg",
 		"outputAbbreviatedPath": "\/images\/ref-resources-bg.jpg",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
+	"\/images\/ref-schoolhouse-comingsoon.jpg": {
+		"fileType": 16384,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 156716,
+		"inputAbbreviatedPath": "\/images\/ref-schoolhouse-comingsoon.jpg",
+		"outputAbbreviatedPath": "\/images\/ref-schoolhouse-comingsoon.jpg",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
+	"\/images\/ref-services-comingsoon.jpg": {
+		"fileType": 16384,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 360516,
+		"inputAbbreviatedPath": "\/images\/ref-services-comingsoon.jpg",
+		"outputAbbreviatedPath": "\/images\/ref-services-comingsoon.jpg",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
+	"\/images\/ref-swyc-header.jpg": {
+		"fileType": 16384,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 705050,
+		"inputAbbreviatedPath": "\/images\/ref-swyc-header.jpg",
+		"outputAbbreviatedPath": "\/images\/ref-swyc-header.jpg",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
+	"\/images\/ref-swycgrant.jpg": {
+		"fileType": 16384,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 409494,
+		"inputAbbreviatedPath": "\/images\/ref-swycgrant.jpg",
+		"outputAbbreviatedPath": "\/images\/ref-swycgrant.jpg",
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0,
 		"processed": 0
