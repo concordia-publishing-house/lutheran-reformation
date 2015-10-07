@@ -333,7 +333,7 @@ blockquote {
   font-style: italic;
   text-align: center;
   color: rgba(50, 50, 50, 0.8); }
-  @media (min-width: 1500px) {
+  @media (min-width: 1575px) {
     blockquote {
       margin-left: -160px;
       margin-right: -160px; } }
