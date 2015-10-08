@@ -76,3 +76,20 @@ div.wpcf7-response-output {
 span.wpcf7-not-valid-tip {
     @extend %visuallyhidden;
   }
+
+.footer-email-signup {
+
+    input.wpcf7-form-control.wpcf7-email {
+    float: left;
+    width: 75%;
+    border-top-right-radius: 0;
+    border-bottom-right-radius: 0;
+}
+    .wpcf7-submit.button.button-primary {
+    padding: 20px 24px 21px;
+    border-radius-top-left: 0;
+    border-top-left-radius: 0;
+    border-bottom-left-radius: 0;
+    margin-top: 3px;
+  }
+}
