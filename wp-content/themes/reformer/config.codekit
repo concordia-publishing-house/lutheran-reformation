@@ -232,6 +232,17 @@
 		"outputPathIsSetByUser": 0,
 		"processed": 0
 		},
+	"\/images\/ref-featured-map.jpg": {
+		"fileType": 16384,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 460140,
+		"inputAbbreviatedPath": "\/images\/ref-featured-map.jpg",
+		"outputAbbreviatedPath": "\/images\/ref-featured-map.jpg",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
 	"\/images\/ref-flannel-graph.jpg": {
 		"fileType": 16384,
 		"ignore": 0,
