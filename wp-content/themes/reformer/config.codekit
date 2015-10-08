@@ -67,6 +67,39 @@
 		"outputPathIsSetByUser": 0,
 		"processed": 0
 		},
+	"\/images\/essential-lutheran-library.jpg": {
+		"fileType": 16384,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 164060,
+		"inputAbbreviatedPath": "\/images\/essential-lutheran-library.jpg",
+		"outputAbbreviatedPath": "\/images\/essential-lutheran-library.jpg",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
+	"\/images\/essential-lutheran-library[1].jpg": {
+		"fileType": 16384,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 164060,
+		"inputAbbreviatedPath": "\/images\/essential-lutheran-library[1].jpg",
+		"outputAbbreviatedPath": "\/images\/essential-lutheran-library[1].jpg",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
+	"\/images\/essential-lutheran-library[2].jpg": {
+		"fileType": 16384,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 164060,
+		"inputAbbreviatedPath": "\/images\/essential-lutheran-library[2].jpg",
+		"outputAbbreviatedPath": "\/images\/essential-lutheran-library[2].jpg",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
 	"\/images\/featured-image.jpg": {
 		"fileType": 16384,
 		"ignore": 0,
@@ -74,6 +107,17 @@
 		"initialSize": 83196,
 		"inputAbbreviatedPath": "\/images\/featured-image.jpg",
 		"outputAbbreviatedPath": "\/images\/featured-image.jpg",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
+	"\/images\/hymn-and-music.jpg": {
+		"fileType": 16384,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 258561,
+		"inputAbbreviatedPath": "\/images\/hymn-and-music.jpg",
+		"outputAbbreviatedPath": "\/images\/hymn-and-music.jpg",
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0,
 		"processed": 0

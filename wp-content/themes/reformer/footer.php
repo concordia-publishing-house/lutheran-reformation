@@ -22,14 +22,11 @@
 				<div class="footer-secondary">
 					<div class="footer-buttons">
 						<a href="/get-involved/" class="button button-secondary"><i class="icon-heart"></i> Get Involved</a>
-						<a href="#" class="button button-primary"><i class="icon-cart-fill"></i> Shop</a>
+						<a href="http://cph.org/t-reformation.aspx" target="_blank" class="button button-primary"><i class="icon-cart-fill"></i> Shop</a>
 					</div>
 					<div class="footer-email-signup">
 						<h5>Get the latest on Reformation 2017</h5>
-						<form class="button-inset">
-							<input id="text" type="email" placeholder="Enter Email">
-	            <button type="submit" class="button button-tertiary">Sign Up</button>
-          	</form>
+						<?php echo do_shortcode( '[contact-form-7 id="262" title="Email Signup"]' ); ?>
 	        </div>
 	        <div class="footer-social-buttons">
 	        	Get Connected <a href=""><i class="icon-twitter"></i></a><a href=""><i class="icon-facebook"></i></a><a href=""><i class="icon-gplus"></i></a><a href=""><i class="icon-pinterest"></i></a><a href=""><i class="icon-instagram"></i></a><a href=""><i class="icon-vimeo"></i></a>
