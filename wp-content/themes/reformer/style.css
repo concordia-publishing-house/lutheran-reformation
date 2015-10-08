@@ -1006,8 +1006,6 @@ body.home .site-branding .site-title img {
 
 body.search .container.navigation-container, body.single .container.navigation-container {
   min-height: 220px; }
-body.search header.entry-header h1, body.single header.entry-header h1 {
-  display: none; }
 
 .site-title h2 {
   float: left;
