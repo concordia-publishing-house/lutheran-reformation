@@ -1595,7 +1595,7 @@ div.wpcf7-response-output {
   .content-list article {
     display: inline-block;
     padding: 50px 0;
-    border-top: 1px solid #FAF9F9; }
+    border-top: 1px solid rgba(50, 50, 50, 0.5); }
 
 article.type-post {
   display: inline-block;
