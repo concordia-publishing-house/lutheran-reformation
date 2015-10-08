@@ -1201,6 +1201,9 @@ header.entry-header h1 {
 #responsive-menu #responsive-menu-title {
   font-family: "Montserrat", Helvetica, sans-serif; }
 
+.tp-caption#slide-6-layer-15 {
+  cursor: pointer; }
+
 .site-footer {
   background: #354b59;
   padding: 60px 0;

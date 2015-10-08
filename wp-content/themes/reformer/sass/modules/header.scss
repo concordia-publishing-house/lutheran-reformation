@@ -289,3 +289,8 @@ body.home header.entry-header {
 #responsive-menu #responsive-menu-title {
   font-family: $secondary-font;
 }
+
+// Fix for link cursor 
+.tp-caption#slide-6-layer-15 {
+    cursor: pointer;
+}
