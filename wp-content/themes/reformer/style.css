@@ -2044,6 +2044,13 @@ Main components
     background-position: center;
     background-size: cover;
     color: white; }
+  .ref-quotes.luther-quote-07 {
+    background: url(images/ref-luther-rose-02.jpg);
+    background-position: center;
+    background-size: cover;
+    color: #364b59; }
+    .ref-quotes.luther-quote-07 p {
+      color: #364b59; }
   .ref-quotes .container {
     padding: 120px 30px; }
     @media (min-width: 37.5em) {

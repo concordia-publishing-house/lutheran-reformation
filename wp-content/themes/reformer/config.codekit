@@ -364,6 +364,17 @@
 		"outputPathIsSetByUser": 0,
 		"processed": 0
 		},
+	"\/images\/ref-luther-rose-02.jpg": {
+		"fileType": 16384,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 220259,
+		"inputAbbreviatedPath": "\/images\/ref-luther-rose-02.jpg",
+		"outputAbbreviatedPath": "\/images\/ref-luther-rose-02.jpg",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
 	"\/images\/ref-luther-rose.jpg": {
 		"fileType": 16384,
 		"ignore": 0,

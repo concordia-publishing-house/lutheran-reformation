@@ -53,6 +53,17 @@
 		color:white;
 	}
 
+	&.luther-quote-07 {
+		background: url(images/ref-luther-rose-02.jpg);
+		background-position: center;
+		background-size:cover;
+		color:$darkslate;
+
+		p {
+			color:$darkslate;
+		}
+	}
+
 	.container {
 		padding:120px 30px;
 		@include breakpoint (small) { padding: 150px 130px; }
