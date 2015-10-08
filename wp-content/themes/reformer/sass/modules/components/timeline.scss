@@ -65,6 +65,15 @@ Main components
   }
 }
 
+.timeline {
+  p+ul {
+    margin-top:-20px;
+  }
+
+  ul {
+    font-size:1rem; 
+  }
+}
 .timeline-img {
   position: absolute;
   top: 20px;
