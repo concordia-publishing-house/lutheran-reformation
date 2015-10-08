@@ -30,8 +30,4 @@
 			) );
 		?>
 	</div><!-- .entry-content -->
-
-	<footer class="entry-footer">
-		<?php the_reformer_entry_footer(); ?>
-	</footer><!-- .entry-footer -->
 </article><!-- #post-## -->
