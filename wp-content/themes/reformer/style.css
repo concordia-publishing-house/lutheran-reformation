@@ -1004,9 +1004,9 @@ body.home .site-branding .site-title h2 {
 body.home .site-branding .site-title img {
   width: 100%; }
 
-body.search .container.navigation-container {
-  min-height: 200px; }
-body.search header.entry-header h1 {
+body.search .container.navigation-container, body.single .container.navigation-container {
+  min-height: 220px; }
+body.search header.entry-header h1, body.single header.entry-header h1 {
   display: none; }
 
 .site-title h2 {

@@ -72,10 +72,10 @@ body.home .site-branding .site-title {
 
 }
 
-body.search {
+body.search, body.single {
 
   .container.navigation-container {
-    min-height: 200px;
+    min-height: 220px;
   }
 
   header.entry-header h1 {
