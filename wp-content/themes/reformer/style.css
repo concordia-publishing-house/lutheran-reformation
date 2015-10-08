@@ -1623,8 +1623,7 @@ article.type-post {
     text-decoration: none; }
 
 .featured-image {
-  width: 100%;
-  margin-bottom: 20px; }
+  width: 100%; }
   @media (min-width: 37.5em) {
     .featured-image {
       float: left;

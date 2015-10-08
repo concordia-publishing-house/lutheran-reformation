@@ -27,7 +27,7 @@ article.type-post {
 }
 .featured-image {
 	width:100%;
-	margin-bottom: 20px;
+	// margin-bottom: 20px;
 	@include breakpoint(small) { @include span-columns(4); }
 
 	img {
