@@ -43,7 +43,7 @@
 	        </div>
         </div>
 				<div class="twelve columns footer-copyright">
-				© 2015 The Lutheran Church—Missouri Synod. All Rights Reserved. 	
+				© 2015 The Lutheran Church—Missouri Synod. All rights reserved. 	
 				</div>
 				
 			</div><!-- .row -->
