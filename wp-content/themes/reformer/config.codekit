@@ -397,6 +397,28 @@
 		"outputPathIsSetByUser": 0,
 		"processed": 0
 		},
+	"\/images\/ref-map-image.jpg": {
+		"fileType": 16384,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 845989,
+		"inputAbbreviatedPath": "\/images\/ref-map-image.jpg",
+		"outputAbbreviatedPath": "\/images\/ref-map-image.jpg",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
+	"\/images\/ref-mapupdate.jpg": {
+		"fileType": 16384,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 414321,
+		"inputAbbreviatedPath": "\/images\/ref-mapupdate.jpg",
+		"outputAbbreviatedPath": "\/images\/ref-mapupdate.jpg",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
 	"\/images\/ref-media.jpg": {
 		"fileType": 16384,
 		"ignore": 0,
