@@ -386,6 +386,17 @@
 		"outputPathIsSetByUser": 0,
 		"processed": 0
 		},
+	"\/images\/ref-lutherandjews.jpg": {
+		"fileType": 16384,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 386647,
+		"inputAbbreviatedPath": "\/images\/ref-lutherandjews.jpg",
+		"outputAbbreviatedPath": "\/images\/ref-lutherandjews.jpg",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
 	"\/images\/ref-main-banner.jpg": {
 		"fileType": 16384,
 		"ignore": 0,

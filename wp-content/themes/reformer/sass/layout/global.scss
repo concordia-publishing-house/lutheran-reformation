@@ -63,13 +63,13 @@ hr {
   &.bar-paper {
     padding: 50px;
     margin-bottom: 20px;
-    background: rgb(255, 252, 243);
+    background: white;
     border-radius: 5px;
     border: 1px solid rgb(234, 225, 201);
     box-shadow: 0 0 30px 0px rgba(214, 206, 186, 0.59);
 
     &:hover {
-      background: rgba(255, 252, 243, 0.5);
+      box-shadow: 0 0 30px 0px rgba(214, 206, 186, 0.2);
     }
 
     p {
