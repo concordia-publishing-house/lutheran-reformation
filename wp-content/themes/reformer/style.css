@@ -362,6 +362,9 @@ li {
 .bullet-list {
   list-style-type: disc; }
 
+.verse {
+  white-space: nowrap; }
+
 /* Input design */
 fieldset {
   border: 0; }
