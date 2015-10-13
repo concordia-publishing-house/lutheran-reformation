@@ -59,8 +59,8 @@ padding:0;
 .logo-grid {
 	figure {
 		@include breakpoint(small) { @include span-columns(6); @include omega(); }
-		border-right: 1px solid rgba($grey, 0.5);
-    border-bottom: 1px solid rgba($grey, 0.5);
+		border-right: 1px solid rgba($grey, 0.2);
+    border-bottom: 1px solid rgba($grey, 0.2);
     padding-bottom: 30px;
     padding-top: 30px;
 		text-align:center;
