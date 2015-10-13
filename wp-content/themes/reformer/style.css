@@ -71,7 +71,7 @@ html {
 /* Usage */
 /* Visibily Hide
   ========================================================================== */
-.screen-reader-text, .menu-toggle, body.home header.entry-header, span.wpcf7-not-valid-tip {
+.screen-reader-text, article footer .vc_inline-link, .menu-toggle, body.home header.entry-header, span.wpcf7-not-valid-tip {
   margin: -1px;
   padding: 0;
   width: 1px;
@@ -926,6 +926,11 @@ hr {
       padding: 30px 0 60px; }
       .blog-post-area:last-child {
         margin-right: 0; } }
+
+article footer {
+  display: inline-block;
+  width: 100%;
+  margin-top: 30px; }
 
 .widget-area {
   padding: 30px 0 60px; }

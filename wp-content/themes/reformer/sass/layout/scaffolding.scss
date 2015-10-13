@@ -48,6 +48,16 @@ padding:0;
 	
 }
 
+article  footer {
+  display: inline-block;
+  width: 100%;
+  margin-top: 30px;
+
+  .vc_inline-link {
+  	@extend %visuallyhidden;
+  }
+}
+
 .widget-area {
 	@include breakpoint(large) {
 		@include span-columns(3);
