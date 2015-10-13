@@ -54,7 +54,6 @@
 <div class="remodal remodal-video" data-remodal-id="modal">
   <button data-remodal-action="close" class="remodal-close"></button>
   <div class='video-wrapper'>
-		<iframe src='http://player.vimeo.com/video/141601711' frameborder='0' webkitAllowFullScreen mozallowfullscreen allowFullScreen></iframe>
 	</div>
  </div>
 <?php if(is_front_page()) : ?>
