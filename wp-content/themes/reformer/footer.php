@@ -53,7 +53,7 @@
 <?php wp_footer(); ?>
 <div class="remodal remodal-video" data-remodal-id="modal">
   <button data-remodal-action="close" class="remodal-close"></button>
-  <div class='video-wrapper'>
+  <div class="video-wrapper" id="remodal_video">
 	</div>
  </div>
 <?php if(is_front_page()) : ?>
@@ -71,6 +71,19 @@
   	jQuery("#page_header").fitText(1.2, { minFontSize: '40px', maxFontSize: '80px' });
 	</script>
 	<script type="text/javascript" src="<?php bloginfo('template_url'); ?>/js/remodal.js"></script>
+	<script type="text/javascript">
+		$(document).on('closing', '.remodal', function (e) {
+
+		  // Reason: 'confirmation', 'cancellation'
+		  //console.log('Modal is closing' + (e.reason ? ', reason: ' + e.reason : ''));
+		  jQuery("#remodal_video").html('&nbsp;');
+		});
+		
+		$(document).on('opening', '.remodal', function () {
+  		console.log('Modal is opening');
+  		jQuery("#remodal_video").html('<iframe src="http://player.vimeo.com/video/141601711" frameborder="0" webkitAllowFullScreen mozallowfullscreen allowFullScreen></iframe>');
+		});
+	</script>
 </body>
 </html>
 

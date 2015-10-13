@@ -20,7 +20,7 @@ jQuery(function() {
   jQuery("#modal").on("change", function() {
     if (jQuery(this).is(":checked")) {
       jQuery("body").addClass("modal-open");
-      jQuery(".video-wrapper").html('<iframe src="http://player.vimeo.com/video/141601711" frameborder="0" webkitAllowFullScreen mozallowfullscreen allowFullScreen></iframe>');
+      jQuery("#remodal_video").html('<iframe src="http://player.vimeo.com/video/141601711" frameborder="0" webkitAllowFullScreen mozallowfullscreen allowFullScreen></iframe>');
     } else {
       jQuery("body").removeClass("modal-open");
       jQuery(".video-wrapper").html('&nbsp;');
