@@ -496,6 +496,17 @@
 		"outputPathIsSetByUser": 0,
 		"processed": 0
 		},
+	"\/images\/ref-facesofreformation.jpg": {
+		"fileType": 16384,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 346523,
+		"inputAbbreviatedPath": "\/images\/ref-facesofreformation.jpg",
+		"outputAbbreviatedPath": "\/images\/ref-facesofreformation.jpg",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
 	"\/images\/ref-featured-map.jpg": {
 		"fileType": 16384,
 		"ignore": 0,
