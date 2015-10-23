@@ -439,6 +439,17 @@
 		"outputPathIsSetByUser": 0,
 		"processed": 0
 		},
+	"\/images\/ref-anniverarypost.jpg": {
+		"fileType": 16384,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 370546,
+		"inputAbbreviatedPath": "\/images\/ref-anniverarypost.jpg",
+		"outputAbbreviatedPath": "\/images\/ref-anniverarypost.jpg",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
 	"\/images\/ref-bible-studies.jpg": {
 		"fileType": 16384,
 		"ignore": 0,
@@ -743,6 +754,17 @@
 		"initialSize": 61710,
 		"inputAbbreviatedPath": "\/images\/ref-podcasts.jpg",
 		"outputAbbreviatedPath": "\/images\/ref-podcasts.jpg",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
+	"\/images\/ref-post-future.jpg": {
+		"fileType": 16384,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 256775,
+		"inputAbbreviatedPath": "\/images\/ref-post-future.jpg",
+		"outputAbbreviatedPath": "\/images\/ref-post-future.jpg",
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0,
 		"processed": 0
