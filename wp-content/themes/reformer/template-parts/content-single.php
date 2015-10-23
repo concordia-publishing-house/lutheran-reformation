@@ -11,7 +11,7 @@
 
 <article id="post-<?php the_ID(); ?>" <?php post_class(); ?>>
 	<header class="post-entry-header">
-		<?php the_title( '<h1 id="page_header" class="entry-title">', '</h1>' ); ?>
+		<?php // the_title( '<h1 id="page_header" class="entry-title">', '</h1>' ); ?>
 
 		<div class="entry-meta">
 			<?php the_reformer_posted_on(); ?>
