@@ -2116,9 +2116,13 @@ Main components
   display: block;
   margin-right: 2.35765%;
   width: 48.82117%;
-  margin-left: 17.05961%; }
+  margin-left: 25.58941%; }
   #content .rotatingtweets:last-child, #content .norotatingtweets:last-child, .rotatingtweets_nextprev:last-child, .rtw_follow.follow-button:last-child {
     margin-right: 0; }
+
+.rotatingtweets_nextprev {
+  margin-bottom: 20px;
+  text-align: center; }
 
 .cycle-carousel-wrap {
   width: 100%; }

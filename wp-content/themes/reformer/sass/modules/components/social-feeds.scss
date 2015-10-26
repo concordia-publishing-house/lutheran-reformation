@@ -9,9 +9,13 @@
 
 #content .rotatingtweets, #content .norotatingtweets, .rotatingtweets_nextprev, .rtw_follow.follow-button {
 	@include span-columns(6);
-	@include shift(2);
+	@include shift(3);
 }
 
+.rotatingtweets_nextprev {
+	margin-bottom: 20px;
+	text-align: center;
+}
 .cycle-carousel-wrap {
 	width:100%;
 }
