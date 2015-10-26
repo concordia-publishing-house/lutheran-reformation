@@ -1,6 +1,11 @@
 .tweet-feed {
 	@include outer-container;
 }
+#content .rotatingtweets, #content .norotatingtweets {
+	border: none;
+	padding: 60px 0;
+	margin: 0;
+}
 
 #content .rotatingtweets, #content .norotatingtweets, .rotatingtweets_nextprev {
 	@include span-columns(6);
