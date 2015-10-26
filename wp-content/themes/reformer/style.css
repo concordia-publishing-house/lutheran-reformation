@@ -2106,13 +2106,13 @@ Main components
   .tweet-feed:after {
     clear: both; }
 
-.cycle-carousel-wrap {
+#content .rotatingtweets, #content .norotatingtweets {
   float: left;
   display: block;
   margin-right: 2.35765%;
   width: 31.76157%;
   margin-left: 17.05961%; }
-  .cycle-carousel-wrap:last-child {
+  #content .rotatingtweets:last-child, #content .norotatingtweets:last-child {
     margin-right: 0; }
 
 /* Colors */
