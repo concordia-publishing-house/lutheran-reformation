@@ -1,0 +1,8 @@
+.tweet-feed {
+	@include outer-container;
+}
+
+.cycle-carousel-wrap {
+	@include span-columns(4);
+	@include shift(2);
+}
