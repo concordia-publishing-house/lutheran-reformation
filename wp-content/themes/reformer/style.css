@@ -2116,12 +2116,7 @@ Main components
     margin-right: 0; }
 
 .cycle-carousel-wrap {
-  float: left;
-  display: block;
-  margin-right: 2.35765%;
-  width: 40.29137%; }
-  .cycle-carousel-wrap:last-child {
-    margin-right: 0; }
+  width: 100%; }
 
 /* Colors */
 .colors {
