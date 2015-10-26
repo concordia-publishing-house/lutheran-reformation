@@ -192,3 +192,4 @@ function change_wpcf7_ajax_loader($url) {
     return get_stylesheet_directory_uri()."/images/three-dots.svg";
 }
 
+add_filter( 'widget_text', 'do_shortcode' );
