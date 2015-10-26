@@ -2,7 +2,7 @@
 	@include outer-container;
 }
 
-#content .rotatingtweets, #content .norotatingtweets {
+#content .rotatingtweets, #content .norotatingtweets, .rotatingtweets_nextprev {
 	@include span-columns(6);
 	@include shift(2);
 }
