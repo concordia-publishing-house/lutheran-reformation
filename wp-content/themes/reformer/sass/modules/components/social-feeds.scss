@@ -1,6 +1,5 @@
-.tweet-feed {
-	@include outer-container;
-	padding: 60px 0 ;
+.tweet-feed, .cff-wrapper {
+	@include span-columns(6);	
 }
 #content .rotatingtweets, #content .norotatingtweets {
 	border: none;
@@ -8,8 +7,7 @@
 }
 
 #content .rotatingtweets, #content .norotatingtweets, .rotatingtweets_nextprev, .rtw_follow.follow-button {
-	@include span-columns(6);
-	@include shift(3);
+	
 }
 
 .rotatingtweets_nextprev {

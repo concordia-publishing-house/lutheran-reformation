@@ -2094,31 +2094,17 @@ Main components
     opacity: 0.5;
     font-style: 1em; }
 
-.tweet-feed {
-  max-width: 68em;
-  margin-left: auto;
-  margin-right: auto;
-  padding: 60px 0; }
-  .tweet-feed {
-    *zoom: 1; }
-  .tweet-feed:before, .tweet-feed:after {
-    content: "";
-    display: table; }
-  .tweet-feed:after {
-    clear: both; }
+.tweet-feed, .cff-wrapper {
+  float: left;
+  display: block;
+  margin-right: 2.35765%;
+  width: 48.82117%; }
+  .tweet-feed:last-child, .cff-wrapper:last-child {
+    margin-right: 0; }
 
 #content .rotatingtweets, #content .norotatingtweets {
   border: none;
   margin: 0; }
-
-#content .rotatingtweets, #content .norotatingtweets, .rotatingtweets_nextprev, .rtw_follow.follow-button {
-  float: left;
-  display: block;
-  margin-right: 2.35765%;
-  width: 48.82117%;
-  margin-left: 25.58941%; }
-  #content .rotatingtweets:last-child, #content .norotatingtweets:last-child, .rotatingtweets_nextprev:last-child, .rtw_follow.follow-button:last-child {
-    margin-right: 0; }
 
 .rotatingtweets_nextprev {
   margin-bottom: 20px;
