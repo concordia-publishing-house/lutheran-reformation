@@ -1,13 +1,13 @@
 .tweet-feed {
 	@include outer-container;
+	padding: 60px 0 ;
 }
 #content .rotatingtweets, #content .norotatingtweets {
 	border: none;
-	padding: 60px 0;
 	margin: 0;
 }
 
-#content .rotatingtweets, #content .norotatingtweets, .rotatingtweets_nextprev {
+#content .rotatingtweets, #content .norotatingtweets, .rotatingtweets_nextprev, .rtw_follow.follow-button {
 	@include span-columns(6);
 	@include shift(2);
 }
