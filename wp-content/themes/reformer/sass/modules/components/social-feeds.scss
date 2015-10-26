@@ -3,10 +3,10 @@
 }
 
 #content .rotatingtweets, #content .norotatingtweets {
-	@include span-columns(4);
+	@include span-columns(6);
 	@include shift(2);
 }
 
 .cycle-carousel-wrap {
-	
+	@include span-columns(5);
 }
