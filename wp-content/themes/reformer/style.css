@@ -2113,6 +2113,36 @@ Main components
 .cycle-carousel-wrap {
   width: 100%; }
 
+.gallery-columns-6 {
+  -webkit-columns: 6;
+  -moz-columns: 6;
+  columns: 6; }
+  @media (min-width: 50em) {
+    .gallery-columns-6 {
+      -webkit-columns: 4;
+      -moz-columns: 4;
+      columns: 4; } }
+
+.gallery-columns-5 {
+  -webkit-columns: 5;
+  -moz-columns: 5;
+  columns: 5; }
+
+.gallery-columns-4 {
+  -webkit-columns: 4;
+  -moz-columns: 4;
+  columns: 4; }
+
+.gallery-columns-3 {
+  -webkit-columns: 3;
+  -moz-columns: 3;
+  columns: 3; }
+
+.gallery-columns-2 {
+  -webkit-columns: 2;
+  -moz-columns: 2;
+  columns: 2; }
+
 /* Colors */
 .colors {
   margin: 0;
