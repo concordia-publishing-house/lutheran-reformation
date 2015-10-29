@@ -2113,15 +2113,23 @@ Main components
 .cycle-carousel-wrap {
   width: 100%; }
 
+.gallery {
+  margin: 20px auto; }
+
 .gallery-columns-6 {
-  -webkit-columns: 6;
-  -moz-columns: 6;
-  columns: 6; }
+  -webkit-columns: 2;
+  -moz-columns: 2;
+  columns: 2; }
   @media (min-width: 50em) {
     .gallery-columns-6 {
       -webkit-columns: 4;
       -moz-columns: 4;
       columns: 4; } }
+  @media (min-width: 50em) {
+    .gallery-columns-6 {
+      -webkit-columns: 6;
+      -moz-columns: 6;
+      columns: 6; } }
 
 .gallery-columns-5 {
   -webkit-columns: 5;
