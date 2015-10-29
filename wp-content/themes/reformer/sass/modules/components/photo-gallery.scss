@@ -2,16 +2,20 @@
 	margin:20px auto;
 }
 
+figure.gallery-item {
+  margin: 2%;
+}
+
 .gallery-columns-6 {
 	-webkit-columns: 2;
   -moz-columns: 2;
   columns: 2;
-  @include breakpoint(medium) {
+  @include breakpoint(small) {
   	-webkit-columns: 4;
   	-moz-columns: 4;
   	columns: 4;
   }
-  @include breakpoint(medium) {
+  @include breakpoint(large) {
   	-webkit-columns: 6;
   	-moz-columns: 6;
   	columns: 6;
@@ -19,9 +23,22 @@
 }
 
 .gallery-columns-5 {
+
+	-webkit-columns: 2;
+  -moz-columns: 2;
+  columns: 2;
+
+  @include breakpoint(medium) {
+	-webkit-columns: 3;
+  -moz-columns: 3;
+  columns: 3;
+	}
+
+	@include breakpoint(large) {
 	-webkit-columns: 5;
   -moz-columns: 5;
   columns: 5;
+	}
 }
 
 .gallery-columns-4 {
