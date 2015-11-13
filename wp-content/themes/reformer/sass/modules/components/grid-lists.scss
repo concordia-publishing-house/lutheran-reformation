@@ -3,7 +3,7 @@
 	display: inline-block;
 
 	article {
-		@include span-columns(4);
+		@include breakpoint(small) { @include span-columns(4); }
 		margin-bottom: 30px;
 
 	&:nth-child(3n+0) {

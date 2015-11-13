@@ -1695,13 +1695,15 @@ article.type-post {
   width: 100%;
   display: inline-block; }
   .grid-list article {
-    float: left;
-    display: block;
-    margin-right: 2.35765%;
-    width: 31.76157%;
     margin-bottom: 30px; }
-    .grid-list article:last-child {
-      margin-right: 0; }
+    @media (min-width: 37.5em) {
+      .grid-list article {
+        float: left;
+        display: block;
+        margin-right: 2.35765%;
+        width: 31.76157%; }
+        .grid-list article:last-child {
+          margin-right: 0; } }
     .grid-list article:nth-child(3n+0) {
       margin-right: 0; }
   .grid-list .featured-image {
