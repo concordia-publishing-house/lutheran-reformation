@@ -31,6 +31,10 @@ hr {
   border-bottom: 1px solid #e7e7e7;
 }
 
+img.flex {
+  width: 100%;
+  height:auto;
+}
 .screen-reader-text {
   @extend %visuallyhidden;
 }

@@ -793,6 +793,10 @@ hr {
   margin: 20px 0;
   border-bottom: 1px solid #e7e7e7; }
 
+img.flex {
+  width: 100%;
+  height: auto; }
+
 .video-wrapper {
   height: 0;
   overflow: hidden;
