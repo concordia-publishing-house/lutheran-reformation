@@ -1698,8 +1698,11 @@ article.type-post {
     float: left;
     display: block;
     margin-right: 2.35765%;
-    width: 31.76157%; }
+    width: 31.76157%;
+    margin-bottom: 30px; }
     .grid-list article:last-child {
+      margin-right: 0; }
+    .grid-list article:nth-child(3n+0) {
       margin-right: 0; }
   .grid-list .featured-image {
     width: 100%;
