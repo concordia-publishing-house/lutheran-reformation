@@ -1691,20 +1691,20 @@ article.type-post {
   .featured-content a {
     text-decoration: none; }
 
-.grid-lists {
+.grid-list {
   width: 100%;
   display: inline-block; }
-  .grid-lists article {
+  .grid-list article {
     float: left;
     display: block;
     margin-right: 2.35765%;
     width: 31.76157%; }
-    .grid-lists article:last-child {
+    .grid-list article:last-child {
       margin-right: 0; }
-  .grid-lists .featured-image {
+  .grid-list .featured-image {
     width: 100%;
     margin-bottom: 20px; }
-    .grid-lists .featured-image img {
+    .grid-list .featured-image img {
       width: 100%;
       height: auto; }
 
