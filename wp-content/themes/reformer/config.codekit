@@ -615,6 +615,17 @@
 		"outputPathIsSetByUser": 0,
 		"processed": 0
 		},
+	"\/images\/ref-header-faces.jpg": {
+		"fileType": 16384,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 461706,
+		"inputAbbreviatedPath": "\/images\/ref-header-faces.jpg",
+		"outputAbbreviatedPath": "\/images\/ref-header-faces.jpg",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
 	"\/images\/ref-history.jpg": {
 		"fileType": 16384,
 		"ignore": 0,

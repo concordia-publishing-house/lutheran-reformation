@@ -1015,6 +1015,12 @@ body.page-id-131 .site-header, body.parent-pageid-131 .site-header {
   background-position: center;
   background-repeat: no-repeat; }
 
+body.page-id-375 .site-header, body.parent-pageid-375 .site-header {
+  background: #323232 url(images/ref-header-faces.jpg);
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat; }
+
 body.home header.site-header {
   position: absolute;
   z-index: 10;
