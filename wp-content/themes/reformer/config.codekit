@@ -516,6 +516,50 @@
 		"outputPathIsSetByUser": 0,
 		"processed": 0
 		},
+	"\/images\/ref-faces-header-vonBora.jpg": {
+		"fileType": 16384,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 265358,
+		"inputAbbreviatedPath": "\/images\/ref-faces-header-vonBora.jpg",
+		"outputAbbreviatedPath": "\/images\/ref-faces-header-vonBora.jpg",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
+	"\/images\/ref-faces-header.jpg": {
+		"fileType": 16384,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 206246,
+		"inputAbbreviatedPath": "\/images\/ref-faces-header.jpg",
+		"outputAbbreviatedPath": "\/images\/ref-faces-header.jpg",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
+	"\/images\/ref-faces-melanchthon.jpg": {
+		"fileType": 16384,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 397903,
+		"inputAbbreviatedPath": "\/images\/ref-faces-melanchthon.jpg",
+		"outputAbbreviatedPath": "\/images\/ref-faces-melanchthon.jpg",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
+	"\/images\/ref-faces-vonBora.jpg": {
+		"fileType": 16384,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 337341,
+		"inputAbbreviatedPath": "\/images\/ref-faces-vonBora.jpg",
+		"outputAbbreviatedPath": "\/images\/ref-faces-vonBora.jpg",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
 	"\/images\/ref-facesofreformation.jpg": {
 		"fileType": 16384,
 		"ignore": 0,
