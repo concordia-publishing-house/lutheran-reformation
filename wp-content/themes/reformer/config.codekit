@@ -516,6 +516,17 @@
 		"outputPathIsSetByUser": 0,
 		"processed": 0
 		},
+	"\/images\/ref-faces-header-melanchton.jpg": {
+		"fileType": 16384,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 287949,
+		"inputAbbreviatedPath": "\/images\/ref-faces-header-melanchton.jpg",
+		"outputAbbreviatedPath": "\/images\/ref-faces-header-melanchton.jpg",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
 	"\/images\/ref-faces-header-vonBora.jpg": {
 		"fileType": 16384,
 		"ignore": 0,
@@ -923,6 +934,17 @@
 		"outputPathIsSetByUser": 0,
 		"processed": 0
 		},
+	"\/images\/ref-video-welcome.jpg": {
+		"fileType": 16384,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 378954,
+		"inputAbbreviatedPath": "\/images\/ref-video-welcome.jpg",
+		"outputAbbreviatedPath": "\/images\/ref-video-welcome.jpg",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
 	"\/images\/ref-worship.jpg": {
 		"fileType": 16384,
 		"ignore": 0,
@@ -1040,6 +1062,17 @@
 		"initialSize": 0,
 		"inputAbbreviatedPath": "\/images\/reformation2017-logo-grayscale-vr.png",
 		"outputAbbreviatedPath": "\/images\/reformation2017-logo-grayscale-vr.png",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
+	"\/images\/screenshot.png": {
+		"fileType": 32768,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 303255,
+		"inputAbbreviatedPath": "\/images\/screenshot.png",
+		"outputAbbreviatedPath": "\/images\/screenshot.png",
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0,
 		"processed": 0
