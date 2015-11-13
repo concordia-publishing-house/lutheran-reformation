@@ -1,0 +1,19 @@
+.grid-lists {
+	width:100%;
+	display: inline-block;
+
+	article {
+		@include span-columns(4);
+	}
+
+.featured-image {
+	width:100%;
+	margin-bottom: 20px;
+	
+	img {
+		width: 100%;
+		height:auto;
+	}
+}
+
+}

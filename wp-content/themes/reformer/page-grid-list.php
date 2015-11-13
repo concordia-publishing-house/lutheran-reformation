@@ -31,7 +31,7 @@ get_header(); ?>
 							echo get_the_post_thumbnail( $page->ID, 'medium'); 
 							echo "</a>";
 							?>
-							<h3><a href="<?php echo get_page_link($page->ID) ?>"><?php echo $page->post_title ?></a></h3>
+							<h5><a href="<?php echo get_page_link($page->ID) ?>"><?php echo $page->post_title ?></a></h5>
 						</div>
 					</article>
 

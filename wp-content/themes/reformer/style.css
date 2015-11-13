@@ -1691,6 +1691,23 @@ article.type-post {
   .featured-content a {
     text-decoration: none; }
 
+.grid-lists {
+  width: 100%;
+  display: inline-block; }
+  .grid-lists article {
+    float: left;
+    display: block;
+    margin-right: 2.35765%;
+    width: 31.76157%; }
+    .grid-lists article:last-child {
+      margin-right: 0; }
+  .grid-lists .featured-image {
+    width: 100%;
+    margin-bottom: 20px; }
+    .grid-lists .featured-image img {
+      width: 100%;
+      height: auto; }
+
 /* -------------------------------- 
 
 Main components 
