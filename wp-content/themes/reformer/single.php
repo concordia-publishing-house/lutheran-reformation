@@ -12,7 +12,7 @@ get_header(); ?>
 	<div id="primary" class="blog-post-area">
 		
 			<main id="main" class="site-main" role="main">
-
+				<?php the_title( '<h1 id="page_header" class="entry-title">', '</h1>' ); ?>
 			<?php while ( have_posts() ) : the_post(); ?>
 
 				<?php get_template_part( 'template-parts/content', 'single' ); ?>
