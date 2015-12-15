@@ -279,6 +279,10 @@ body.home header.entry-header {
 .post-breadcrumbs {
 font-family: $secondary-font;
 }
+#breadcrumbs > span > span > a {
+  text-indent: -999em;
+
+}
 #click-menu-label {
   font-family: $secondary-font;
   margin-top: 4px;

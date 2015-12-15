@@ -1214,6 +1214,9 @@ header.entry-header h1 {
 .post-breadcrumbs {
   font-family: "Montserrat", Helvetica, sans-serif; }
 
+#breadcrumbs > span > span > a {
+  text-indent: -999em; }
+
 #click-menu-label {
   font-family: "Montserrat", Helvetica, sans-serif;
   margin-top: 4px;
