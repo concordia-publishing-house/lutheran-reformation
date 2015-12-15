@@ -1032,7 +1032,10 @@ body.home .site-branding .site-title h2 {
 body.home .site-branding .site-title img {
   width: 100%; }
 
-body.search .container.navigation-container, body.single .container.navigation-container {
+body.single .container.navigation-container {
+  min-height: 180px; }
+
+body.search .container.navigation-container {
   min-height: 220px; }
 
 .site-title h2 {
@@ -1207,6 +1210,9 @@ header.entry-header h1 {
   .header-breadcrumbs a {
     color: white;
     text-decoration: none; }
+
+.post-breadcrumbs {
+  font-family: "Montserrat", Helvetica, sans-serif; }
 
 #click-menu-label {
   font-family: "Montserrat", Helvetica, sans-serif;

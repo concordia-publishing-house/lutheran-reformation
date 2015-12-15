@@ -14,7 +14,7 @@ get_header(); ?>
 			<main id="main" class="site-main" role="main">
 				<?php the_title( '<h1 id="page_header" class="entry-title">', '</h1>' ); ?>
 				<?php if ( function_exists('yoast_breadcrumb') ) 
-				{yoast_breadcrumb('<p class="header-breadcrumbs" id="breadcrumbs">','</p>');} ?>	
+				{yoast_breadcrumb('<p class="post-breadcrumbs" id="breadcrumbs">','</p>');} ?>	
 			<?php while ( have_posts() ) : the_post(); ?>
 
 				<?php get_template_part( 'template-parts/content', 'single' ); ?>

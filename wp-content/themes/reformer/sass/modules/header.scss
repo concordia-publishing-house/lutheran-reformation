@@ -78,8 +78,14 @@ body.home .site-branding .site-title {
 }
 
 }
+body.single {
 
-body.search, body.single {
+  .container.navigation-container {
+    min-height: 180px;
+  }
+}
+
+body.search {
 
   .container.navigation-container {
     min-height: 220px;
@@ -270,7 +276,9 @@ body.home header.entry-header {
       text-decoration: none;
     }
 }
-
+.post-breadcrumbs {
+font-family: $secondary-font;
+}
 #click-menu-label {
   font-family: $secondary-font;
   margin-top: 4px;
