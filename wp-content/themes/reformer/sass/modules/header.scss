@@ -280,10 +280,10 @@ body.home header.entry-header {
 font-family: $secondary-font;
 font-size: 0.75em;
 text-transform: uppercase;
-color: $lite-grey;
+// color: $lite-grey;
   a {
     color:$grey;
-    text-decoration: none;
+    // text-decoration: none;
   }
 }
 #breadcrumbs > span > span > a {
