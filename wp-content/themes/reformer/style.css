@@ -1214,7 +1214,8 @@ header.entry-header h1 {
 .post-breadcrumbs {
   font-family: "Montserrat", Helvetica, sans-serif;
   font-size: 0.75em;
-  text-transform: uppercase; }
+  text-transform: uppercase;
+  color: #FAF9F9; }
   .post-breadcrumbs a {
     color: #323232;
     text-decoration: none; }
