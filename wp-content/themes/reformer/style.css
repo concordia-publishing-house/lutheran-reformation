@@ -1128,7 +1128,7 @@ body.home .container.navigation-container {
       display: block;
       margin-right: 2.35765%;
       width: 82.94039%;
-      margin-top: 4em; }
+      margin-top: 3em; }
       .main-navigation:last-child {
         margin-right: 0; } }
   .main-navigation ul {
@@ -2303,10 +2303,17 @@ figure.gallery-item {
 
 .post-navigation {
   margin-bottom: 20px;
-  width: 100%;
-  float: left;
   border-top: 1px solid rgba(50, 50, 50, 0.15);
   border-bottom: 1px solid rgba(50, 50, 50, 0.15); }
+  @media (min-width: 64.375em) {
+    .post-navigation {
+      float: left;
+      display: block;
+      margin-right: 2.35765%;
+      width: 65.88078%;
+      margin-left: 17.05961%; }
+      .post-navigation:last-child {
+        margin-right: 0; } }
   .post-navigation .nav-links div {
     width: 49.97965826%;
     float: left; }
@@ -2332,3 +2339,13 @@ figure.gallery-item {
   font-size: 0.7em;
   text-shadow: none;
   box-shadow: none; }
+
+@media (min-width: 64.375em) {
+  .comments-area {
+    float: left;
+    display: block;
+    margin-right: 2.35765%;
+    width: 65.88078%;
+    margin-left: 17.05961%; }
+    .comments-area:last-child {
+      margin-right: 0; } }

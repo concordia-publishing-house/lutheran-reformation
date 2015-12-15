@@ -13,9 +13,11 @@
 	}
 }
 .post-navigation {
-	margin-bottom: 20px;
-  width: 100%;
-  float: left;
+	@include breakpoint(large) {
+    @include span-columns(8);
+    @include shift(2);
+  }
+  margin-bottom: 20px;
   border-top: 1px solid rgba($grey, 0.15);
   border-bottom: 1px solid rgba($grey, 0.15);
 
@@ -52,4 +54,11 @@
   font-size: 0.7em;
   text-shadow: none;
   box-shadow: none;
+}
+
+.comments-area {
+  @include breakpoint(large) {
+    @include span-columns(8);
+    @include shift(2);
+  }
 }
