@@ -278,8 +278,9 @@ body.home header.entry-header {
 }
 .post-breadcrumbs {
 font-family: $secondary-font;
-font-size: 0.875em;
+font-size: 0.75em;
 text-transform: uppercase;
+color: $lite-grey;
   a {
     color:$grey;
     text-decoration: none;
