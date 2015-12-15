@@ -278,9 +278,15 @@ body.home header.entry-header {
 }
 .post-breadcrumbs {
 font-family: $secondary-font;
+font-size: 0.875em;
+text-transform: uppercase;
+  a {
+    color:$grey;
+    text-decoration: none;
+  }
 }
 #breadcrumbs > span > span > a {
-  text-indent: -999em;
+  display: none;
 
 }
 #click-menu-label {

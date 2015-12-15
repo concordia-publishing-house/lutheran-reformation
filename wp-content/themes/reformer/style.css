@@ -1212,10 +1212,15 @@ header.entry-header h1 {
     text-decoration: none; }
 
 .post-breadcrumbs {
-  font-family: "Montserrat", Helvetica, sans-serif; }
+  font-family: "Montserrat", Helvetica, sans-serif;
+  font-size: 0.875em;
+  text-transform: uppercase; }
+  .post-breadcrumbs a {
+    color: #323232;
+    text-decoration: none; }
 
 #breadcrumbs > span > span > a {
-  text-indent: -999em; }
+  display: none; }
 
 #click-menu-label {
   font-family: "Montserrat", Helvetica, sans-serif;
