@@ -1334,8 +1334,8 @@ header.entry-header h1 {
       transition: opactiy 800ms ease-in-out; }
       .footer-logos .sponsors img:hover {
         opacity: 1; }
-    .footer-logos .sponsors .cph-logo-white img {
-      max-width: 200px;
+    .footer-logos .sponsors .lcef-logo-white img {
+      max-width: 300px;
       margin-top: 10px; }
     .footer-logos .sponsors .lcms-logo-white img {
       max-width: 210px;
