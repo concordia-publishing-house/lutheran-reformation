@@ -145,10 +145,11 @@
 
 .document-item {
   display: block;
-  margin: 0.5em 0 0.5em 0;
+  margin: 0.5em 0 0.75em 0;
   position: relative;
   padding-left: 45px;
-  color: $darkslate;
+  color: $slate;
+  font-family: $secondary-font;
 }
 .document-item::before {
   position: absolute;
@@ -167,7 +168,7 @@
   text-align: right;
   line-height: 1.3;
   position: absolute;
-  background-color: #000;
+  background-color: $slate;
   color: #fff;
   font-size: 11px;
   text-transform: uppercase;
