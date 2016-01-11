@@ -901,6 +901,17 @@
 		"outputPathIsSetByUser": 0,
 		"processed": 0
 		},
+	"\/images\/ref-service-1.jpg": {
+		"fileType": 16384,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 392287,
+		"inputAbbreviatedPath": "\/images\/ref-service-1.jpg",
+		"outputAbbreviatedPath": "\/images\/ref-service-1.jpg",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
 	"\/images\/ref-services-comingsoon.jpg": {
 		"fileType": 16384,
 		"ignore": 0,

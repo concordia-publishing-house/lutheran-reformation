@@ -125,6 +125,13 @@ li {
   list-style-type: disc; 
 }
 
+.small-list {
+  margin-top:0;
+    li {
+      margin:0;
+    }
+}
+
 .verse {
   white-space: nowrap;
 }
