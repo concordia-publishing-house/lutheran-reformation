@@ -270,7 +270,7 @@ table {
   margin: 1.5em 0 2.5em 0;
   position: relative;
   padding-left: 45px;
-  color: black; }
+  color: #364b59; }
 
 .document-item::before {
   position: absolute;
@@ -279,7 +279,7 @@ table {
   left: 0;
   top: -7px;
   content: '';
-  border: solid 2px #920035; }
+  border: solid 2px #ec6041; }
 
 .document-item::after {
   content: 'file';
@@ -301,10 +301,10 @@ table {
   height: 0;
   border-style: solid;
   border-width: 11px 0 0 11px;
-  border-color: white transparent transparent #920035;
+  border-color: white transparent transparent #ec6041;
   position: absolute;
   top: -7px;
-  left: 22px; }
+  left: 18px; }
 
 /* Typography */
 body {
@@ -316,18 +316,27 @@ h1 {
   font-family: "Montserrat", Helvetica, sans-serif;
   font-weight: 900;
   margin: .35em 0; }
+  h1 span {
+    font-size: 80%;
+    opacity: .6; }
 
 h2 {
   font-size: 2.07252em;
   font-family: "Montserrat", Helvetica, sans-serif;
   font-weight: 900;
   margin: .35em 0; }
+  h2 span {
+    font-size: 80%;
+    opacity: .6; }
 
 h3 {
   font-size: 1.55478em;
   font-family: "Montserrat", Helvetica, sans-serif;
   font-weight: 900;
   margin: .25em 0; }
+  h3 span {
+    font-size: 80%;
+    opacity: .6; }
 
 h4 {
   font-size: 1.16638em;
@@ -335,6 +344,9 @@ h4 {
   font-family: "Montserrat", Helvetica, sans-serif;
   font-weight: 900;
   margin: 0.35em 0; }
+  h4 span {
+    font-size: 80%;
+    opacity: .6; }
 
 h5, h6 {
   font-size: 1.16638em;

@@ -148,7 +148,7 @@
   margin: 1.5em 0 2.5em 0;
   position: relative;
   padding-left: 45px;
-  color: black;
+  color: $darkslate;
 }
 .document-item::before {
   position: absolute;
@@ -157,7 +157,7 @@
   left: 0;
   top: -7px;
   content: '';
-  border: solid 2px #920035;
+  border: solid 2px $orange;
 }
 .document-item::after {
   content: 'file';
@@ -179,8 +179,8 @@
   height: 0;
   border-style: solid;
   border-width: 11px 0 0 11px;
-  border-color: white transparent transparent #920035;
+  border-color: white transparent transparent $orange;
   position: absolute;
   top: -7px;
-  left: 22px;
+  left: 18px;
 }
