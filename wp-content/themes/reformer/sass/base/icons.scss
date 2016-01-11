@@ -145,7 +145,7 @@
 
 .document-item {
   display: block;
-  margin: 1.5em 0 2.5em 0;
+  margin: 0.5em 0 0.5em 0;
   position: relative;
   padding-left: 45px;
   color: $darkslate;
@@ -183,4 +183,5 @@
   position: absolute;
   top: -7px;
   left: 18px;
+  font-family: $secondary-font;
 }
