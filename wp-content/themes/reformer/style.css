@@ -1014,26 +1014,28 @@ article footer {
       .widget-area:last-child {
         margin-right: 0; } }
 
-.logo-grid figure {
-  border-right: 1px solid rgba(50, 50, 50, 0.2);
-  border-bottom: 1px solid rgba(50, 50, 50, 0.2);
-  padding-bottom: 30px;
-  padding-top: 30px;
-  text-align: center; }
-  @media (min-width: 37.5em) {
-    .logo-grid figure {
-      float: left;
-      display: block;
-      margin-right: 2.35765%;
-      width: 48.82117%;
-      margin-right: 0; }
-      .logo-grid figure:last-child {
-        margin-right: 0; } }
-  .logo-grid figure:nth-child(even) {
-    border-right: none; }
-.logo-grid figcaption {
-  font-family: "Montserrat", Helvetica, sans-serif;
-  font-size: 0.875em; }
+.logo-grid {
+  display: inline-block; }
+  .logo-grid figure {
+    border-right: 1px solid rgba(50, 50, 50, 0.2);
+    border-bottom: 1px solid rgba(50, 50, 50, 0.2);
+    padding-bottom: 30px;
+    padding-top: 30px;
+    text-align: center; }
+    @media (min-width: 37.5em) {
+      .logo-grid figure {
+        float: left;
+        display: block;
+        margin-right: 2.35765%;
+        width: 48.82117%;
+        margin-right: 0; }
+        .logo-grid figure:last-child {
+          margin-right: 0; } }
+    .logo-grid figure:nth-child(even) {
+      border-right: none; }
+  .logo-grid figcaption {
+    font-family: "Montserrat", Helvetica, sans-serif;
+    font-size: 0.875em; }
 
 header.site-header {
   background: #323232;

@@ -67,6 +67,7 @@ article  footer {
 }
 
 .logo-grid {
+	display: inline-block;
 	figure {
 		@include breakpoint(small) { @include span-columns(6); @include omega(); }
 		border-right: 1px solid rgba($grey, 0.2);
