@@ -326,7 +326,7 @@ h1 {
   margin: .35em 0; }
   h1 span {
     font-size: 80%;
-    opacity: .6; }
+    opacity: .4; }
 
 h2 {
   font-size: 2.07252em;
@@ -335,7 +335,7 @@ h2 {
   margin: .35em 0; }
   h2 span {
     font-size: 80%;
-    opacity: .6; }
+    opacity: .4; }
 
 h3 {
   font-size: 1.55478em;
@@ -344,7 +344,7 @@ h3 {
   margin: .25em 0; }
   h3 span {
     font-size: 80%;
-    opacity: .6; }
+    opacity: .4; }
 
 h4 {
   font-size: 1.16638em;
@@ -354,7 +354,7 @@ h4 {
   margin: 0.35em 0; }
   h4 span {
     font-size: 80%;
-    opacity: .6; }
+    opacity: .4; }
 
 h5, h6 {
   font-size: 1.16638em;
