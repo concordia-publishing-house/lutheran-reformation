@@ -1132,6 +1132,116 @@
 		"outputPathIsSetByUser": 0,
 		"processed": 0
 		},
+	"\/images\/Reformation_logo_p.jpg": {
+		"fileType": 16384,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 74614,
+		"inputAbbreviatedPath": "\/images\/Reformation_logo_p.jpg",
+		"outputAbbreviatedPath": "\/images\/Reformation_logo_p.jpg",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
+	"\/images\/Reformation_logo_p.png": {
+		"fileType": 32768,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 59578,
+		"inputAbbreviatedPath": "\/images\/Reformation_logo_p.png",
+		"outputAbbreviatedPath": "\/images\/Reformation_logo_p.png",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
+	"\/images\/Reformation_logo_p_BW.jpg": {
+		"fileType": 16384,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 54340,
+		"inputAbbreviatedPath": "\/images\/Reformation_logo_p_BW.jpg",
+		"outputAbbreviatedPath": "\/images\/Reformation_logo_p_BW.jpg",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
+	"\/images\/Reformation_logo_p_BW.png": {
+		"fileType": 32768,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 57094,
+		"inputAbbreviatedPath": "\/images\/Reformation_logo_p_BW.png",
+		"outputAbbreviatedPath": "\/images\/Reformation_logo_p_BW.png",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
+	"\/images\/Reformation_logo_p_H.jpg": {
+		"fileType": 16384,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 53498,
+		"inputAbbreviatedPath": "\/images\/Reformation_logo_p_H.jpg",
+		"outputAbbreviatedPath": "\/images\/Reformation_logo_p_H.jpg",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
+	"\/images\/Reformation_logo_p_H.png": {
+		"fileType": 32768,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 41561,
+		"inputAbbreviatedPath": "\/images\/Reformation_logo_p_H.png",
+		"outputAbbreviatedPath": "\/images\/Reformation_logo_p_H.png",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
+	"\/images\/Reformation_logo_p_H_BW.jpg": {
+		"fileType": 16384,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 39491,
+		"inputAbbreviatedPath": "\/images\/Reformation_logo_p_H_BW.jpg",
+		"outputAbbreviatedPath": "\/images\/Reformation_logo_p_H_BW.jpg",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
+	"\/images\/Reformation_logo_p_H_BW.png": {
+		"fileType": 32768,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 40488,
+		"inputAbbreviatedPath": "\/images\/Reformation_logo_p_H_BW.png",
+		"outputAbbreviatedPath": "\/images\/Reformation_logo_p_H_BW.png",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
+	"\/images\/Reformation_logo_sp.jpg": {
+		"fileType": 16384,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 74743,
+		"inputAbbreviatedPath": "\/images\/Reformation_logo_sp.jpg",
+		"outputAbbreviatedPath": "\/images\/Reformation_logo_sp.jpg",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
+	"\/images\/Reformation_logo_sp.png": {
+		"fileType": 32768,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 59265,
+		"inputAbbreviatedPath": "\/images\/Reformation_logo_sp.png",
+		"outputAbbreviatedPath": "\/images\/Reformation_logo_sp.png",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
 	"\/images\/Reformation_logo_sp_BW.jpg": {
 		"fileType": 16384,
 		"ignore": 0,
@@ -1150,6 +1260,28 @@
 		"initialSize": 57268,
 		"inputAbbreviatedPath": "\/images\/Reformation_logo_sp_BW.png",
 		"outputAbbreviatedPath": "\/images\/Reformation_logo_sp_BW.png",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
+	"\/images\/Reformation_logo_sp_H.jpg": {
+		"fileType": 16384,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 53706,
+		"inputAbbreviatedPath": "\/images\/Reformation_logo_sp_H.jpg",
+		"outputAbbreviatedPath": "\/images\/Reformation_logo_sp_H.jpg",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
+	"\/images\/Reformation_logo_sp_H.png": {
+		"fileType": 32768,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 41545,
+		"inputAbbreviatedPath": "\/images\/Reformation_logo_sp_H.png",
+		"outputAbbreviatedPath": "\/images\/Reformation_logo_sp_H.png",
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0,
 		"processed": 0

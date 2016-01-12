@@ -12,12 +12,8 @@ get_header(); ?>
 	<div id="primary" class="blog-post-area">
 		
 			<main id="main" class="site-main" role="main">
-				<div class="breadcrumbs" typeof="BreadcrumbList" vocab="http://schema.org/">
-    					<?php if(function_exists('bcn_display'))
-						    {
-						        bcn_display();
-						    }?>
-				</div>	
+				<?php if ( function_exists('yoast_breadcrumb') ) 
+				{yoast_breadcrumb('<p class="post-breadcrumbs" id="breadcrumbs">','</p>');} ?>	
 				
 				<?php the_title( '<h1 id="page_header" class="entry-title">', '</h1>' ); ?>
 				
