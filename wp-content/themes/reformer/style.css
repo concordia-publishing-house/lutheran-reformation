@@ -389,6 +389,10 @@ p + h4 {
     .lead {
       font-size: 1.45em; } }
 
+.fine-print {
+  font-size: 0.85em;
+  color: #323232; }
+
 /* Blockquote */
 blockquote {
   line-height: 1.6;
