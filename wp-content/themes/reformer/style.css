@@ -267,11 +267,15 @@ table {
 
 .document-item {
   display: block;
-  margin: 0.5em 0 0.5em 0;
+  margin: 0.5em 0 0.75em 0;
   position: relative;
   padding-left: 45px;
   color: #196d73;
   font-family: "Montserrat", Helvetica, sans-serif; }
+
+.reformation-service-material .document-item {
+  float: left;
+  margin-bottom: 1.5em; }
 
 .document-item::before {
   position: absolute;

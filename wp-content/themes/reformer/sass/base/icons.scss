@@ -151,6 +151,12 @@
   color: $slate;
   font-family: $secondary-font;
 }
+.reformation-service-material {
+	.document-item {
+		float: left;
+		margin-bottom: 1.5em;
+	}
+}
 .document-item::before {
   position: absolute;
   width: 29px;
