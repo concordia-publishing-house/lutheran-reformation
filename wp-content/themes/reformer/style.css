@@ -272,6 +272,8 @@ table {
   padding-left: 45px;
   color: #196d73;
   font-family: "Montserrat", Helvetica, sans-serif; }
+  .document-item.document-extra-space {
+    margin-left: 1.5em; }
 
 .reformation-service-material .document-item {
   float: left;

@@ -150,6 +150,10 @@
   padding-left: 45px;
   color: $slate;
   font-family: $secondary-font;
+
+  &.document-extra-space {
+  	margin-left: 1.5em;
+  }
 }
 .reformation-service-material {
 	.document-item {
