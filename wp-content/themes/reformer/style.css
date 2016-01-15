@@ -538,6 +538,12 @@ form.button-inset {
   color: white;
   border-color: #efb333; }
 
+.button-disabled, .button-disabled:visited {
+  background: #FAF9F9;
+  color: #323232;
+  border-color: #FAF9F9;
+  cursor: not-allowed; }
+
 .button-tertiary, .button-tertiary:visited {
   background-color: #248389;
   color: white;

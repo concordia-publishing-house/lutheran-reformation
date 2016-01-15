@@ -39,6 +39,13 @@
   border-color: $gold;
 }
 
+.button-disabled, .button-disabled:visited {
+  background:$lite-grey;
+  color: $grey;
+  border-color: $lite-grey;
+  cursor: not-allowed;
+}
+
 .button-tertiary, .button-tertiary:visited {
   background-color: $blue;
   color:white;
