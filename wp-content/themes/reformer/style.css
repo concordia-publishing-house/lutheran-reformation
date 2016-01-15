@@ -539,9 +539,8 @@ form.button-inset {
   border-color: #efb333; }
 
 .button-disabled, .button-disabled:visited {
-  background: #FAF9F9;
-  color: #323232;
-  border-color: #FAF9F9;
+  filter: alpha(opacity=65);
+  opacity: .65;
   cursor: not-allowed; }
 
 .button-tertiary, .button-tertiary:visited {

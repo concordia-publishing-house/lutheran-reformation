@@ -40,9 +40,8 @@
 }
 
 .button-disabled, .button-disabled:visited {
-  background:$lite-grey;
-  color: $grey;
-  border-color: $lite-grey;
+  filter: alpha(opacity=65);
+  opacity: .65;
   cursor: not-allowed;
 }
 
