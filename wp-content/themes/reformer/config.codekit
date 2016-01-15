@@ -340,6 +340,39 @@
 		"outputPathIsSetByUser": 0,
 		"processed": 0
 		},
+	"\/images\/germany-tour-berlin-2.jpg": {
+		"fileType": 16384,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 898546,
+		"inputAbbreviatedPath": "\/images\/germany-tour-berlin-2.jpg",
+		"outputAbbreviatedPath": "\/images\/germany-tour-berlin-2.jpg",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
+	"\/images\/germany-tour-berlin.jpg": {
+		"fileType": 16384,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 819232,
+		"inputAbbreviatedPath": "\/images\/germany-tour-berlin.jpg",
+		"outputAbbreviatedPath": "\/images\/germany-tour-berlin.jpg",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
+	"\/images\/germany-tour-salzburg.jpg": {
+		"fileType": 16384,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 568542,
+		"inputAbbreviatedPath": "\/images\/germany-tour-salzburg.jpg",
+		"outputAbbreviatedPath": "\/images\/germany-tour-salzburg.jpg",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
 	"\/images\/hymn-and-music.jpg": {
 		"fileType": 16384,
 		"ignore": 0,
@@ -622,6 +655,17 @@
 		"initialSize": 138050,
 		"inputAbbreviatedPath": "\/images\/ref-flannel-graph.jpg",
 		"outputAbbreviatedPath": "\/images\/ref-flannel-graph.jpg",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
+	"\/images\/ref-germanytour2.jpg": {
+		"fileType": 16384,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 518012,
+		"inputAbbreviatedPath": "\/images\/ref-germanytour2.jpg",
+		"outputAbbreviatedPath": "\/images\/ref-germanytour2.jpg",
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0,
 		"processed": 0
