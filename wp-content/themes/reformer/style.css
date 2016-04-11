@@ -1255,17 +1255,22 @@ body.home .container.navigation-container {
         box-shadow: 0 2px 2px rgba(0, 0, 0, 0.1), 1px 1px 1px rgba(0, 0, 0, 0.1), -1px 1px 1px rgba(0, 0, 0, 0.1);
         width: 180px; }
         .main-navigation ul li ul.sub-menu li {
-          padding: 0; }
+          padding: 0;
+          float: none;
+          padding: 8px 15px;
+          border: none; }
           .main-navigation ul li ul.sub-menu li a {
             text-decoration: none;
             font-weight: 400;
             font-size: 15px;
             text-transform: none;
-            padding: 11px;
+            padding: 10px 0;
             width: 180px;
             color: #777777;
             text-shadow: none;
             background: #ffffff; }
+            .main-navigation ul li ul.sub-menu li a:hover {
+              text-decoration: underline; }
 
 .footer-primary .sub-menu {
   display: none; }
