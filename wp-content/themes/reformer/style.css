@@ -1250,7 +1250,7 @@ body.home .container.navigation-container {
         -ms-transition: top 0.2s ease, opacity 0.2s ease-in;
         -o-transition: top 0.2s ease, opacity 0.2s ease-in;
         transition: top 0.2s ease, opacity 0.2s ease-in;
-        border-top: 3px solid gold;
+        border-top: 3px solid #efb333;
         background: white;
         box-shadow: 0 2px 2px rgba(0, 0, 0, 0.1), 1px 1px 1px rgba(0, 0, 0, 0.1), -1px 1px 1px rgba(0, 0, 0, 0.1);
         width: 180px; }
