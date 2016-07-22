@@ -549,6 +549,39 @@
 		"outputPathIsSetByUser": 0,
 		"processed": 0
 		},
+	"\/images\/ref-faces-fredrick.jpg": {
+		"fileType": 16384,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 358390,
+		"inputAbbreviatedPath": "\/images\/ref-faces-fredrick.jpg",
+		"outputAbbreviatedPath": "\/images\/ref-faces-fredrick.jpg",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
+	"\/images\/ref-faces-header-fredrick.jpg": {
+		"fileType": 16384,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 272394,
+		"inputAbbreviatedPath": "\/images\/ref-faces-header-fredrick.jpg",
+		"outputAbbreviatedPath": "\/images\/ref-faces-header-fredrick.jpg",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
+	"\/images\/ref-faces-header-huss.jpg": {
+		"fileType": 16384,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 288237,
+		"inputAbbreviatedPath": "\/images\/ref-faces-header-huss.jpg",
+		"outputAbbreviatedPath": "\/images\/ref-faces-header-huss.jpg",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
 	"\/images\/ref-faces-header-knightgeorge.jpg": {
 		"fileType": 16384,
 		"ignore": 0,
@@ -611,6 +644,17 @@
 		"initialSize": 206246,
 		"inputAbbreviatedPath": "\/images\/ref-faces-header.jpg",
 		"outputAbbreviatedPath": "\/images\/ref-faces-header.jpg",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
+	"\/images\/ref-faces-huss.jpg": {
+		"fileType": 16384,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 378411,
+		"inputAbbreviatedPath": "\/images\/ref-faces-huss.jpg",
+		"outputAbbreviatedPath": "\/images\/ref-faces-huss.jpg",
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0,
 		"processed": 0
@@ -699,6 +743,17 @@
 		"initialSize": 138050,
 		"inputAbbreviatedPath": "\/images\/ref-flannel-graph.jpg",
 		"outputAbbreviatedPath": "\/images\/ref-flannel-graph.jpg",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
+	"\/images\/ref-flannelgraph.jpg": {
+		"fileType": 16384,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 225300,
+		"inputAbbreviatedPath": "\/images\/ref-flannelgraph.jpg",
+		"outputAbbreviatedPath": "\/images\/ref-flannelgraph.jpg",
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0,
 		"processed": 0
@@ -1051,6 +1106,17 @@
 		"initialSize": 409494,
 		"inputAbbreviatedPath": "\/images\/ref-swycgrant.jpg",
 		"outputAbbreviatedPath": "\/images\/ref-swycgrant.jpg",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
+	"\/images\/ref-teachers.jpg": {
+		"fileType": 16384,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 252326,
+		"inputAbbreviatedPath": "\/images\/ref-teachers.jpg",
+		"outputAbbreviatedPath": "\/images\/ref-teachers.jpg",
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0,
 		"processed": 0
