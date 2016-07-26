@@ -2315,9 +2315,9 @@ figure.gallery-item {
   columns: 2; }
   @media (min-width: 64.375em) {
     .gallery-columns-4 {
-      -webkit-columns: 5;
-      -moz-columns: 5;
-      columns: 5; } }
+      -webkit-columns: 4;
+      -moz-columns: 4;
+      columns: 4; } }
 
 .gallery-columns-3 {
   -webkit-columns: 2;
