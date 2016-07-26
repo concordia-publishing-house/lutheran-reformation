@@ -5,6 +5,37 @@
 figure.gallery-item {
   margin: 2%;
 }
+.gallery-columns-8 {
+  -webkit-columns: 2;
+  -moz-columns: 2;
+  columns: 2;
+  @include breakpoint(small) {
+    -webkit-columns: 4;
+    -moz-columns: 4;
+    columns: 4;
+  }
+  @include breakpoint(large) {
+    -webkit-columns: 8;
+    -moz-columns: 8;
+    columns: 8;
+  }
+}
+
+.gallery-columns-7 {
+  -webkit-columns: 2;
+  -moz-columns: 2;
+  columns: 2;
+  @include breakpoint(small) {
+    -webkit-columns: 4;
+    -moz-columns: 4;
+    columns: 4;
+  }
+  @include breakpoint(large) {
+    -webkit-columns: 7;
+    -moz-columns: 7;
+    columns: 7;
+  }
+}
 
 .gallery-columns-6 {
 	-webkit-columns: 2;
