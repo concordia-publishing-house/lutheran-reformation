@@ -1055,6 +1055,8 @@ header.site-header {
   header.site-header .container {
     position: relative;
     z-index: 80; }
+  header.site-header.post-site-header {
+    padding-bottom: 100px; }
 
 body.page-id-107 .site-header, body.parent-pageid-107 .site-header {
   background: #323232 url(images/ref-history.jpg);
@@ -2545,7 +2547,7 @@ article.type-post a.button-link {
       color: #52C2D0; }
 
 .dark-mask {
-  background: rgba(34, 31, 49, 0.8);
+  background: rgba(34, 31, 49, 0.5);
   position: absolute;
   height: 100%;
   width: 100%;
