@@ -113,6 +113,8 @@ body.search {
     min-height: 100px;
     @include breakpoint(medium) { min-height: 200px;}
     @include breakpoint(large) { min-height: 300px;}
+    position: relative;
+    z-index: 90;
 }
 body.home .container.navigation-container {
     min-height: inherit;

@@ -978,6 +978,11 @@ img.flex {
   .wpb_wrapper:after {
     clear: both; }
 
+.site-content {
+  background: white;
+  position: relative;
+  z-index: 100; }
+
 .content-area {
   padding: 30px 0 0; }
   @media (min-width: 64.375em) {
@@ -1045,7 +1050,8 @@ article footer {
 header.site-header {
   background: #323232;
   padding: 10px 0 30px;
-  font-family: "Montserrat", Helvetica, sans-serif; }
+  font-family: "Montserrat", Helvetica, sans-serif;
+  position: relative; }
 
 body.page-id-107 .site-header, body.parent-pageid-107 .site-header {
   background: #323232 url(images/ref-history.jpg);
@@ -1127,7 +1133,9 @@ body.search .container.navigation-container {
     text-decoration: none; }
 
 .container.navigation-container {
-  min-height: 100px; }
+  min-height: 100px;
+  position: relative;
+  z-index: 90; }
   @media (min-width: 50em) {
     .container.navigation-container {
       min-height: 200px; } }
@@ -2539,8 +2547,8 @@ article.type-post a.button-link {
 .dark-mask {
   background: rgba(34, 31, 49, 0.8);
   position: absolute;
-  height: 100vh;
+  height: 100%;
   width: 100%;
   left: 0;
   top: 0;
-  z-index: 10; }
+  z-index: 0; }

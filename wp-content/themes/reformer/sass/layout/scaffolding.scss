@@ -27,6 +27,11 @@ padding:0;
 	@include outer-container;
 }
 
+.site-content {
+	background: white;
+	position: relative;
+	z-index: 100;
+}
 .content-area {
 	padding:30px 0 0;
 	
