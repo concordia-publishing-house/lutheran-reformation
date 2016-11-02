@@ -100,3 +100,13 @@ article.type-post a.button-link {
     }
   }
 }
+
+.dark-mask {
+  background: rgba(34,31,49,0.80);
+    position: absolute;
+    height: 100vh;
+    width: 100%;
+    left: 0;
+    top: 0;
+    z-index: 10;
+}

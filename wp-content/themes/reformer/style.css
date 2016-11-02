@@ -2535,3 +2535,12 @@ article.type-post a.button-link {
     .entry-meta a:hover {
       border-bottom: 2px solid #52C2D0;
       color: #52C2D0; }
+
+.dark-mask {
+  background: rgba(34, 31, 49, 0.8);
+  position: absolute;
+  height: 100vh;
+  width: 100%;
+  left: 0;
+  top: 0;
+  z-index: 10; }
