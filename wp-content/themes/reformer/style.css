@@ -2524,12 +2524,12 @@ article.type-post a.button-link {
   text-transform: uppercase;
   font-size: 12px;
   opacity: 0.5;
-  transition: all 500ms ease; }
+  transition: all 300ms ease; }
   .entry-meta:hover {
     opacity: 1; }
   .entry-meta a {
     color: #323232;
-    transition: all 500ms ease;
+    transition: all 300ms ease;
     padding-bottom: 3px;
     border-bottom: transparent; }
     .entry-meta a:hover {
