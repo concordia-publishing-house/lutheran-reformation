@@ -23,7 +23,7 @@
 	</header><!-- .entry-header -->
 
 	<div class="entry-content">
-		<?php the_excerpt(); ?>
+		<?php excerpt_more(); ?>
 		
 		<?php
 			wp_link_pages( array(

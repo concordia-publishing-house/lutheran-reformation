@@ -173,7 +173,13 @@ function my_add_excerpts_to_pages() {
      add_post_type_support( 'page', 'excerpt' );
 }
 
-
+/**
+ * Add excerpts to blog with read more link
+ */
+function wpdocs_excerpt_more( $more ) {
+    return '<a href="'.get_the_permalink().'" rel="nofollow">Read More...</a>';
+}
+add_filter( 'excerpt_more', 'wpdocs_excerpt_more' );
 
 
 function wpb_adding_scripts() {
