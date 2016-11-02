@@ -2570,9 +2570,8 @@ article.type-post a.button-link {
   .pagination span {
     display: inline-block;
     margin-right: 10px;
-    color: #FAF9F9; }
+    color: #323232; }
     .pagination span.current {
-      opacity: 0.25;
       background: #FAF9F9;
       border-radius: 4px;
       padding: 10px 10px;

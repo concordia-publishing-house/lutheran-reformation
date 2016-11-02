@@ -131,10 +131,9 @@ article.type-post a.button-link {
   span {
     display: inline-block;
     margin-right: 10px;
-    color: $lite-grey;
+    color: $grey;
 
     &.current {
-    opacity: 0.25;
     background: $lite-grey;
     border-radius: 4px;
     padding: 10px 10px;
