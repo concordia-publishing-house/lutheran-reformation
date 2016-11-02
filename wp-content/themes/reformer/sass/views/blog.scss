@@ -62,3 +62,40 @@
     @include shift(2);
   }
 }
+
+article.type-post a.button-link {
+  display: inline-block;
+  font-size: 12px;
+  text-transform: uppercase;
+  font-family: $secondary-font;
+  transition: all 500ms ease;
+
+  &:hover {
+    padding-bottom:0;
+    border: none;
+  }
+}
+
+.entry-meta {
+  margin-bottom: 15px;
+  font-family: $secondary-font;
+  font-size: 14px;
+  opacity: 0.5;
+  transition: all 500ms ease;
+
+  &:hover {
+    opacity: 1;
+  }
+
+  a {
+    color: $grey;
+    transition: all 500ms ease;
+    padding:0;
+
+    &:hover {
+      padding-bottom: 3px;
+      border-bottom: 2px solid $link-color;
+      color: $link-color;
+    }
+  }
+}

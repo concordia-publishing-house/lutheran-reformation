@@ -2508,3 +2508,30 @@ figure.gallery-item {
     margin-left: 17.05961%; }
     .comments-area:last-child {
       margin-right: 0; } }
+
+article.type-post a.button-link {
+  display: inline-block;
+  font-size: 12px;
+  text-transform: uppercase;
+  font-family: "Montserrat", Helvetica, sans-serif;
+  transition: all 500ms ease; }
+  article.type-post a.button-link:hover {
+    padding-bottom: 0;
+    border: none; }
+
+.entry-meta {
+  margin-bottom: 15px;
+  font-family: "Montserrat", Helvetica, sans-serif;
+  font-size: 14px;
+  opacity: 0.5;
+  transition: all 500ms ease; }
+  .entry-meta:hover {
+    opacity: 1; }
+  .entry-meta a {
+    color: #323232;
+    transition: all 500ms ease;
+    padding: 0; }
+    .entry-meta a:hover {
+      padding-bottom: 3px;
+      border-bottom: 2px solid #52C2D0;
+      color: #52C2D0; }
