@@ -2562,17 +2562,19 @@ article.type-post a.button-link {
     padding: 5px 10px;
     background: #FAF9F9;
     margin: 2px;
-    border-radius: 4px;
-    color: #196d73; }
+    border-radius: 4px; }
     .pagination a:hover {
       background: #e9f0f5;
       color: #52C2D0; }
   .pagination span {
-    display: inline-block;
+    display: block;
     margin-right: 10px;
-    color: #323232; }
+    color: #323232;
+    opacity: 0.3; }
     .pagination span.current {
-      background: #FAF9F9;
+      display: inline-block;
+      border: 1px solid #FAF9F9;
       border-radius: 4px;
       padding: 10px 10px;
-      margin-right: 2px; }
+      margin-right: 2px;
+      opacity: 1; }
