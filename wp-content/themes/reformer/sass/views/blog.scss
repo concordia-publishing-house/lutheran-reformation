@@ -110,3 +110,35 @@ article.type-post a.button-link {
     top: 0;
     z-index: 0;
 }
+
+.pagination {
+  font-family: $secondary-font;
+
+  a {
+    text-decoration: none;
+    padding: 5px 10px;
+    background: $lite-grey;
+    margin: 2px;
+    border-radius: 4px;
+    color: $slate;
+    
+    &:hover {
+      background:$lite-blue;
+      color: $link-color;
+    }
+  }
+  
+  span {
+    display: inline-block;
+    margin-right: 10px;
+    color: $lite-grey;
+
+    &.current {
+    opacity: 0.25;
+    background: $lite-grey;
+    border-radius: 4px;
+    padding: 10px 10px;
+    margin-right: 2px;
+    }
+  }
+}
