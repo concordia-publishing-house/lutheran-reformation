@@ -1052,6 +1052,9 @@ header.site-header {
   padding: 10px 0 30px;
   font-family: "Montserrat", Helvetica, sans-serif;
   position: relative; }
+  header.site-header .container {
+    position: relative;
+    z-index: 80; }
 
 body.page-id-107 .site-header, body.parent-pageid-107 .site-header {
   background: #323232 url(images/ref-history.jpg);
@@ -1111,9 +1114,6 @@ body.home .site-branding .site-title h2 {
   display: none; }
 body.home .site-branding .site-title img {
   width: 100%; }
-
-body.single .container.navigation-container {
-  min-height: 180px; }
 
 body.search .container.navigation-container {
   min-height: 220px; }
