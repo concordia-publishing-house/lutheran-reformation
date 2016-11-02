@@ -177,7 +177,7 @@ function my_add_excerpts_to_pages() {
  * Add excerpts to blog with read more link
  */
 function wpdocs_excerpt_more( $more ) {
-    return '<a href="'.get_the_permalink().'" rel="nofollow">Read More...</a>';
+    return '... <a href="'.get_the_permalink().'" rel="nofollow" class="button-link">Read More ></a>';
 }
 add_filter( 'excerpt_more', 'wpdocs_excerpt_more' );
 
