@@ -35,7 +35,10 @@ get_header(); ?>
 
 				<?php endwhile; ?>
 
-				<?php the_posts_navigation(); ?>
+				<?php //the_posts_navigation(); ?>
+				<?php if (function_exists("pagination")) {
+				    pagination($additional_loop->max_num_pages);
+				} ?>
 
 			<?php else : ?>
 
