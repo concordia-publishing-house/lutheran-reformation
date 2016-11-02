@@ -71,15 +71,15 @@ article.type-post a.button-link {
   transition: all 500ms ease;
 
   &:hover {
-    padding-bottom:0;
-    border: none;
+    border-color: transparent;
   }
 }
 
 .entry-meta {
   margin-bottom: 15px;
   font-family: $secondary-font;
-  font-size: 14px;
+  text-transform: uppercase;
+  font-size: 12px;
   opacity: 0.5;
   transition: all 500ms ease;
 
@@ -90,10 +90,11 @@ article.type-post a.button-link {
   a {
     color: $grey;
     transition: all 500ms ease;
-    padding:0;
+    padding-bottom: 3px;
+    border-bottom: transparent;
 
     &:hover {
-      padding-bottom: 3px;
+      
       border-bottom: 2px solid $link-color;
       color: $link-color;
     }

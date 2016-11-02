@@ -2516,13 +2516,13 @@ article.type-post a.button-link {
   font-family: "Montserrat", Helvetica, sans-serif;
   transition: all 500ms ease; }
   article.type-post a.button-link:hover {
-    padding-bottom: 0;
-    border: none; }
+    border-color: transparent; }
 
 .entry-meta {
   margin-bottom: 15px;
   font-family: "Montserrat", Helvetica, sans-serif;
-  font-size: 14px;
+  text-transform: uppercase;
+  font-size: 12px;
   opacity: 0.5;
   transition: all 500ms ease; }
   .entry-meta:hover {
@@ -2530,8 +2530,8 @@ article.type-post a.button-link {
   .entry-meta a {
     color: #323232;
     transition: all 500ms ease;
-    padding: 0; }
+    padding-bottom: 3px;
+    border-bottom: transparent; }
     .entry-meta a:hover {
-      padding-bottom: 3px;
       border-bottom: 2px solid #52C2D0;
       color: #52C2D0; }
