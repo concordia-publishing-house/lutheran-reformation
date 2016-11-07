@@ -1054,7 +1054,9 @@ header.site-header {
   position: relative; }
   header.site-header .container {
     position: relative;
-    z-index: 80; }
+    z-index: 50; }
+  header.site-header .navigation-container.container {
+    z-index: 90; }
   header.site-header.post-site-header {
     padding-bottom: 100px; }
 
@@ -1253,7 +1255,7 @@ body.home .container.navigation-container {
       .main-navigation ul li ul.sub-menu {
         opacity: 0;
         position: absolute;
-        top: 136px;
+        top: 126px;
         padding: 16px 0 20px;
         -webkit-transition: top 0.2s ease, opacity 0.2s ease-in;
         -moz-transition: top 0.2s ease, opacity 0.2s ease-in;
