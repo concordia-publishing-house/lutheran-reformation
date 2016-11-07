@@ -11,7 +11,7 @@
 
 <article id="post-<?php the_ID(); ?>" <?php post_class(); ?>>
 	<!-- Post Image-->
-	<?php the_post_thumbnail( 'your-specified-image-size' ); ?>
+	<?php the_post_thumbnail( 'featured_post_image' ); ?>
 	<header class="entry-header">
 		<?php the_title( sprintf( '<h2 class="entry-title"><a href="%s" rel="bookmark">', esc_url( get_permalink() ) ), '</a></h2>' ); ?>
 
