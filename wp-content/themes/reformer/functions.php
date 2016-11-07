@@ -42,7 +42,6 @@ function the_reformer_setup() {
 	 */
 	add_theme_support( 'post-thumbnails' );
 
-	add_image_size( 'featured_post_image', 1200, 630, true );
 	add_image_size( 'featured_post_image_thumbnail', 800, 400, true );
 	
 
