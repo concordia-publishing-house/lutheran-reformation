@@ -30,7 +30,7 @@ get_header(); ?>
 			<div class="content-list">	
 				<?php
 					$pages = get_pages('child_of='.$post->ID.'&sort_column=post_date&sort_order=desc&parent='.$post->ID);
-					foreach($pages as $page) {
+					//foreach($pages as $page) {
 				?>
 				<?php //print_r($pages); ?>
 					<article id="<?php echo $page->post_name; ?>">
