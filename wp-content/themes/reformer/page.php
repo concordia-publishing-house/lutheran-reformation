@@ -46,7 +46,7 @@ get_header(); ?>
                 foreach ($pages as $page){
 				?>
 				<?php //print_r($pages); ?>
-					<article id="<?php echo $page->post_name; ?>">
+					<article id="<?php echo $product_page->post_title; ?>">
 						<div class="featured-image">
 							<?php echo '<a href="' . get_permalink( $page->ID ) . '" title="' . esc_attr( $page->post_name ) . '">';
 							echo get_the_post_thumbnail( $page->ID, 'medium'); 
