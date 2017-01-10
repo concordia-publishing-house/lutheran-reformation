@@ -29,11 +29,21 @@ get_header(); ?>
 				<?php endwhile; // End of the loop. ?>
 			<div class="content-list">	
 				<?php
-									$args = array(
-				    'cat' => $current,
-				    'post_type' => array( 'page', 'post' )
-				);
-				query_posts( $args );
+					$page_args = array(
+
+                'post_type' => 'page',
+                'order' => 'ASC',
+                'orderby' => 'menu_order',
+                'child_of' => $post->ID,
+                'taxonomy' => 'category',
+                        'field' => 'slug',
+                        'term' => 'pillar-product'
+            );
+					$pages = new WP_Query($page_args);
+
+
+
+                foreach ($pages as $page){
 				?>
 				<?php //print_r($pages); ?>
 					<article id="<?php echo $page->post_name; ?>">
@@ -50,7 +60,7 @@ get_header(); ?>
 
 					</article>
 
-				<?php?>
+				<?php } ?>
 			</div>
 	</div><!-- #primary -->
 		<?php get_sidebar(); ?>
