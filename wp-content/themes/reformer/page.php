@@ -50,7 +50,7 @@ get_header(); ?>
 
 					</article>
 
-				<?php } ?>
+				<?php?>
 			</div>
 	</div><!-- #primary -->
 		<?php get_sidebar(); ?>
