@@ -29,8 +29,11 @@ get_header(); ?>
 				<?php endwhile; // End of the loop. ?>
 			<div class="content-list">	
 				<?php
-					$pages = get_pages('child_of='.$post->ID.'&sort_column=post_date&sort_order=desc&parent='.$post->ID);
-					//foreach($pages as $page) {
+									$args = array(
+				    'cat' => $current,
+				    'post_type' => array( 'page', 'post' )
+				);
+				query_posts( $args );
 				?>
 				<?php //print_r($pages); ?>
 					<article id="<?php echo $page->post_name; ?>">
