@@ -21,7 +21,9 @@ Nicolas Gallagher and Jonathan Neal http://necolas.github.com/normalize.css/
 */
 
 //
-@import "bourbon", "neat";
+@import "_bourbon";
+@import "_neat-helpers";
+@import "_neat";
 
 // ----------------------------------------------------------------------
   // Base

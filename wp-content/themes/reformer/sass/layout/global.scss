@@ -13,7 +13,7 @@ body {
 
 a {
   color:$link-color;
-  @include transition(color 800ms ease-in-out);
+  // @include transition(color 800ms ease-in-out);
 }
 
 a:hover {
