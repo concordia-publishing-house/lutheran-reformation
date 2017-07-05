@@ -1062,7 +1062,7 @@ body.page-id-107 .site-header, body.parent-pageid-107 .site-header {
   background-position: center;
   background-repeat: no-repeat; }
 
-body.single-post .site-header, body.blog .site-header {
+body.single-post .site-header, body.blog .site-header, body.category .site-header {
   background: #323232 url(images/ref-theology.jpg);
   background-size: cover;
   background-position: center;
