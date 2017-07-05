@@ -111,12 +111,6 @@
 		"oAP": "\/build\/.sass-cache\/ce5510a6f28c31ab40f0401c5e6d85fa0b67ef75\/styleguide.scssc",
 		"oF": 0
 		},
-	"\/build": {
-		"ft": 65536,
-		"oA": 1,
-		"oAP": "\/build\/build",
-		"oF": 0
-		},
 	"\/cd": {
 		"ft": 8192,
 		"oA": 2,
@@ -3094,8 +3088,8 @@
 		"ft": 4,
 		"ma": 0,
 		"oA": 0,
-		"oAP": "\/build\/wp-content\/themes\/reformer\/sass\/style.css",
-		"oF": 0,
+		"oAP": "\/wp-content\/themes\/reformer\/style.css",
+		"oF": 2,
 		"oS": 0,
 		"uL": 1
 		},
