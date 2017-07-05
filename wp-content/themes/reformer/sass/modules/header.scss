@@ -24,7 +24,7 @@ body.page-id-107 .site-header, body.parent-pageid-107 .site-header {
   background-repeat: no-repeat;
 }
 
-body.page-id-108 .site-header, body.parent-pageid-108 .site-header {
+body.page-id-108 .site-header, body.parent-pageid-114 .site-header {
   background: $grey url(images/ref-theology.jpg);
   background-size:cover;
   background-position: center;
@@ -127,7 +127,7 @@ body.home .container.navigation-container {
 }
 .site-branding {
   width: 100%;
-  // @include breakpoint(small) { 
+  // @include breakpoint(small) {
   //   @include span-columns(4);
   //   @include omega();
   // }
@@ -135,7 +135,7 @@ body.home .container.navigation-container {
     @include span-columns(2);
     @include omega();
   }
-  
+
   .site-title {
      // @include background-image('reformation-logo');
      width: 100%;
@@ -204,12 +204,15 @@ body.home .container.navigation-container {
 
   ul {
     float: right;
-    
+
     li {
       float: left;
       padding-bottom:10px;
       border-bottom: 2px solid rgba(255, 255, 255, .5);
-      @include transition(all 0.15s ease-in-out); 
+      // @include transition (all 0.15s ease-in-out);
+      -webkit-transition: all 0.15s ease-in-out;
+      -moz-transition: all 0.15s ease-in-out;
+      transition: all 0.15s ease-in-out;
       margin:0;
 
       &:hover {
@@ -221,7 +224,7 @@ body.home .container.navigation-container {
           -webkit-transition: -webkit-transform 0.15s ease, opacity 0.15s linear;
           transition: -ms-transform 0.15s ease, opacity 0.15s linear;
           transition: transform 0.15s ease, opacity 0.15s linear;
-          
+
         }
       }
       a {
@@ -262,10 +265,10 @@ body.home .container.navigation-container {
     font-size: 15px;
     text-transform: none;
     padding: 10px 0;
-    width: 180px; 
+    width: 180px;
     color: #777777;
     text-shadow: none;
-    background: #ffffff; 
+    background: #ffffff;
 
     &:hover {
       text-decoration: underline;
@@ -303,7 +306,7 @@ body.home .container.navigation-container {
     width: 20px;
     border:none;
     background:transparent;
-    display: none; //to be resolved 
+    display: none; //to be resolved
 }
 
 .search-container form.search-form {
@@ -369,7 +372,7 @@ text-transform: uppercase;
 
 #responsive-menu .responsive-menu li {
   margin-bottom: 0;
-  
+
   a {
     text-transform: uppercase;
     font-family: $secondary-font;
@@ -380,7 +383,7 @@ text-transform: uppercase;
   font-family: $secondary-font;
 }
 
-// Fix for link cursor 
+// Fix for link cursor
 .tp-caption#slide-6-layer-15 {
     cursor: pointer;
 }

@@ -33,11 +33,11 @@ input[type=text]:focus, input[type=password]:focus, input[type=url]:focus, input
   outline:none;
 }
 
-input {
-  @include placeholder {
-    font-style: italic;
-  }
-}
+// input {
+//   @include placeholder {
+//     font-style: italic;
+//   }
+// }
 
 label {
   font-size: .8em;

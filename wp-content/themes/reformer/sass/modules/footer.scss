@@ -55,17 +55,17 @@
 	a {
 		padding:0 15px;
 		color: $blue;
-	
+
 		// &:last-child {
 		// 	margin-left:10px;
 		// }
 	}
 
 	i { font-size: 1.5em;}
-} 
+}
 .footer-buttons {
 	text-align: right;
- 
+
  	a {
 		color:white;
 		margin-left:10px;
@@ -76,8 +76,8 @@
 	width: 100%;
 	display:inline-block;
 	padding:30px 0;
-	
-	
+
+
 	.sponsors {
 		width: 100%;
 		@include breakpoint (medium) {width: 80%;}
@@ -89,8 +89,11 @@
 			max-width: 250px;
 			height: auto;
 			opacity: 0.75;
-			@include transition(opactiy 800ms ease-in-out);
-			
+			// @include transition(opactiy 800ms ease-in-out);
+			-webkit-transition: opactiy 800ms ease-in-out;
+	    -moz-transition: opactiy 800ms ease-in-out;
+	    transition: opactiy 800ms ease-in-out;
+
 			&:hover {
 				opacity: 1;
 			}
@@ -126,13 +129,13 @@
 	    width: 95%;
 	    z-index: -1;
 	  }
-		
+
 		  span {
 		  background: #354b59;
 		  padding: 0 15px;
 		  opacity: 1;
 		}
-		
+
 	}
 		div {
 			width: 100%;
