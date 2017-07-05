@@ -1,11 +1,11 @@
-.widget-area aside#text-4, .widget-area aside#text-5, .widget-area aside#text-14, .widget-area aside#text-17 {
+.widget-area aside#text-4, .widget-area aside#text-5, .widget-area aside#text-14, .widget-area aside#text-17, .widget-area aside #categories-2 {
     background-color: $lite-grey;
     padding: 20px;
     font-size: 0.875em;
     border-right: 1px solid #dedad6;
     border-bottom: 1px solid #dedad6;
     color:#867F76;
- 
+
  h2 {
     font-size: 1.125em;
     margin: 0 0 20px;
@@ -40,14 +40,14 @@
 }
 
 .widget-area {
-	
+
 	aside {
 		margin-top: 30px;
 
 	&:first-child {
 		margin:0;
 	}
-	}		
+	}
 
 }
 .email-signup-sidebar {
@@ -58,7 +58,7 @@
 		font-size: 1.1em;
 		color:white;
 	}
-	
+
 	p {
 		color:$lite-blue;
 		font-size: 1em;
@@ -92,7 +92,7 @@
 		font-size: 1.1em;
 		color:white;
 	}
-	
+
 	p {
 		color:$lite-grey;
 		font-size: 1em;
@@ -114,7 +114,7 @@
 		font-size: 1.1em;
 		color:white;
 	}
-	
+
 	p {
 		color:$lite-grey;
 		font-size: 1em;
@@ -140,7 +140,7 @@
 		font-size: 1.1em;
 		color:$darkslate;
 	}
-	
+
 	p {
 		color:$grey;
 		font-size: 1em;
