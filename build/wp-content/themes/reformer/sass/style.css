@@ -1343,9 +1343,6 @@ header.entry-header h1 {
   .post-breadcrumbs a {
     color: #ccc; }
 
-#breadcrumbs > span > span > a {
-  display: none; }
-
 #click-menu-label {
   font-family: "Montserrat", Helvetica, sans-serif;
   margin-top: 4px;
