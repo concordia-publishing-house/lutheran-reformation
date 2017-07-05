@@ -991,17 +991,17 @@ img.flex {
       .content-area:last-child {
         margin-right: 0; } }
 
-.blog-post-area {
+.blog-post-area, #disqus_thread {
   padding: 30px 0 0; }
   @media (min-width: 64.375em) {
-    .blog-post-area {
+    .blog-post-area, #disqus_thread {
       float: left;
       display: block;
       margin-right: 2.3576520234%;
       width: 65.8807826589%;
       margin-left: 17.0596086706%;
       padding: 30px 0 60px; }
-      .blog-post-area:last-child {
+      .blog-post-area:last-child, #disqus_thread:last-child {
         margin-right: 0; } }
 
 article footer {
