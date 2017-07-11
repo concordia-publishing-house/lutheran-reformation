@@ -1846,8 +1846,6 @@ article.type-post {
 
 .widget_recent_entries li {
   width: 100%;
-  margin: 0 20px 20px;
-  display: inline-block;
   vertical-align: top;
   margin-bottom: 20px;
   line-height: 1.2; }
