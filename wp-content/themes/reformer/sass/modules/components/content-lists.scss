@@ -59,9 +59,10 @@ article.type-post {
     color: $gold;
   }
   li {
+		width:100%;
+		@include breakpoint(small) { @include span-columns(8); }
    margin: 0 20px 20px;
     display: inline-block;
-    max-width: 260px;
     vertical-align: top;
     margin-bottom: 20px;
     line-height: 1.2;

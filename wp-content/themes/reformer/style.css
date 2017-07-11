@@ -1845,12 +1845,20 @@ article.type-post {
   color: #efb333; }
 
 .widget_recent_entries li {
+  width: 100%;
   margin: 0 20px 20px;
   display: inline-block;
-  max-width: 260px;
   vertical-align: top;
   margin-bottom: 20px;
   line-height: 1.2; }
+  @media (min-width: 37.5em) {
+    .widget_recent_entries li {
+      float: left;
+      display: block;
+      margin-right: 2.3576520234%;
+      width: 65.8807826589%; }
+      .widget_recent_entries li:last-child {
+        margin-right: 0; } }
 
 .grid-list {
   width: 100%;
