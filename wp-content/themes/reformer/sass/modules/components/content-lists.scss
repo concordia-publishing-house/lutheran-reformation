@@ -66,6 +66,8 @@ article.type-post {
 		@include breakpoint(small) {
 			margin-right: 3%;
     	width: 30%;
+			float: left;
+    display: inline;
 		}
     vertical-align: top;
     margin-bottom: 20px;

@@ -1854,7 +1854,9 @@ article.type-post {
     @media (min-width: 37.5em) {
       .widget_recent_entries li {
         margin-right: 3%;
-        width: 30%; } }
+        width: 30%;
+        float: left;
+        display: inline; } }
     .widget_recent_entries li .post-date {
       font-size: 14px;
       color: #323232;
