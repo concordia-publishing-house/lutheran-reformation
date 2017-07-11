@@ -60,7 +60,7 @@ article.type-post {
   }
   li {
 		width:100%;
-		@include breakpoint(small) { @include span-columns(8); }
+		@include breakpoint(small) { @include span-columns(4); }
    margin: 0 20px 20px;
     display: inline-block;
     vertical-align: top;
