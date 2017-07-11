@@ -66,7 +66,12 @@ article.type-post {
     vertical-align: top;
     margin-bottom: 20px;
     line-height: 1.2;
-
+		.post-date {
+			font-size: 14px;
+			color: $lite-grey;
+			display: block;
+			margin-top:5px;
+		}
 		a {
 			font-family: $secondary-font;
 			color: black;
