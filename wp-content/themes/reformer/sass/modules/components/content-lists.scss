@@ -61,14 +61,20 @@ article.type-post {
     font-weight: 600;
     color: $gold;
   }
+	@include breakpoint(small) {
+		ul {
+		-moz-column-count: 3;
+    -moz-column-gap: 20px;
+    -webkit-column-count: 3;
+    -webkit-column-gap: 20px;
+    column-count: 3;
+    column-gap: 20px;
+	}
+}
   li {
 		width:100%;
 		@include breakpoint(small) {
-			margin-right: 3%;
-    	width: 30%;
-			float: left;
-    display: inline;
-
+			min-height: 80px;
 		}
 		margin-left:0;
     vertical-align: top;
