@@ -1848,6 +1848,7 @@ article.type-post {
     color: #efb333; }
   .widget_recent_entries li {
     width: 100%;
+    margin-left: 0;
     vertical-align: top;
     margin-bottom: 20px;
     line-height: 1.2; }
