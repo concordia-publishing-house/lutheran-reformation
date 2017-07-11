@@ -5,7 +5,7 @@
 		display:inline-block;
 		padding: 50px 0;
     border-top: 1px solid rgba($grey, 0.25);
-   
+
    &:first-child {
  			border-top: 0;
  		}
@@ -44,6 +44,26 @@ article.type-post {
 	}
 
 	a {
-		text-decoration: none; 
+		text-decoration: none;
 	}
+}
+
+
+.widget_recent_entries {
+  h2 {
+    font-size: 1.2em;
+    margin-bottom: 50px;
+    text-align: center;
+    font-family: $primary-font;
+    font-weight: 600;
+    color: $gold;
+  }
+  li {
+   margin: 0 20px 20px;
+    display: inline-block;
+    max-width: 260px;
+    vertical-align: top;
+    margin-bottom: 20px;
+    line-height: 1.2;
+ }
 }
