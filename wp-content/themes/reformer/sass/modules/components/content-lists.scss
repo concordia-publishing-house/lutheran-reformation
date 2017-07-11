@@ -60,7 +60,10 @@ article.type-post {
   }
   li {
 		width:100%;
-		@include breakpoint(small) { @include span-columns(3); }
+		@include breakpoint(small) {
+			margin-right: 3%;
+    	width: 30%;
+		}
     vertical-align: top;
     margin-bottom: 20px;
     line-height: 1.2;
