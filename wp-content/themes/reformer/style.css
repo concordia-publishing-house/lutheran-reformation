@@ -1856,18 +1856,19 @@ article.type-post {
       float: left;
       display: block;
       margin-right: 2.3576520234%;
-      width: 31.7615653177%; }
+      width: 23.2317609825%; }
       .widget_recent_entries li:last-child {
         margin-right: 0; } }
   .widget_recent_entries li .post-date {
     font-size: 14px;
-    color: #FAF9F9;
+    color: #323232;
     display: block;
     margin-top: 5px; }
   .widget_recent_entries li a {
     font-family: "Montserrat", Helvetica, sans-serif;
     color: black;
-    font-weight: 600; }
+    font-weight: 600;
+    text-decoration: none; }
 
 .grid-list {
   width: 100%;
