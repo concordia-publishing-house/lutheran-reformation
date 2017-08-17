@@ -20,7 +20,7 @@ Underscores is distributed under the terms of the GNU GPL v2 or later.
 Normalizing styles have been helped along thanks to the fine work of
 Nicolas Gallagher and Jonathan Neal http://necolas.github.com/normalize.css/
 */
-@import url(http://fonts.googleapis.com/css?family=Montserrat:400,700|Merriweather+Sans:400,300,300italic,400italic,700,700italic,800,800italic);
+@import url(https://fonts.googleapis.com/css?family=Montserrat:400,700|Merriweather+Sans:400,300,300italic,400italic,700,700italic,800,800italic);
 html {
   box-sizing: border-box; }
 

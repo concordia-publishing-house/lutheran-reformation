@@ -1,7 +1,7 @@
-@import url(http://fonts.googleapis.com/css?family=Montserrat:400,700|Merriweather+Sans:400,300,300italic,400italic,700,700italic,800,800italic);
+@import url(https://fonts.googleapis.com/css?family=Montserrat:400,700|Merriweather+Sans:400,300,300italic,400italic,700,700italic,800,800italic);
 
 /* Typography */
-body { 
+body {
   font-size: modular-scale(1);
   font-family: $primary-font;
 }
@@ -63,7 +63,7 @@ h1 + h2 {
 p {
   font-size: 1.125em;
   line-height:1.45;
-  letter-spacing: .01rem; 
+  letter-spacing: .01rem;
   margin-bottom: 30px;
   color:$grey;
 }
@@ -126,7 +126,7 @@ strong, b {
 }
 
 q {
-  quotes: "“" "”" "‘" "’"; 
+  quotes: "“" "”" "‘" "’";
 }
 
 q:before {
@@ -143,7 +143,7 @@ li {
 }
 
 .bullet-list {
-  list-style-type: disc; 
+  list-style-type: disc;
 }
 
 .small-list {
