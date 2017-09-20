@@ -81,7 +81,7 @@
 
 		jQuery(document).on('opening', '.remodal', function () {
   		//console.log('Modal is opening');
-  		jQuery("#remodal_video").html('<iframe src="http://player.vimeo.com/video/141601711" frameborder="0" webkitAllowFullScreen mozallowfullscreen allowFullScreen></iframe>');
+  		jQuery("#remodal_video").html('<iframe src="https://player.vimeo.com/video/141601711" frameborder="0" webkitAllowFullScreen mozallowfullscreen allowFullScreen></iframe>');
 		});
 	</script>
 </body>
