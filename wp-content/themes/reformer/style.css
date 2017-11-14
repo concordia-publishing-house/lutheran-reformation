@@ -833,6 +833,25 @@ html.remodal-is-locked {
             margin-bottom: 0;
             width: auto; } }
 
+@media screen and (max-width: 600px) {
+  .table-minimal {
+    width: 100%; }
+    .table-minimal thead {
+      display: none; }
+    .table-minimal tr:nth-of-type(2n) {
+      background-color: inherit; }
+    .table-minimal tr td:first-child {
+      background: #f0f0f0;
+      font-weight: bold;
+      font-size: 1.3em; }
+    .table-minimal tbody td {
+      display: block;
+      text-align: center; }
+    .table-minimal tbody td:before {
+      content: attr(data-th);
+      display: block;
+      text-align: center; } }
+
 /* Global */
 html {
   box-sizing: border-box; }
