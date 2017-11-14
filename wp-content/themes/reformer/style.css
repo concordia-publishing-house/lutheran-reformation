@@ -2528,10 +2528,13 @@ figure.gallery-item {
 
 @media screen and (max-width: 600px) {
   .post img {
-    width: 100vw;
-    margin-left: -20px;
+    width: 100%;
     float: none;
-    height: auto; } }
+    height: auto; }
+  .post .alignleft {
+    margin-right: 0;
+    float: none;
+    width: 100% !important; } }
 
 .post-navigation {
   margin-bottom: 20px;

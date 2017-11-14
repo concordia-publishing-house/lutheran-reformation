@@ -13,12 +13,20 @@
 	}
 }
 @media screen and (max-width: 600px) {
-.post img {
-	width: 100vw;
-	margin-left:-20px;
+.post {
+	img {
+	width: 100%;
+	// margin-left:-20px;
 	float: none;
 	height: auto;
 }
+.alignleft {
+	margin-right: 0;
+	float: none;
+	width: 100% !important;
+}
+}
+
 }
 .post-navigation {
 	@include breakpoint(large) {
