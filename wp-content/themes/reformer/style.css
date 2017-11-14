@@ -2526,6 +2526,13 @@ figure.gallery-item {
       text-align: right;
       font-size: 0.7em; }
 
+@media screen and (max-width: 600px) {
+  .post img {
+    width: 100vw;
+    margin-left: -20px;
+    float: none;
+    height: auto; } }
+
 .post-navigation {
   margin-bottom: 20px;
   border-top: 1px solid rgba(50, 50, 50, 0.15);
