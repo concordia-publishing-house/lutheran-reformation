@@ -24,10 +24,10 @@
 						<a href="/get-involved/" class="button button-secondary"><i class="icon-heart"></i> Get Involved</a>
 						<a href="http://cph.org/t-reformation.aspx" target="_blank" class="button button-primary"><i class="icon-cart-fill"></i> Shop</a>
 					</div>
-					<div class="footer-email-signup">
+					<!-- <div class="footer-email-signup">
 						<h5>Get the latest on Reformation 2017</h5>
-						<?php echo do_shortcode( '[contact-form-7 id="262" title="Email Signup"]' ); ?>
-	        </div>
+						<  ?php echo do_shortcode( '[contact-form-7 id="262" title="Email Signup"]' ); ?>
+	        </div> -->
 	        <div class="footer-social-buttons">
 	        	Get Connected <a href="http://twitter.com/StillAboutJesus" target="_blank"><i class="icon-twitter"></i></a><a href="http://facebook.com/StillAboutJesus" target="_blank"><i class="icon-facebook"></i></a><!--<a href=""><i class="icon-gplus"></i></a><a href=""><i class="icon-pinterest"></i></a><a href=""><i class="icon-instagram"></i></a><a href=""><i class="icon-vimeo"></i></a>-->
 	        </div>
